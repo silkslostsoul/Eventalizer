@@ -5,6 +5,10 @@ Test
 
 Lets do it online
 Test for push in two
+<<<<<<< HEAD
 Test for Felix the Big
 
 Out of Sync-ÄNderung - Felix
+=======
+Test for Felix the Small
+>>>>>>> 0b02418800cd59db0856a5a0da901dd199762efa

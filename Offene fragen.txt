@@ -1,0 +1,13 @@
+Machen wir nach dem Stattfinden des Events eine Bewertungsfunktion? 
+Bewertung des Events, des Organisators und/oder auch der Teilnehmer?
+Pro User 2 Bewertungskriterien (Organisator- und Teilnehmer-Bewertung)
+
+Erfolgt bei Anmeldung des Teilnehmers eine Benachrichtigung an den Organisator? 
+Kann das eingestellt werden?
+
+Kann der Organisator bestimmte teilnehmer auch wieder "entfernen" 
+-> ich mag den user ... nicht, weil der nicht zuverlässig ist, daher entferne ich ihn?
+
+Kann der Organisator Plätze für freunde reservieren?
+Bekommen diese (die reservierten Teilnehmer) dann eine "Reservierungserinnerung"?
+Müssen sich diese innerhalb von XXX stunden eintragen bzw. die reservierung bestätigen?

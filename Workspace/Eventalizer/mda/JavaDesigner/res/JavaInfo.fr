@@ -1,0 +1,301 @@
+AbstractClass:
+La classe %1 est abstraite : pattern non appliqué.
+end AbstractClass
+AbstractClassMethods:
+Méthodes venant de la classe abstraite %1 
+end AbstractClassMethods
+AbstractMethodsCreation:
+Création des méthodes venant des classes abstraites héritées en cours ... 
+end AbstractMethodsCreation
+AbstractMethodsCreationEnd:
+... Création des méthodes venant des classes abstraites héritées terminée. 
+end AbstractMethodsCreationEnd
+AskForReverseBoxLabel:
+Le fichier suivant a été modifié depuis la dernière génération :
+"%1"
+
+Voulez-vous remonter le code source ?
+end AskForReverseBoxLabel
+AssociationEndCreation:
+            Création de l'association %1 
+end AssociationEndCreation
+AssociationEndDeletion:
+            Suppression de l'association %1
+end AssociationEndDeletion
+AssociationEndExist:
+            L'association %1 existe. 
+end AssociationEndExist
+AttributeCreation:
+            Création de l'attribut %1 
+end AttributeCreation
+AttributeDeletion:
+            Suppression de l'attribut %1  
+end AttributeDeletion
+AttributeExist:
+            L'attribut %1 existe. 
+end AttributeExist
+BeginIdTxt:
+Début
+end BeginIdTxt
+Blue:
+Bleu
+end Blue
+ClassCreation:
+        Création de la classe %1  
+end ClassCreation
+ClassDeletion:
+        Suppression de la classe %1
+end ClassDeletion
+ClassExist:
+        La classe %1 existe.  
+end ClassExist
+ClassMethodsOptimization:
+Optimisation des méthodes de la classe %1 
+end ClassMethodsOptimization
+ClassNotGenerated:
+La classe n'a pas été générée.
+Si vous voulez la générer, supprimer les tagged value {}nocode ou {}JavaExtern de %2 "%1". 
+end ClassNotGenerated
+ClassReverse:
+Reverse de la classe %1 
+end ClassReverse
+ClassReverseEnded:
+Reverse de la classe %1 terminé. 
+end ClassReverseEnded
+CommandResult:
+La commande "%1" a échouée. Le code de retour est %2.
+end CommandResult
+CompilationSuccessfull:
+La compilation est réussie.
+end CompilationSuccessfull
+CompileFailed:
+Executez %1 pour plus de détails.
+end CompileFailed
+Confirmation:
+Confirmation
+end Confirmation
+Copyright:
+Modelio/%1 %2 - Copyright 2005-2008 Objecteering Software
+end Copyright
+CreateSeeDependency:
+Création du lien @see vers "%1"
+end CreateSeeDependency
+DeleteOldDiags:
+Voulez-vous supprimer les anciens diagrammes pour ce reverse ?
+end DeleteOldDiags
+DiagramCreationInProgress:
+Création des diagrammes en cours...
+end DiagramCreationInProgress
+DocGeneration:
+Génération de la documentation... 
+end DocGeneration
+DocGenerationEnded:
+Génération de la documentation terminée 
+end DocGenerationEnded
+DomainCreation:
+    Création du package façade %1  
+end DomainCreation
+DomainExist:
+    Le package façade %1 existe. 
+end DomainExist
+Done:
+Terminé
+end Done
+ElementaryTransformation:
+Transformation de la classe %1 en classe primitive en cours ... 
+end ElementaryTransformation
+EmptySelection:
+Selection vide 
+end EmptySelection
+EndIdTxt:
+fin
+end EndIdTxt
+Error:
+Erreur
+end Error
+FileCreated:
+Le fichier "%1" a été créé.
+end FileCreated
+FileDestructionEnd:
+Destruction des fichiers compilés terminée.
+end FileDestructionEnd
+FirstStepsImport:
+Import du projet de prise en main
+end FirstStepsImport
+FirstStepsJava:
+Projet de prise en main - Java
+end FirstStepsJava
+FirstStepsJavaImportLabel:
+Choisissez un projet de prise en main à importer
+end FirstStepsJavaImportLabel
+FirstStepsJavaPatterns:
+Projet de prise en main - Java patterns
+end FirstStepsJavaPatterns
+GeneralizationCreation:
+            Création du lien de généralisation vers la classe %1 
+end GeneralizationCreation
+GeneralizationDeletion:
+            Suppression du lien de généralisation vers la classe %1 
+end GeneralizationDeletion
+GeneralizationExist:
+            Le lien de généralisation vers la classe %1 existe.  
+end GeneralizationExist
+Generated:
+généré.
+end Generated
+Generating:
+Génération de %1 en cours ...
+end Generating
+Generation_info_external_DirNonExistent:
+Création du répertoire %1 qui n'existe pas
+end Generation_info_external_DirNonExistent
+GoodInternalization:
+Internalisation terminée
+end GoodInternalization
+Green:
+Vert
+end Green
+HtmlEditorLaunching:
+Lancement de l'éditeur HTML... 
+end HtmlEditorLaunching
+ImplementedMethods:
+Méthodes implémentées par la classe %1 
+end ImplementedMethods
+ImpossibleWindowsEdition:
+Edition de Windows inconnue
+end ImpossibleWindowsEdition
+InterfaceMethods:
+Méthodes venant de l'interface %1 
+end InterfaceMethods
+JarFileNotProduced:
+La création du fichier Jar a échouée : %1.
+Veuillez vérifier les options du module Java.
+end JarFileNotProduced
+JarFileProduced:
+Fichier Jar produit
+end JarFileProduced
+JavaDocLaunching:
+Lancement de l'outil du JDK : JavaDoc ...
+end JavaDocLaunching
+JavaFileUpdateError:
+Erreur : Le fichier %1 n'est pas valide : il ne peut être reversé.
+end JavaFileUpdateError
+Method:
+méthode %1 
+end Method
+MethodCreation:
+            Création de la méthode %1 
+end MethodCreation
+MethodDeletion:
+            Suppression de la méthode %1 
+end MethodDeletion
+MethodExist:
+            La méthode %1 existe.  
+end MethodExist
+MethodToImplementCreation:
+Création des méthodes à implémenter ... 
+end MethodToImplementCreation
+MethodToImplementCreationEnd:
+... création des méthodes à implémenter terminée. 
+end MethodToImplementCreationEnd
+MethodsOptimization:
+Optimisation des méthodes en cours... 
+end MethodsOptimization
+MethodsOptimizationEnd:
+... optimisation des méthodes terminée. 
+end MethodsOptimizationEnd
+ModifiedFileQuitWithoutSaving:
+Le fichier "%1" a été modifié.
+Voulez-vous fermer la fenêtre sans sauvegarder ?
+end ModifiedFileQuitWithoutSaving
+MsgAndWait:
+%1 ... 
+end MsgAndWait
+NoClassToUpdate:
+Il n'y a aucune classe à mettre à jour dans ce package.
+end NoClassToUpdate
+NoImplement:
+La classe %1 n'implémente aucune interface. 
+end NoImplement
+NonElementaryTransformation:
+Transformation de la classe non primitive %1 en cours ... 
+end NonElementaryTransformation
+NotGenerated_ReadOnlyElement:
+%1 : non généré. L'élément non modifiable n'a pas été généré en raison de l'activation de l'option "Ne pas générer les éléments non modifiables".
+end NotGenerated_ReadOnlyElement
+Nothing2Do:
+Aucune génération n'est nécessaire pour %1, le fichier est déjà à jour.
+end Nothing2Do
+ParameterCreation:
+                Création du paramètre %1
+end ParameterCreation
+ParameterDeletion:
+                Suppression du paramètre %1 
+end ParameterDeletion
+ParameterExist:
+                Le paramètre %1 existe.  
+end ParameterExist
+RealizationCreation:
+        Création du lien d'implémentation vers la classe %1 
+end RealizationCreation
+RealizationDeletion:
+        Suppression du lien d'implémentation vers la classe %1 
+end RealizationDeletion
+RealizationExist:
+        Le lien d'implémentation vers la classe %1 existe.  
+end RealizationExist
+Red:
+Rouge
+end Red
+RedefinedMethods:
+Méthodes redéfinies par la classe %1 
+end RedefinedMethods
+RedefinedMethodsCreation:
+Création des méthodes à redéfinir en cours... 
+end RedefinedMethodsCreation
+RedefinedMethodsCreationEnd:
+... création des méthodes à redéfinir terminée. 
+end RedefinedMethodsCreationEnd
+ReverseBeginning:
+Lancement du reverse ... 
+end ReverseBeginning
+ReverseEnded:
+... Reverse terminé. 
+end ReverseEnded
+ReverseUpdating:
+Mise à jour : %1 ...
+end ReverseUpdating
+ReversingFile:
+Reverse en cours... 
+end ReversingFile
+TransformationEnd:
+... transformation de la classe %1 terminée. 
+end TransformationEnd
+UpToDate:
+déjà à jour.
+end UpToDate
+UseDeletion:
+        Suppresion du lien d'utilisation vers l'élément %1 
+end UseDeletion
+YetMethodExist:
+    La méthode %1 existe déjà. 
+end YetMethodExist
+copyFile:
+Copie de fichier depuis %1 vers %2
+end copyFile
+fileNotFound:
+Le fichier '%1' n'a pas été trouvé.
+end fileNotFound
+lauchingApplet:
+Lancement de l'applet...
+end lauchingApplet
+lauchingApplication:
+Lancement de l'application...
+end lauchingApplication
+shouldManage:
+Les fichiers Java existent mais ne sont pas gérés.
+Voulez-vous gérer les fichiers existants ?
+end shouldManage
+typeNotFound:
+Le type n'a pas été trouvé.
+end typeNotFound

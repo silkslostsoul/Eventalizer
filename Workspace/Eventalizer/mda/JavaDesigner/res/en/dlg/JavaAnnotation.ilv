@@ -1,0 +1,111 @@
+// Ilv Version: 5.0
+// File generated: Mon Jun 23 09:51:17 2008
+// Creator class: IlvGadgetManagerOutput
+FileName "JavaAnnotation"
+PathName "JavaAnnotation.ilv"
+Palettes 6
+2 F "antiquewhite3" 65025 65025 65025 "fixed" 0 solid solid 0 0 0 65535 0
+"IlvStToolBar" 0 F "gray" "black" "normal" "%Tahoma-11-[Charset:0]" 0 solid solid 0 0 0 65535 1
+"default" 5 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 0
+3 F "gray" "black" "bold" "%Tahoma-11-B[Charset:0]" 0 solid solid 0 0 0 65535 1
+1 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+4 F "gray" "gray50" "bold" "%Tahoma-11-B[Charset:0]" 0 solid solid 0 0 0 65535 1
+IlvObjects 19
+1 { 0 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+0 IlvGadget 6 56 478 288 2 } 0
+0
+1 { 1 P 2
+[ IlvToolTip __ilvToolTip 2 "Project tree" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvTreeGadget 240 80 230 248 F34 2 A A 0 0 0 0 20 1 1 1 1 1 0 V0 2
+{ IlvTreeGadgetItem 1 2 4 "root" 0
+ }  } 32 "treeTargets"
+0
+1 { 2 2 IlvFilledRectangle 0 0 598 50 } 0
+0
+1 { 3 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+3 IlvMessageLabel 112 0 192 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "Java annotation definition"  }   } 0
+0
+1 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+4 IlvMessageLabel 140 16 292 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "Add the annotation's target and its options"  }   } 0
+0
+1 { 5 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvFrame 234 58 242 278 F268435468 0 { IlvMessageItem 262169 4 16 4 "Annotation targets"  }   } 0
+0
+1 { 6 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvFrame 12 168 216 44 F268435468 0 { IlvMessageItem 262169 4 16 4 "Inheritance"  }   } 0
+0
+1 { 7 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvToggle 18 188 160 16 F1 2 1 2 0 0 0 Y "Annotation is inherited" } 32 "tg_Inherited"
+0
+1 { 8 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 408 350 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "Cancel"  }   } 32 "btCancel"
+0
+1 { 9 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 328 350 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "OK"  }   } 32 "btOk"
+0
+1 { 10 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvFrame 12 58 216 62 F268435468 0 { IlvMessageItem 262169 4 16 4 "Attribute"  }   } 0
+0
+1 { 11 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvTextField 18 92 200 20 F6 2 1 -1 0 "" } 32 "lb_Name"
+0
+1 { 12 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvMessageLabel 18 74 40 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "Name :"  }   } 0
+0
+1 { 13 P 2
+[ IlvToolTip __ilvToolTip 2 "Help" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvButton 6 350 23 23 F13 2 { IlvMessageItem 262146 4 16 4 1 0 "../../bmp/help.png"  }   } 32 "btHelp"
+0
+1 { 14 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvFrame 12 123 216 44 F268435468 0 { IlvMessageItem 262169 4 16 4 "Documentation"  }   } 0
+0
+1 { 15 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvToggle 18 143 160 16 F1 2 1 2 0 0 0 Y "Annotation is documented" } 32 "tg_Documentation"
+0
+1 { 16 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvFrame 12 216 216 44 F268435468 0 { IlvMessageItem 262169 4 16 4 "Retention"  }   } 0
+0
+1 { 17 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+1 IlvScrolledComboBox 18 232 198 20 F807 2 1 -1 0 "RetentionPolicy.SOURCE" 3
+{ IlvGadgetItem 1 2 4 "RetentionPolicy.SOURCE"  } 
+{ IlvGadgetItem 1 2 4 "RetentionPolicy.CLASS"  } 
+{ IlvGadgetItem 1 2 4 "RetentionPolicy.RUNTIME"  }  4 0 } 32 "comboRetention"
+0
+1 { 18 5 IlvZoomableTransparentIcon 0 0 "../../bmp/header.png" F1 0 0 1 0 0 } 0
+0
+Size 488 377
+GeometryHandlers
+1 100 0 488 0 488 0
+7 3 0 0 0  598 0 598 2  0 -110 -110 0
+ 3 0 0 240  230 0 230 1  0 0 18 0
+ 3 0 0 6  0 0 23 13  459 0 459 0
+ 3 328 0 328  0 0 73 9  0 0 87 0
+ 3 408 0 408  0 0 73 8  0 0 7 0
+ 3 0 0 6  478 0 478 0  0 0 4 0
+ 3 0 0 234  242 0 242 5  0 0 12 0
+1 100 0 377 0 377 0
+7 3 0 0 0  0 0 50 2  329 0 329 0
+ 3 0 0 80  248 0 248 1  0 6 49 0
+ 3 350 0 350  0 0 23 13  0 0 4 0
+ 3 350 0 350  0 0 23 9  0 0 4 0
+ 3 350 0 350  0 0 23 8  0 0 4 0
+ 3 0 0 56  288 0 288 0  0 0 33 0
+ 3 0 0 58  278 0 278 5  0 0 41 0
+EOF

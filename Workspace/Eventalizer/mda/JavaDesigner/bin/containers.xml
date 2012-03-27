@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<containers>
+	<!-- interfaces -->
+	<container name="List" cardinality="*" type-index="0" />
+	<container name="Map" cardinality="*" type-index="1" key-index="0"/>
+	<container name="Queue" cardinality="*" type-index="0" />
+	<container name="Deque" cardinality="*" type-index="0" />
+	<container name="Set" cardinality="*" type-index="0" />
+	<container name="SortedMap" cardinality="*" type-index="1" key-index="0"/>
+	<container name="SortedSet" cardinality="*" type-index="0" />
+	<container name="Collection" cardinality="*" type-index="0" />
+	<container name="Reference" cardinality="*" type-index="0" />
+	
+	<!-- concrete types -->
+	<container name="ArrayList" cardinality="*" type-index="0" />
+	<container name="ArrayBlockingQueue" cardinality="*" type-index="0" />
+	<container name="ConcurrentHashMap" cardinality="*" type-index="1" key-index="0" />
+	<container name="ConcurrentLinkedQueue" cardinality="*" type-index="0" />
+	<container name="CopyOnWriteArrayList" cardinality="*" type-index="0" />
+	<container name="CopyOnWriteArraySet" cardinality="*" type-index="0" />
+	<container name="LinkedBlockingQueue" cardinality="*" type-index="0" />
+	<container name="PriorityBlockingQueue" cardinality="*" type-index="0" />
+	<container name="SynchronousQueue" cardinality="*" type-index="0" />
+	<container name="EnumMap" cardinality="*" type-index="1" key-index="0" />
+	<container name="EnumSet" cardinality="*" type-index="0" />
+	<container name="HashMap" cardinality="*" type-index="1" key-index="0"/>
+	<container name="HashSet" cardinality="*" type-index="0" />
+	<container name="Hashtable" cardinality="*" type-index="1" key-index="0"/>
+	<container name="IdentityHashMap" cardinality="*" type-index="1" key-index="0"/>
+	<container name="LinkedHashMap" cardinality="*" type-index="1" key-index="0" />
+	<container name="LinkedHashSet" cardinality="*" type-index="0" />
+	<container name="LinkedList" cardinality="*" type-index="0" />
+	<container name="PriorityQueue" cardinality="*" type-index="0" />
+	<container name="Stack" cardinality="*" type-index="0" />
+	<container name="TreeMap" cardinality="*" type-index="1" key-index="0" />
+	<container name="TreeSet" cardinality="*" type-index="0" />
+	<container name="Vector" cardinality="*" type-index="0" />
+	<container name="WeakHashMap" cardinality="*" type-index="1" key-index="0"/>
+	<container name="AttributeList" cardinality="*" type-index="0" />
+  <container name="ArrayDeque" cardinality="*" type-index="0" />
+  <container name="LinkedBlockingDeque" cardinality="*" type-index="0" />
+  <container name="WeakReference" cardinality="*" type-index="0" />
+  <container name="SoftReference" cardinality="*" type-index="0" />
+  <container name="PhantomReference" cardinality="*" type-index="0" />
+</containers>

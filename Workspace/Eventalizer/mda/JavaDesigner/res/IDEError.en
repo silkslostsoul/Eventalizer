@@ -1,0 +1,12 @@
+CantCopyFile:
+Cannot copy file %1 to %2
+end CantCopyFile
+CantCreateDir:
+Cannot create directory %1
+end CantCreateDir
+CantCreateTmpDir:
+Cannot create tmp directory...
+end CantCreateTmpDir
+CantOpenFile:
+Cannot open file %1 for reading
+end CantOpenFile

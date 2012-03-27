@@ -1,0 +1,16 @@
+1. Modelio Herunterladen und entpacken:
+http://modelio.org/downloads/download-modelio.html
+2. Den Modelio Java Designer herunterladen und im Verzeichnis modelio\mdastore ablegen:
+http://forge.modelio.org/attachments/download/6515/JavaDesigner_2.0.14.jmdac
+
+3. Modelio starten
+
+4. Es wird der Default-Workspace C:\users\du\modelio\workspace verwenet. Dieser sollte für immer erst mal für Zwischenergebnisse verwendet werden.
+   Änderungen können nicht mit mehreren Benutzern parallel vorgenommen werden
+   
+
+5. Im eigenen Workspace unter "MDA" "Activate/Deactivate modules..." den Java-Designer aktivieren.
+
+Diagramme können in der "Model"-View angelegt werden. 
+Um ein modelliertes Element in Java-Code generieren zu können, muss dieses in der Model-View ausgewählt werden ...
+...und dann in der Java-View der Haken in der Zeile "Java element" gesetzt werden.

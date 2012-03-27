@@ -1,0 +1,7 @@
+Warning:
+Attention
+end Warning
+WarningVAOverrideObj:
+Ce reverse peut écraser le contenu de Modelio.
+Continuer ?
+end WarningVAOverrideObj

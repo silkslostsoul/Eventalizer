@@ -1,0 +1,291 @@
+AbstractClassCreateMethod:
+Warning: the %1 abstract class cannot own a "create" method.
+         Delete the "create" method or change the "%1" element from abstract class to class using the Java properties editor.
+end AbstractClassCreateMethod
+AbstractClassDeleteMethod:
+Warning: the %1 abstract class cannot own a "delete" method.
+         Delete the "delete" method 
+         or change the "%1" element from abstract class to class using the Java properties editor.
+end AbstractClassDeleteMethod
+AbstractSynchronizedMethod:
+Warning: the %2 abstract method of the %1 class cannot be "synchronized".
+         Uncheck the "Synchronize" or the "Abstract" check box using the Java properties editor of the "%2" method.
+end AbstractSynchronizedMethod
+BadInnerClassAssociation:
+Warning: the %1 class cannot have an association link with the internal %2 class because it is not the same compilation unit. 
+end BadInnerClassAssociation
+BadReferencedInnerClass:
+Warning: the internal %1 class can only be referenced by one class.
+end BadReferencedInnerClass
+CannotUppdateReadOnlyElement:
+Warning: The "%1" file has changed but it cannot be retrieved. The corresponding class is in read-only mode. 
+      A backup file ("%2") was created before the generation.
+end CannotUppdateReadOnlyElement
+CheckYourClassPath:
+Please make sure the  "%1" option contains all the paths needed to find the classes which are to be reversed.
+end CheckYourClassPath
+ClassImplementedNativeMethod:
+Warning: the native %2 method of the %1 class cannot have an implementation.
+         Delete the "JavaCode" note or the "JavaNative" tagged value from the "%2" method of the "%1" class.
+end ClassImplementedNativeMethod
+ClassInheritInterface:
+Warning: The %1 class cannot specialize the %2 interface.
+         Delete the specialization link between the "%1" class and the "%2" interface.
+end ClassInheritInterface
+ClassMultipleInheritance:
+Warning: the "%1" class can only specialize one class.
+         Set only one specialization link from the "%1" class.
+         Recommendation: use interface implementation.
+end ClassMultipleInheritance
+ClassNecessaryHierarchy:
+Warning: the %1 class must be referenced by a hierarchical facade package. 
+end ClassNecessaryHierarchy
+ClassUndefinedTypeAttribute:
+Warning: the type of the %2 attribute of the %1 class must be defined.
+         Use the editor dialog box of the "%2" attribute to define his type.
+end ClassUndefinedTypeAttribute
+ClassUndefinedTypeParameter:
+Warning: the type of one of the parameters of the %2 method of the %1 class is not defined. 
+         Use the editor dialog box of the parameter to define his type.
+end ClassUndefinedTypeParameter
+ClassUniqueHierarchy:
+Warning: the %1 class cannot be referenced by several hierarchical facade packages. 
+end ClassUniqueHierarchy
+CodeNotAvailable:
+The code corresponding to the %1 class cannot be accessed. 
+end CodeNotAvailable
+CommandFailure:
+The %1 command failed. 
+end CommandFailure
+ConstructorAbstractClass:
+Warning: the %1 interface cannot contain a constructor or a destructor.
+         Delete any constructor or destructor from the "%1" abstract class 
+         or change the "%1" element from abstract class to class using the Java properties editor.
+end ConstructorAbstractClass
+ConstructorInterface:
+Warning: the %1 interface cannot contain a constructor or a destructor.
+         Delete any constructor or destructor from the "%1" interface.
+end ConstructorInterface
+DataTypeMultipleInheritance:
+Warning: the "%1" DataType can only specialize one DataType.
+         Set only one specialization link on the "%1" datatype.
+end DataTypeMultipleInheritance
+DirectiveUnknown:
+The %1 tagged value does not exist on the %2 class.
+end DirectiveUnknown
+DomainNecessaryHierarchy:
+Warning: the %1 facade package must be referenced by a hierarchical facade package. 
+end DomainNecessaryHierarchy
+DomainUniqueHierarchy:
+Warning : the %1 facade package cannot be referenced by several hierarchical facade packages. 
+end DomainUniqueHierarchy
+ExternClassInheritance:
+Warning: the %1 class cannot specialize the %2 class, which is a private (friendly) class belonging to another package. 
+end ExternClassInheritance
+FileNotFound:
+File %1 not found
+end FileNotFound
+FinalAbstractMethod:
+Warning: the %2 abstract method of the %1 class cannot be non-derivable ("final").
+         Uncheck the "Final" check box using the Java properties editor of the "%2" method
+end FinalAbstractMethod
+FinalRedefinedMethod:
+Warning: the non-derivable %2 method cannot be redefined by the %1 class.
+         Uncheck the "Final" check box using the Java properties editor of the "%2" method or delete the redifinition link.
+end FinalRedefinedMethod
+FinalizeMethod:
+Warning: the "finalize()"method in the %1 class necessarily has a protected visibility.
+         Set the visibility of the "finalize()" method to "Protected" using the Java properties editor.
+end FinalizeMethod
+FreeClassInheritance:
+Warning: the %1 class cannot specialize a class defined under the root package.
+end FreeClassInheritance
+FreeInterfaceImplementation:
+Warning: the %1 class cannot implement an interface defined under the root package. 
+end FreeInterfaceImplementation
+FreeInterfaceInheritance:
+Warning: the %1 interface cannot specialize an interface defined under the root package. 
+end FreeInterfaceInheritance
+HTMLDocNotAvailable:
+The HTML documentation corresponding to the %1 class cannot be accessed. 
+end HTMLDocNotAvailable
+HTMLDocNotSeeable:
+The documentation of this class cannot be visualized.
+end HTMLDocNotSeeable
+ImplementedAbstractMethod:
+Warning: the "%2" abstract method of the "%1" class cannot have an implementation. 
+end ImplementedAbstractMethod
+ImplementedInterface:
+Warning: the %1 interface cannot implement an interface (it can specialize it). 
+end ImplementedInterface
+InitInterfaceAttribute:
+Warning: the %2 attribute of the %1 interface is not initialized.
+         Set the initial value of the "%2" attribute using the Java properties editor.
+end InitInterfaceAttribute
+InterfaceBodyMethod:
+Warning: the %2 method of the %1interface cannot have an implementation.
+         Delete the "JavaCode" note from the "%2" method of the "%1" interface.
+end InterfaceBodyMethod
+InterfaceCreateMethod:
+Warning: the %1 interface cannot own a "create" method.
+         Delete the "create" method.
+end InterfaceCreateMethod
+InterfaceDeleteMethod:
+Warning: the %1 interface cannot own a "delete" method.
+         Delete the "delete" method.
+end InterfaceDeleteMethod
+InterfaceFinalMethod:
+Warning: the %2 method of the %1 interface cannot be non derivable ("final").
+         Uncheck the "Final" check box using the Java properties editor of the "%2" method.
+end InterfaceFinalMethod
+InterfaceImplementedNativeMethod:
+Warning: the native %2 method of the %1 interface cannot have an implementation.
+         Delete the "JavaCode" note or the "JavaNative" tagged value from the "%2" method of the "%1" interface.
+end InterfaceImplementedNativeMethod
+InterfaceInheritClass:
+Warning: The %1 interface cannot specialize the %2 class.
+         Delete the specialization link between the "%1" interface and the "%2" class.
+end InterfaceInheritClass
+InterfaceNecessaryHierarchy:
+Warning: the %1 interface must be referenced by a hierarchical facade package. 
+end InterfaceNecessaryHierarchy
+InterfaceNonFinalAttribute:
+Warning: the %2 attribute of the %1 interface must be final (non re-definable value).
+         Check the "Final" check box using the Java properties editor of the "%2" attribute.
+end InterfaceNonFinalAttribute
+InterfaceNonPublicAttribute:
+Warning: the %2 attribute of the %1 interface must have a public visibility.
+         Set the visibility of the "%2" attribute to "Public" using the Java properties editor.
+end InterfaceNonPublicAttribute
+InterfaceNonPublicMethod:
+Warning: the %2 method of the %1 interface must be public.
+         Set the visibility of the "%2" method to "Public".
+end InterfaceNonPublicMethod
+InterfaceNonStaticAttribute:
+Warning: the %2 attribute of the %1 interface must be static (a class member).
+         Check the "Static" check box using the Java properties editor of the "%2" attribute.
+end InterfaceNonStaticAttribute
+InterfaceStaticMethod:
+Warning: the %2 method of the %1 interface cannot be static.
+         Uncheck the "Static" check box using the Java properties editor of the "%2" method.
+end InterfaceStaticMethod
+InterfaceSynchronizedMethod:
+Warning: the %2 method of the %1 interface cannot be "synchronized". 
+         Uncheck the "Synchronize" check box using the Java properties editor of the "%2" method
+end InterfaceSynchronizedMethod
+InterfaceUndefinedTypeAttribute:
+Warning: the type of the %2 attribute of the %1 interface must be defined.
+         Use the editor dialog box of the "%2" attribute to define his type.
+end InterfaceUndefinedTypeAttribute
+InterfaceUndefinedTypeParameter:
+Warning: the type of one of the parameters of the %2 method of the %1 interface is not defined.
+         Use the editor dialog box of the parameter to define his type.
+end InterfaceUndefinedTypeParameter
+InterfaceUniqueHierarchy:
+Warning: the %1 interface cannot be referenced by several hierarchical facade packages. 
+end InterfaceUniqueHierarchy
+InternalFriendlyClass:
+Warning: the %1 class is not the compilation unit's main class, it cannot be public.
+end InternalFriendlyClass
+JDKBinaries:
+The JDK binaries are not accessible. 
+end JDKBinaries
+JarFileNotAbsolutePath:
+Warning: the path of the "%1" is not an absolute path.
+end JarFileNotAbsolutePath
+NoAssDeclarationSrc:
+No code has been found for association "%1" of class "%2" in Java source file.
+end NoAssDeclarationSrc
+NoAttDeclarationSrc:
+No code has been for attribute "%1" of class "%2" in Java source file.
+end NoAttDeclarationSrc
+NoFoundJavaSrcFile:
+Warning: No source file found for the "%1" class. The names of the parameters will not be reversed correctly.
+end NoFoundJavaSrcFile
+NoOperationSrc:
+No code has been found for operation "%1" of class "%2" in Java source file.
+end NoOperationSrc
+NonFinalClassInheritance:
+Warning: the %1 class cannot specialize the %2 class which is a final class. 
+end NonFinalClassInheritance
+NotForElementary:
+This command cannot be applied to a primitive class.
+end NotForElementary
+NotForInterfaces:
+This command cannot be applied to the interfaces.  
+end NotForInterfaces
+NotForNonElementary:
+This command cannot be applied to a non primitive class.
+end NotForNonElementary
+ObjectNotFound:
+Warning: the "%1" element has not been found in the model.
+end ObjectNotFound
+PluginPathNotDefined:
+Warning: the plugin generation path is not defined.
+end PluginPathNotDefined
+PrePostOnClass:
+Warning: The constraint pre-post condition on the %1 class is not taken into account for Java generation.
+         Place Constraints pre-post conditions on operations.
+end PrePostOnClass
+RetrieveBeforeGenerate:
+Retrieve file before generation
+end RetrieveBeforeGenerate
+SchemaNecessaryHierarchy:
+Warning: the %1 package must be referenced by a hierarchical facade package. 
+end SchemaNecessaryHierarchy
+SchemaUniqueHierarchy:
+Warning: the %1 package cannot be referenced by several hierarchical facade packages. 
+end SchemaUniqueHierarchy
+SpecificStereotype:
+Warning: the stereotype %1 is specific to %2, the information is, therefore, lost.
+end SpecificStereotype
+SpecificTaggedValue:
+Warning: the tagged value %1 is specific to %2, the information is, therefore, lost.
+end SpecificTaggedValue
+SpecificTextType:
+Warning: the %1 type of text is specific to %2, the information is, therefore, lost.
+end SpecificTextType
+TextTypeUnknown:
+The %1 text type is not defined.
+end TextTypeUnknown
+VolatileFinalAttribute:
+Warning: the final %2 attribute of the %1 class cannot be volatile.
+         Delete the "JavaVolatile" tagged value 
+         or uncheck the "Final" check box using the Java properties editor of the "%2" attribute.
+end VolatileFinalAttribute
+Warning:
+Warning
+end Warning
+WarningObjOverrideRoundTrip:
+%1:
+This class has been changed outside Modelio.
+Continuing may override these modifications
+(see tickbox below)
+end WarningObjOverrideRoundTrip
+addUseDeprecated:
+Warning: the addUse(NameSpace) method is deprecated. Please use addElementImport(NameSpace) or addPackageImport(Package) instead.
+end addUseDeprecated
+importsInComments:
+Warning: The "import" keyword has been found in a comment zone.
+         It will not be effective in the "JavaImport" note.
+end importsInComments
+invalidDestructorVisibility:
+Warning: The '%1' destructor must be protected. The visibility defined in the model will be ignored during the generation.
+end invalidDestructorVisibility
+invalidStaticDestructor:
+Warning: The '%1' destructor cannot be static. The 'static' keyword will not be generated.
+end invalidStaticDestructor
+invalidVisibilityInterfaceMethod:
+Warning: The '%1' method is a member of an interface. Its visibility must be public. Any other visibility will be ignored during generation.
+end invalidVisibilityInterfaceMethod
+ramc_no_jar_warning:
+Warning: can't find %1 file to include in Java model component.
+end ramc_no_jar_warning
+warnMultipleDocumentationNotes:
+Warning: More than one documentation note has been generated for the "%1" %2.
+               Only the last one will be used to generate the Java documentation (Javadoc).
+end warnMultipleDocumentationNotes
+warningAttributeOperation:
+Warning: There is an ambiguity between the attribute and the Operation with the link "%1".
+	 No change will be reported for this line.
+end warningAttributeOperation

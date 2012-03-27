@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:JavaExtensions="http:///schemas/JavaExtensions/_PSNO8HhLEeG1l7QYEBknrg/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://schema.omg.org/spec/UML/2.1.1" xmi:version="2.1" xsi:schemaLocation="http://www.eclipse.org/uml2/3.0.0/UML http://schema.omg.org/spec/UML/2.1.1 http:///schemas/JavaExtensions/_PSNO8HhLEeG1l7QYEBknrg/0 JavaExtensions.profile.xmi#_PTQ-53hLEeG1l7QYEBknrg">
+  <uml:Model xmi:id="_PRp1UHhLEeG1l7QYEBknrg" name="Use Cases">
+    <eAnnotations xmi:id="_PRp1UXhLEeG1l7QYEBknrg" source="Objing">
+      <contents xmi:type="uml:Property" xmi:id="_PRp1UnhLEeG1l7QYEBknrg" name="exporterVersion">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRp1U3hLEeG1l7QYEBknrg" value="2.1"/>
+      </contents>
+      <contents xmi:type="uml:Property" xmi:id="_PRp1VHhLEeG1l7QYEBknrg" name="isRoundTrip"/>
+      <contents xmi:type="uml:Property" xmi:id="_PRp1VXhLEeG1l7QYEBknrg" name="isLeaf"/>
+    </eAnnotations>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_PRp1VnhLEeG1l7QYEBknrg">
+      <eAnnotations xmi:id="_PRp1V3hLEeG1l7QYEBknrg" source="Objing">
+        <contents xmi:type="uml:Property" xmi:id="_PRp1WHhLEeG1l7QYEBknrg" name="NoteType_Name">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRp1WXhLEeG1l7QYEBknrg" value="description"/>
+        </contents>
+      </eAnnotations>
+      <body/>
+    </ownedComment>
+    <packagedElement xmi:type="uml:Class" xmi:id="_PRp1WnhLEeG1l7QYEBknrg" name="Class"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_PRp1W3hLEeG1l7QYEBknrg" name="Actor"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_PRp1XHhLEeG1l7QYEBknrg" name="Anmelden">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRp1XXhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRp1XnhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRp1X3hLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRp1YHhLEeG1l7QYEBknrg" value="description"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRp1YXhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRp1YnhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRp1Y3hLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRp1ZHhLEeG1l7QYEBknrg" value="constraint"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRp1ZXhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRp1ZnhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRp1Z3hLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRp1aHhLEeG1l7QYEBknrg" value="non-functional constraint"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRp1aXhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRp1anhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRp1a3hLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRp1bHhLEeG1l7QYEBknrg" value="exception"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRp1bXhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRp1bnhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRp1b3hLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRp1cHhLEeG1l7QYEBknrg" value="precondition"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRp1cXhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRp1cnhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRp1c3hLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRp1dHhLEeG1l7QYEBknrg" value="postcondition"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <include xmi:type="uml:Include" xmi:id="_PRp1dXhLEeG1l7QYEBknrg" name="UseCaseDependency" addition="_PRp1dnhLEeG1l7QYEBknrg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_PRp1dnhLEeG1l7QYEBknrg" name="Zugangsberechtigung überprüfen">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRp1d3hLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRp1eHhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRp1eXhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRp1enhLEeG1l7QYEBknrg" value="description"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRp1e3hLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRp1fHhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRp1fXhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRp1fnhLEeG1l7QYEBknrg" value="constraint"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRp1f3hLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRp1gHhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRp1gXhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRp1gnhLEeG1l7QYEBknrg" value="non-functional constraint"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRp1g3hLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRp1hHhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRp1hXhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRp1hnhLEeG1l7QYEBknrg" value="exception"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRp1h3hLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRp1iHhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRp1iXhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRp1inhLEeG1l7QYEBknrg" value="precondition"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRp1i3hLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRp1jHhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRp1jXhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRp1jnhLEeG1l7QYEBknrg" value="postcondition"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_PRp1j3hLEeG1l7QYEBknrg" name="Event anlegen">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRp1kHhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRp1kXhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRp1knhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRp1k3hLEeG1l7QYEBknrg" value="description"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRp1lHhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRp1lXhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRp1lnhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRp1l3hLEeG1l7QYEBknrg" value="constraint"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRp1mHhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRp1mXhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRp1mnhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRp1m3hLEeG1l7QYEBknrg" value="non-functional constraint"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRp1nHhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRp1nXhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRp1nnhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRp1n3hLEeG1l7QYEBknrg" value="exception"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRp1oHhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRp1oXhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRp1onhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRp1o3hLEeG1l7QYEBknrg" value="precondition"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRp1pHhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRp1pXhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRp1pnhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRp1p3hLEeG1l7QYEBknrg" value="postcondition"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <include xmi:type="uml:Include" xmi:id="_PRp1qHhLEeG1l7QYEBknrg" name="UseCaseDependency" addition="_PRp1rXhLEeG1l7QYEBknrg"/>
+      <include xmi:type="uml:Include" xmi:id="_PRp1qXhLEeG1l7QYEBknrg" name="UseCaseDependency" addition="_PRp1xnhLEeG1l7QYEBknrg"/>
+      <include xmi:type="uml:Include" xmi:id="_PRp1qnhLEeG1l7QYEBknrg" name="UseCaseDependency" addition="_PRp1-XhLEeG1l7QYEBknrg"/>
+      <include xmi:type="uml:Include" xmi:id="_PRp1q3hLEeG1l7QYEBknrg" name="UseCaseDependency" addition="_PRqcY3hLEeG1l7QYEBknrg"/>
+      <include xmi:type="uml:Include" xmi:id="_PRp1rHhLEeG1l7QYEBknrg" name="UseCaseDependency" addition="_PRqcsHhLEeG1l7QYEBknrg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_PRp1rXhLEeG1l7QYEBknrg" name="Kategorie angeben">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRp1rnhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRp1r3hLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRp1sHhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRp1sXhLEeG1l7QYEBknrg" value="description"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRp1snhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRp1s3hLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRp1tHhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRp1tXhLEeG1l7QYEBknrg" value="constraint"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRp1tnhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRp1t3hLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRp1uHhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRp1uXhLEeG1l7QYEBknrg" value="non-functional constraint"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRp1unhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRp1u3hLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRp1vHhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRp1vXhLEeG1l7QYEBknrg" value="exception"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRp1vnhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRp1v3hLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRp1wHhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRp1wXhLEeG1l7QYEBknrg" value="precondition"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRp1wnhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRp1w3hLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRp1xHhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRp1xXhLEeG1l7QYEBknrg" value="postcondition"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_PRp1xnhLEeG1l7QYEBknrg" name="Ort ">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRp1x3hLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRp1yHhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRp1yXhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRp1ynhLEeG1l7QYEBknrg" value="description"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRp1y3hLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRp1zHhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRp1zXhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRp1znhLEeG1l7QYEBknrg" value="constraint"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRp1z3hLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRp10HhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRp10XhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRp10nhLEeG1l7QYEBknrg" value="non-functional constraint"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRp103hLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRp11HhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRp11XhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRp11nhLEeG1l7QYEBknrg" value="exception"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRp113hLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRp12HhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRp12XhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRp12nhLEeG1l7QYEBknrg" value="precondition"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRp123hLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRp13HhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRp13XhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRp13nhLEeG1l7QYEBknrg" value="postcondition"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <include xmi:type="uml:Include" xmi:id="_PRp133hLEeG1l7QYEBknrg" name="UseCaseDependency" addition="_PRp14HhLEeG1l7QYEBknrg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_PRp14HhLEeG1l7QYEBknrg" name="Anschrift überprüfe">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRp14XhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRp14nhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRp143hLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRp15HhLEeG1l7QYEBknrg" value="description"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRp15XhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRp15nhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRp153hLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRp16HhLEeG1l7QYEBknrg" value="constraint"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRp16XhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRp16nhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRp163hLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRp17HhLEeG1l7QYEBknrg" value="non-functional constraint"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRp17XhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRp17nhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRp173hLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRp18HhLEeG1l7QYEBknrg" value="exception"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRp18XhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRp18nhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRp183hLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRp19HhLEeG1l7QYEBknrg" value="precondition"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRp19XhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRp19nhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRp193hLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRp1-HhLEeG1l7QYEBknrg" value="postcondition"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_PRp1-XhLEeG1l7QYEBknrg" name="Uhrzeit">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRp1-nhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRp1-3hLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRp1_HhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRp1_XhLEeG1l7QYEBknrg" value="description"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRp1_nhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRp1_3hLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRp2AHhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRp2AXhLEeG1l7QYEBknrg" value="constraint"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRp2AnhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRp2A3hLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRp2BHhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRp2BXhLEeG1l7QYEBknrg" value="non-functional constraint"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRp2BnhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRp2B3hLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRp2CHhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRp2CXhLEeG1l7QYEBknrg" value="exception"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRp2CnhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRp2C3hLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRp2DHhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRp2DXhLEeG1l7QYEBknrg" value="precondition"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRp2DnhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRqcYHhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRqcYXhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRqcYnhLEeG1l7QYEBknrg" value="postcondition"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_PRqcY3hLEeG1l7QYEBknrg" name="Anzahl Teilnehmen eingeben">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRqcZHhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRqcZXhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRqcZnhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRqcZ3hLEeG1l7QYEBknrg" value="description"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRqcaHhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRqcaXhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRqcanhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRqca3hLEeG1l7QYEBknrg" value="constraint"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRqcbHhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRqcbXhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRqcbnhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRqcb3hLEeG1l7QYEBknrg" value="non-functional constraint"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRqccHhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRqccXhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRqccnhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRqcc3hLEeG1l7QYEBknrg" value="exception"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRqcdHhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRqcdXhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRqcdnhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRqcd3hLEeG1l7QYEBknrg" value="precondition"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRqceHhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRqceXhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRqcenhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRqce3hLEeG1l7QYEBknrg" value="postcondition"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <include xmi:type="uml:Include" xmi:id="_PRqcfHhLEeG1l7QYEBknrg" name="UseCaseDependency" addition="_PRqcfnhLEeG1l7QYEBknrg"/>
+      <include xmi:type="uml:Include" xmi:id="_PRqcfXhLEeG1l7QYEBknrg" name="UseCaseDependency" addition="_PRqcl3hLEeG1l7QYEBknrg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_PRqcfnhLEeG1l7QYEBknrg" name="Mindestanzahl an Personen angeben">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRqcf3hLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRqcgHhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRqcgXhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRqcgnhLEeG1l7QYEBknrg" value="description"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRqcg3hLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRqchHhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRqchXhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRqchnhLEeG1l7QYEBknrg" value="constraint"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRqch3hLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRqciHhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRqciXhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRqcinhLEeG1l7QYEBknrg" value="non-functional constraint"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRqci3hLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRqcjHhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRqcjXhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRqcjnhLEeG1l7QYEBknrg" value="exception"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRqcj3hLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRqckHhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRqckXhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRqcknhLEeG1l7QYEBknrg" value="precondition"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRqck3hLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRqclHhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRqclXhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRqclnhLEeG1l7QYEBknrg" value="postcondition"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_PRqcl3hLEeG1l7QYEBknrg" name="Höchstanzahl an Personen angeben">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRqcmHhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRqcmXhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRqcmnhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRqcm3hLEeG1l7QYEBknrg" value="description"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRqcnHhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRqcnXhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRqcnnhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRqcn3hLEeG1l7QYEBknrg" value="constraint"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRqcoHhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRqcoXhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRqconhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRqco3hLEeG1l7QYEBknrg" value="non-functional constraint"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRqcpHhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRqcpXhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRqcpnhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRqcp3hLEeG1l7QYEBknrg" value="exception"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRqcqHhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRqcqXhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRqcqnhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRqcq3hLEeG1l7QYEBknrg" value="precondition"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRqcrHhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRqcrXhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRqcrnhLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRqcr3hLEeG1l7QYEBknrg" value="postcondition"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_PRqcsHhLEeG1l7QYEBknrg" name="Datum angeben">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRqcsXhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRqcsnhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRqcs3hLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRqctHhLEeG1l7QYEBknrg" value="description"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRqctXhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRqctnhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRqct3hLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRqcuHhLEeG1l7QYEBknrg" value="constraint"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRqcuXhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRqcunhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRqcu3hLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRqcvHhLEeG1l7QYEBknrg" value="non-functional constraint"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRqcvXhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRqcvnhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRqcv3hLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRqcwHhLEeG1l7QYEBknrg" value="exception"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRqcwXhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRqcwnhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRqcw3hLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRqcxHhLEeG1l7QYEBknrg" value="precondition"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_PRqcxXhLEeG1l7QYEBknrg">
+        <eAnnotations xmi:id="_PRqcxnhLEeG1l7QYEBknrg" source="Objing">
+          <contents xmi:type="uml:Property" xmi:id="_PRqcx3hLEeG1l7QYEBknrg" name="NoteType_Name">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_PRqcyHhLEeG1l7QYEBknrg" value="postcondition"/>
+          </contents>
+        </eAnnotations>
+        <body/>
+      </ownedComment>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:applyingPackage="_PRp1UHhLEeG1l7QYEBknrg" xmi:id="_Phu4sHhLEeG1l7QYEBknrg">
+      <eAnnotations xmi:id="_PhxU8HhLEeG1l7QYEBknrg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="JavaExtensions.profile.xmi#_PTQ-53hLEeG1l7QYEBknrg"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" xmi:applyingPackage="_Phu4sHhLEeG1l7QYEBknrg" href="JavaExtensions.profile.xmi#_PTQ-4HhLEeG1l7QYEBknrg"/>
+    </profileApplication>
+  </uml:Model>
+  <JavaExtensions:JavaPackage xmi:id="_Ph0_UHhLEeG1l7QYEBknrg" base_Package="_PRp1UHhLEeG1l7QYEBknrg"/>
+</xmi:XMI>

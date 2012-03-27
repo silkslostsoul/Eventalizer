@@ -1,0 +1,12 @@
+CantCopyFile:
+Impossible de copier le fichier %1 vers %2
+end CantCopyFile
+CantCreateDir:
+Impossible de créer le répertoire %1
+end CantCreateDir
+CantCreateTmpDir:
+Impossible de créer un répertoire temporaire...
+end CantCreateTmpDir
+CantOpenFile:
+Impossible d'ouvrir le fichier %1 en lecture.
+end CantOpenFile

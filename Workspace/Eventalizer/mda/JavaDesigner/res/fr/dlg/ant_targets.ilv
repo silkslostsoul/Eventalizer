@@ -1,0 +1,75 @@
+// Ilv Version: 5.0
+// File generated: Tue Jun 17 18:38:26 2008
+// Creator class: IlvGadgetManagerOutput
+FileName "ant_targets"
+PathName "ant_targets.ilv"
+Palettes 6
+5 F "gray" "gray50" "italic" "%Tahoma-11-I[Charset:0]" 0 solid solid 0 0 0 65535 1
+"IlvStToolBar" 4 F "gray" "black" "normal" "%Tahoma-11-[Charset:0]" 0 solid solid 0 0 0 65535 1
+3 F "gray" "black" "bold" "%Tahoma-11-B[Charset:0]" 0 solid solid 0 0 0 65535 1
+2 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+"default" 1 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 0
+0 F "antiquewhite3" 65025 65025 65025 "fixed" 0 solid solid 0 0 0 65535 0
+IlvObjects 10
+1 { 0 0 IlvFilledRectangle 0 0 351 48 } 0
+0
+1 { 1 1 IlvZoomableTransparentIcon 0 0 "../../bmp/header.png" F1 0 0 1 0 0 } 0
+0
+1 { 2 P 2
+[ IlvToolTip __ilvToolTip 2 "Cliquer sur ce bouton pour fermer cette fenêtre sans lancer une cible Ant" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvButton 270 277 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "Annuler"  }   } 32 "CancelButton"
+6144 "StringList_1" "OKButton"
+1 { 3 1 IlvReliefLine 0 49 505 49 1 } 0
+0
+1 { 4 P 2
+[ IlvToolTip __ilvToolTip 2 "Cliquer sur cette icône pour afficher l'aide associée" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvButton 4 277 23 23 F13 2 { IlvMessageItem 262146 4 16 1 1 0 "../../bmp/help.png"  }   } 32 "HelpButton"
+6144 "OKButton" "Target"
+1 { 5 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+3 IlvMessageLabel 109 -2 115 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "Lanceur Ant"  }   } 0
+0
+1 { 6 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+4 IlvGadget 4 56 339 215 2 } 0
+0
+1 { 7 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+5 IlvText 133 15 179 32 F335544453 2 N N 1 1 1 1 0 3
+"Sélectionner une cible et cliquer sur"
+"le  bouton OK pour l'exécuter."
+""
+0 0 1 30 } 416 "Text_1"
+16384
+1 { 8 P 2
+[ IlvToolTip __ilvToolTip 2 "Cliquer sur ce bouton pour lancer la cible sélectionnée" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvButton 191 277 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "OK"  }   } 32 "OKButton"
+6144 "CancelButton" "HelpButton"
+1 { 9 P 2
+[ IlvToolTip __ilvToolTip 2 "Sélectionner une cible" 4 4 ]
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvStringList 10 62 327 203 F131 2 A A 0 0 0 0 0 4 0 0 V0 2 0 } 32 "Target"
+10240 "HelpButton"
+Size 347 305
+GeometryHandlers
+1 100 0 347 0 347 0
+7 3 0 0 0  351 0 351 0  0 -4 -4 0
+ 3 270 0 270  0 0 73 2  0 0 4 0
+ 3 0 0 4  0 0 23 4  320 0 320 0
+ 3 0 0 0  505 0 505 3  0 -158 -158 0
+ 3 0 0 4  339 0 339 6  0 0 4 0
+ 3 191 0 191  0 0 73 8  0 0 83 0
+ 3 0 0 10  327 0 327 9  0 0 10 0
+2 100 0 289 0 289 0
+ 50 0 15 289 15 289
+6 3 0 0 0  0 0 48 0  256 0 256 1
+ 3 277 0 277  0 0 23 2  0 0 4 1
+ 3 277 0 277  0 0 23 4  0 0 4 1
+ 3 0 0 56  215 0 215 6  0 0 33 1
+ 3 277 0 277  0 0 23 8  0 0 4 1
+ 3 0 0 62  203 0 203 9  0 0 39 1
+0
+EOF

@@ -1,0 +1,298 @@
+AbstractClass:
+The %1 class is abstract or interface : pattern not applied.
+end AbstractClass
+AbstractClassMethods:
+Methods coming from the %1 abstract class 
+end AbstractClassMethods
+AbstractMethodsCreation:
+Creation of the methods coming from the inherited abstract classes in progress ... 
+end AbstractMethodsCreation
+AbstractMethodsCreationEnd:
+... Creation of the methods coming from the inherited abstract classes done 
+end AbstractMethodsCreationEnd
+AskForReverseBoxLabel:
+The following file has been modified since the last generation:
+"%1"
+
+Would you like to retrieve source code?
+end AskForReverseBoxLabel
+AssociationEndCreation:
+            Creating the %1 association 
+end AssociationEndCreation
+AssociationEndDeletion:
+            Deleting the %1 association 
+end AssociationEndDeletion
+AssociationEndExist:
+            The %1 association exists. 
+end AssociationEndExist
+AttributeCreation:
+            Creating the %1 attribute 
+end AttributeCreation
+AttributeDeletion:
+            Deleting the %1 attribute 
+end AttributeDeletion
+AttributeExist:
+            The %1 attribute exists. 
+end AttributeExist
+BeginIdTxt:
+begin
+end BeginIdTxt
+Blue:
+Blue
+end Blue
+ClassCreation:
+        Creating the %1 class 
+end ClassCreation
+ClassDeletion:
+        Deleting the %1 class 
+end ClassDeletion
+ClassExist:
+        The %1 class exists.  
+end ClassExist
+ClassMethodsOptimization:
+Optimization of the %1 class methods 
+end ClassMethodsOptimization
+ClassNotGenerated:
+The class was not generated.
+If you want to generate it, delete the "nocode" or the "JavaExtern" tagged value which is on %2 "%1". 
+end ClassNotGenerated
+ClassReverse:
+Reversing the %1 class 
+end ClassReverse
+ClassReverseEnded:
+Reverse of the %1 class done. 
+end ClassReverseEnded
+CommandResult:
+The "%1" command failed. The return code is %2.
+end CommandResult
+CompilationSuccessfull:
+The compilation has ended successfully.
+end CompilationSuccessfull
+CompileFailed:
+Run %1 for more details.
+end CompileFailed
+Confirmation:
+Confirmation
+end Confirmation
+Copyright:
+Modelio/%1 %2 - Copyright 2005-2008 Objecteering Software
+end Copyright
+CreateSeeDependency:
+Creation of the @see link toward "%1"
+end CreateSeeDependency
+DeleteOldDiags:
+Do you want to delete old diagrams for this reverse ?
+end DeleteOldDiags
+DiagramCreationInProgress:
+Diagram creation in progress...
+end DiagramCreationInProgress
+DocGeneration:
+Generating documentation... 
+end DocGeneration
+DocGenerationEnded:
+Documentation generation done 
+end DocGenerationEnded
+DomainCreation:
+    Creating the %1 facade package 
+end DomainCreation
+DomainExist:
+    The %1 facade package exists. 
+end DomainExist
+Done:
+Done
+end Done
+ElementaryTransformation:
+Transformation of the %1 class into a primitive class in progress ... 
+end ElementaryTransformation
+EmptySelection:
+Empty selection 
+end EmptySelection
+EndIdTxt:
+end
+end EndIdTxt
+Error:
+Error
+end Error
+FileCreated:
+The "%1" file was created.
+end FileCreated
+FileDestructionEnd:
+Destruction of the compiled files done.
+end FileDestructionEnd
+FirstStepsImport:
+First Steps import
+end FirstStepsImport
+FirstStepsJava:
+First Steps - Java
+end FirstStepsJava
+FirstStepsJavaImportLabel:
+Choose a First Steps to import into your project
+end FirstStepsJavaImportLabel
+FirstStepsJavaPatterns:
+First Steps - Java patterns
+end FirstStepsJavaPatterns
+GeneralizationCreation:
+            Creating the generalization link to the %1 class 
+end GeneralizationCreation
+GeneralizationDeletion:
+            Deleting the generalization link to the %1 class 
+end GeneralizationDeletion
+GeneralizationExist:
+            The generalization link to the %1 class exists.  
+end GeneralizationExist
+Generated:
+generated.
+end Generated
+Generating:
+Generating %1 ...
+end Generating
+Generation_info_external_DirNonExistent:
+Creation of the %1 directory which did not exist
+end Generation_info_external_DirNonExistent
+GoodInternalization:
+Internalization done
+end GoodInternalization
+Green:
+Green
+end Green
+HtmlEditorLaunching:
+Launching the HTML editor... 
+end HtmlEditorLaunching
+ImplementedMethods:
+Methods implemented by the %1 class 
+end ImplementedMethods
+InterfaceMethods:
+Methods coming from the %1 interface 
+end InterfaceMethods
+JarFileNotProduced:
+Jar file creation failed : %1.
+Make sure that the Java module parameters are correct.
+end JarFileNotProduced
+JarFileProduced:
+Storage file produced
+end JarFileProduced
+JavaDocLaunching:
+Launching the JDK tool : JavaDoc ...
+end JavaDocLaunching
+JavaFileUpdateError:
+Error : The file %1 is not valid : it cannot be reversed.
+end JavaFileUpdateError
+Method:
+%1 method 
+end Method
+MethodCreation:
+            Creating the %1 method 
+end MethodCreation
+MethodDeletion:
+            Deleting the %1 method 
+end MethodDeletion
+MethodExist:
+            The %1 method exists.  
+end MethodExist
+MethodToImplementCreation:
+Creating the methods to be implemented ... 
+end MethodToImplementCreation
+MethodToImplementCreationEnd:
+... creation of the methods to be implemented done 
+end MethodToImplementCreationEnd
+MethodsOptimization:
+Optimizing the methods in progress... 
+end MethodsOptimization
+MethodsOptimizationEnd:
+... optimization of the methods done 
+end MethodsOptimizationEnd
+ModifiedFileQuitWithoutSaving:
+The "%1" file has been modified.
+Do you want to close the box without saving?
+end ModifiedFileQuitWithoutSaving
+MsgAndWait:
+%1 ... 
+end MsgAndWait
+NoClassToUpdate:
+There is no class to update in this package.
+end NoClassToUpdate
+NoImplement:
+The %1 class does not implement any interfaces. 
+end NoImplement
+NonElementaryTransformation:
+Transformation of the non primitive %1 class in progress ... 
+end NonElementaryTransformation
+NotGenerated_ReadOnlyElement:
+%1 : not generated. The read-only element was not generated in accordance with the "Do not generate read-only elements" option.
+end NotGenerated_ReadOnlyElement
+Nothing2Do:
+No generation is needed for %1, file is already up to date.
+end Nothing2Do
+ParameterCreation:
+                Creating the %1 parameter 
+end ParameterCreation
+ParameterDeletion:
+                Deleting the %1 parameter 
+end ParameterDeletion
+ParameterExist:
+                The %1 parameter exists.  
+end ParameterExist
+RealizationCreation:
+        Creating the implementation link to the %1 class 
+end RealizationCreation
+RealizationDeletion:
+        Deleting the implementation link to the %1 class 
+end RealizationDeletion
+RealizationExist:
+        The implementation link to the %1 class exists.  
+end RealizationExist
+Red:
+Red
+end Red
+RedefinedMethods:
+Methods redefined by the %1 class 
+end RedefinedMethods
+RedefinedMethodsCreation:
+Creation of the methods to be redefined in progress... 
+end RedefinedMethodsCreation
+RedefinedMethodsCreationEnd:
+... creation of the methods to be redefined done 
+end RedefinedMethodsCreationEnd
+ReverseBeginning:
+Starting the reverse ... 
+end ReverseBeginning
+ReverseEnded:
+... Reverse done 
+end ReverseEnded
+ReverseUpdating:
+Updating: %1 ...
+end ReverseUpdating
+ReversingFile:
+Reversing... 
+end ReversingFile
+TransformationEnd:
+... transformation of the %1 class done. 
+end TransformationEnd
+UpToDate:
+already up to date.
+end UpToDate
+UseDeletion:
+        Deleting the use link to the %1 Element
+end UseDeletion
+YetMethodExist:
+    The %1 method already exists. 
+end YetMethodExist
+copyFile:
+Copying file from %1 to %2
+end copyFile
+fileNotFound:
+The '%1' file has not been found.
+end fileNotFound
+lauchingApplet:
+Launching applet...
+end lauchingApplet
+lauchingApplication:
+Launching application...
+end lauchingApplication
+shouldManage:
+Java files already exists but are not managed.
+Do you want to manage existing files ?
+end shouldManage
+typeNotFound:
+The type was not found.
+end typeNotFound

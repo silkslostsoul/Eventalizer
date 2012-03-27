@@ -1,0 +1,392 @@
+AbstractClassCreateMethod:
+Erreur : La classe abstraite "%1" ne peut avoir de méthode "create".
+         Effacez la méthode "create" ou changez l'élément "%1" de classe abstraite en classe en utilisant l'éditeur de propriétés Java.
+end AbstractClassCreateMethod
+AbstractClassDeleteMethod:
+Erreur : La classe abstraite %1 ne peut avoir de méthode "delete".
+         Effacez la méthode "delete" ou changez l'élément "%1" de classe abstraite en classe en utilisant l'éditeur de propriétés Java.
+end AbstractClassDeleteMethod
+AbstractSynchronizedMethod:
+Erreur : La méthode abstraite %2 de la classe %1 ne peut être "synchronized".
+         Décochez les cases "Synchronized" ou "Abstraite" en utilisant l'éditeur de propriétés Java de la méthode "%2".Lend AbstractSynchronizedMethod
+
+end AbstractSynchronizedMethod
+AlreadyExistingProduct:
+Erreur : "%1" a déjà un produit de génération Java pour le module "%2".
+       Modifiez ou supprimez le produit de génération Java existant.
+end AlreadyExistingProduct
+AppletViewerNotFound:
+Le fichier "%1" n'a pas été trouvé.
+Vérifiez que le fichier existe et que le chemin complet vers le visualiseur d'applets a bien été saisi dans groupe d'options Applet.
+end AppletViewerNotFound
+ArrayBlockingQueueMultiplicity:
+La arrayBlockingQueue %1 doit être générée sur une association de taille fixe. La cardinalité '*' n'est pas légale et abouti à un code non compilable.
+end ArrayBlockingQueueMultiplicity
+BadInheritanceInnerClass:
+Erreur : La classe "%1" ne peut pas spécialiser la classe interne %2 car elles ne font pas parti de la même unité de compilation.
+         Supprimez le lien d'héritage.
+end BadInheritanceInnerClass
+BadInnerClassAssociation:
+Erreur : la classe %1 ne peut avoir de lien d'association vers la classe interne %2 car elles ne font pas parti de la même unité de compilation.
+         Supprimez l'association.
+end BadInnerClassAssociation
+BadInternalization:
+L'internalisation n'a pas été effectuée correctement.
+end BadInternalization
+BadJavaSourceFile:
+Le fichier source Java pour le classe "%1" n'est pas correct.
+end BadJavaSourceFile
+BadPathParam:
+Attention : le chemin vers le paramètre "%1" n'existe pas : "%2" ignorée.
+end BadPathParam
+BadTypeParameter:
+Erreur : La valeur "%1" n'est pas autorisé comme paramètre de la tagged value "type" pour l'objet "%3" de type "%2".
+         Vérifiez que la multiplicité de %2 est compatible avec la collection %1.
+end BadTypeParameter
+CannotUpdateModel:
+%1 : La mise à jour du modèle ne peut être effectuée.
+end CannotUpdateModel
+CantUpdateReadonlyObject:
+Impossible de mettre à jour un élément en lecture seule.
+end CantUpdateReadonlyObject
+ClassFileNotFound:
+Le fichier .class correspondant à la classe "%1" n'a pas été trouvé.
+end ClassFileNotFound
+ClassForNameFileError:
+Erreur dans le fichier XML pour la classe "%1"
+end ClassForNameFileError
+ClassImplementedNativeMethod:
+Erreur : La méthode native %2 de la classe %1 ne peut avoir d'implémentation.
+         Effacez la note "JavaCode" ou la tagged value "JavaNative" de la méthode "%2" de la classe "%1".
+end ClassImplementedNativeMethod
+ClassInheritInterface:
+Erreur : La classe %1 ne peut hériter de l'interface %2.
+         Effacez le lien d'héritage entre la classe "%1" et l'interface "%2".
+end ClassInheritInterface
+ClassMultipleInheritance:
+Erreur : La classe "%1" ne peut spécialiser qu'une classe.
+         N'utilisez qu'un seul lien d'héritage depuis la classe "%1".
+         Recommandation : utilisez un lien d'implémentation d'interface.
+end ClassMultipleInheritance
+ClassNotApplet:
+Erreur : La classe "%1" n'hérite pas d'Applet.
+         Veuillez créer un lien d'héritage de la classe "%1" vers la classe "Applet".
+end ClassNotApplet
+ClassNotFound:
+Erreur : La classe "%1" n'a pas été trouvée'.
+          Vérifiez que les fichiers .class de la classe "%1" existent. 
+end ClassNotFound
+ClassPathFileCreation:
+Le fichier classpath n'a pas pu être créé.
+end ClassPathFileCreation
+ClassReverseFileCreation:
+Le fichier classReverseFile n'a pas pu être créé.
+end ClassReverseFileCreation
+ClassUndefinedTypeAttribute:
+Erreur : Le type de l'attribut %2 de la classe %1 doit être défini.
+         Utilisez la boite d'édition de l'attribut "%2" pour définir son type.
+end ClassUndefinedTypeAttribute
+ClassUndefinedTypeParameter:
+Erreur : Le type d'un des paramètres de la méthode %2 de la classe %1 n'est pas défini. 
+         Utilisez la boite d'édition du paramètre pour définir son type.
+end ClassUndefinedTypeParameter
+CommandForClass:
+Cette commande ne peut être lancer que sur un produit de génération de classe.
+end CommandForClass
+ConstructorAbstractClass:
+Erreur : L'interface %1 ne peut contenir de constructeurs ou de destructeurs.
+         Supprimez tout les constructeurs ou destructeurs de la classe abstraite "%1"  
+         ou changez l'élément "%1" de classe abstraite en classe en utilisant l'éditeur de propriétés Java.
+end ConstructorAbstractClass
+ConstructorInterface:
+Erreur : L'interface %1 ne peut contenir de constructeurs ou de destructeurs.
+         Supprimez tout les constructeurs ou destructeurs de l'interface "%1".
+end ConstructorInterface
+DataTypeMultipleInheritance:
+Erreur : Le DataType "%1" ne peut spécialiser qu'un seul DataType.
+         N'utilisez qu'un seul lien d'héritage depuis le DataType "%1".
+end DataTypeMultipleInheritance
+DefaultTranslateClassNotFound:
+Erreur : Le package "%1" n'existe pas dans le package "DefaultTranslations" du package de types, ou il ne référence aucune classe.
+end DefaultTranslateClassNotFound
+DocTemplateNotFound:
+Erreur : Plan type non trouvé.
+         Vérifiez que les code types du groupe d'options "Code generation" du module Java sont corrects.
+end DocTemplateNotFound
+ElementIsExtern:
+L'élément %1 n'a pas été généré conformement aux tagged values {JavaExtern} ou {nocode}, ou parce que cette classe est comprise dans une autre classe. 
+end ElementIsExtern
+ErrorBaseType:
+Erreur : Impossible de trouver le type de base Java : %1.
+end ErrorBaseType
+ExtendTypeNotAllowed:
+Erreur : Le DataType "%1" ne peut spécialiser le DataType "%2" car il est utilisé pour générer les types de base Java qui ne sont pas spécialisable.
+         Le DataType "%1" peut spécialiser n'importe quel DataType créé par vous.
+end ExtendTypeNotAllowed
+ExternClassInheritance:
+Erreur : La classe %1 ne peut hériter de la classe %2 qui est une classe privée appartenant à un autre package. 
+end ExternClassInheritance
+FileCannotBeSaved:
+Erreur : le fichier "%1" ne peut pas être sauvegardé.
+end FileCannotBeSaved
+FileDoesNoExist:
+Erreur : le fichier "%1" n'existe pas.
+end FileDoesNoExist
+FileModeChange:
+Erreur lors du changement de mode du fichier.
+end FileModeChange
+FileNotFound:
+Fichier non trouvé
+end FileNotFound
+FileNotGenerated:
+Erreur : Le fichier "%1" n'a pas été généré.
+end FileNotGenerated
+FileUpdateError:
+Le fichier "%1" contient des erreurs.
+end FileUpdateError
+FinalAbstractMethod:
+Erreur : La méthode abstraite %2 de la classe %1 ne peut être non-derivable ("finale").
+         Décochez la case "Finale" en utilisant l'éditeur de propriétés Java de la méthode "%2".
+end FinalAbstractMethod
+FinalRedefinedMethod:
+Erreur : La méthode non-derivable %2 ne peut être redéfinie par la classe %1.
+         Décochez la case "Finale" en utilisant l'éditeur de propriétés Java de la méthode "%2"  ou effacez le lien de redéfinition.
+end FinalRedefinedMethod
+FinalizeMethod:
+Erreur : La méthode "finalize()" de la classe %1 doit avoir une visibilité protected.
+         Passez la visibilité de la méthode "finalize()" à "Protected" en utilisant l'éditeur de propriétés Java.
+end FinalizeMethod
+GenCodeProfileMissed:
+Erreur : Le paramètre pour le profile de génération de code n'a pas été saisi correctement.
+         Vérifiez l'option "Profile de génération" du groupe d'options "Génération de code" du module Java.
+         La valeur par défaut de cette option est "default#external#Code#JavaCommon#GenJava"
+end GenCodeProfileMissed
+GenerationAndCompilationNeeded:
+Erreur : Le code doit d'abord être généré et compilé.
+         Utilisez la commande "Générer" du produit de génération Java ou le bouton "Générer" de l'éditeur de propriétés Java pour générer le code.
+         Utilisez la commande "Compiler" de l'éditeur de propriétés Java du JarFile pour compiler le code.
+end GenerationAndCompilationNeeded
+GenerationNeeded:
+Erreur : Le code doit d'abord être généré.
+         Utilisez la commande "Générer" du produit de génération Java ou le bouton "Générer" de l'éditeur de propriétés Java pour générer le code.
+end GenerationNeeded
+Generation_error_external_DirNotCreated:
+Le répertoire %1 ne peut être créé.
+end Generation_error_external_DirNotCreated
+HTMLFileNotCreated:
+Fichier HTML non créé
+end HTMLFileNotCreated
+HasNoFile:
+Erreur : Aucun fichier n'a été généré pour ce produit de génération.
+         Utilisez la commande "Générer" du produit de génération Java ou le bouton "Générer" de l'éditeur de propriétés Java pour générer le code.
+end HasNoFile
+IlvDoesNotExist:
+Erreur : la fenêtre n'a pas pu être créée, parce que
+le fichier "%1" n'existe pas.
+end IlvDoesNotExist
+ImplementedAbstractMethod:
+Erreur : La méthode abstraite "%2" de la classe "%1" ne peut avoir d'implémentation.
+end ImplementedAbstractMethod
+ImplementedInterface:
+Erreur : L'interface %1 ne peut implémenter une interface (elle peut la spécialiser).
+end ImplementedInterface
+ImportParameter:
+Erreur : Le paramètre de génération des imports n'est pas défini.
+end ImportParameter
+ImpossibleCommandExecution:
+Erreur : Impossible de lancer la commande "%1".
+         Vérifiez que la commande est correct. Si non, vérifiez les options du module Java.
+end ImpossibleCommandExecution
+ImpossibleToSaveFile:
+Erreur : le fichier "%1" n'a pas été correctement sauvegardé.
+end ImpossibleToSaveFile
+ImpossibleWindowsEdition:
+Edition Windows inconnue
+end ImpossibleWindowsEdition
+InitInterfaceAttribute:
+Erreur : L'attribut %2 de l'interface %1 n'est pas initialisé.
+         Donnez une valeur initiale à l'attribut "%2" en utilisant l'éditeur de propriétés Java.
+end InitInterfaceAttribute
+InterfaceBodyMethod:
+Erreur : La méthode %2 de l'interface %1 ne peut avoir d'implémentation.
+         Effacez la note "JavaCode" de la méthode "%2" de l'interface "%1".
+end InterfaceBodyMethod
+InterfaceCreateMethod:
+Erreur : L'interface %1 ne peut avoir de méthode "create".
+         Effacez la méthode "create".
+end InterfaceCreateMethod
+InterfaceDeleteMethod:
+Erreur : L'interface %1 ne peut avoir de méthode "delete".
+         Effacez la méthode "delete".
+end InterfaceDeleteMethod
+InterfaceFinalMethod:
+Erreur : La méthode %2 de l'interface %1 ne peut être non-derivable ("finale").
+         Décochez la case "Finale" en utilisant l'éditeur de propriétés Java de la méthode "%2".
+end InterfaceFinalMethod
+InterfaceImplementedNativeMethod:
+Erreur : La méthode native %2 de l'interface %1 ne peut avoir d'implémentation.
+         Effacez la note "JavaCode" ou la tagged value "JavaNative" de la méthode "%2" de l'interface "%1".
+end InterfaceImplementedNativeMethod
+InterfaceInheritClass:
+Erreur : L'interface %1 ne peut hériter de la classe %2.
+         Effacez le lien d'héritage entre l'interface "%1" et la classe "%2".
+end InterfaceInheritClass
+InterfaceNonFinalAttribute:
+Erreur : L'attribut %2 de l'interface %1 doit être final (valeur non redéfinisable).
+         Cochez la case "Final" en utilisant l'éditeur de propriétés Java de l'attribut "%2".
+end InterfaceNonFinalAttribute
+InterfaceNonPublicAttribute:
+Erreur : L'attribut %2 de l'interface %1 doit avoir une visibilité publique.
+         Passez la visilibité de l'attribut "%2" à "Public" en utilisant l'éditeur de propriétés Java.
+end InterfaceNonPublicAttribute
+InterfaceNonPublicMethod:
+Erreur : La méthode %2 de l'interface %1 doit être publique.
+         Passez la visibilité de la méthode "%2" à "Public".
+end InterfaceNonPublicMethod
+InterfaceNonStaticAttribute:
+Erreur : L'attribut %2 de l'interface %1 doit être statique.
+         Cochez la case "Statique" en utilisant l'éditeur de propriétés Java de l'attribut "%2".
+end InterfaceNonStaticAttribute
+InterfaceStaticMethod:
+Erreur : La méthode %2 de l'interface %1 ne peut être statique.
+         Déchochez la case "Statique" en utilisant l'éditeur de propriétés Java de la méthode "%2".
+end InterfaceStaticMethod
+InterfaceSynchronizedMethod:
+Erreur : La méthode %2 de l'interface %1 ne peut être "synchronized". 
+         Décochez la case "Synchronized" en utilisant l'éditeur de propriétés Java de la méthode "%2"
+end InterfaceSynchronizedMethod
+InterfaceUndefinedTypeAttribute:
+Erreur : Le type d'un des paramètres de la méthode %2 fr l'interface %1 n'est pas défini.
+         Utilisez la boite d'édition du paramètre pour définir son type.
+end InterfaceUndefinedTypeAttribute
+InterfaceUndefinedTypeParameter:
+Erreur : Le type d'un des paramètres de la méthode %2 de l'interface %1 n'est pas défini.
+         Utilisez la boite d'édition du paramètre pour définir son type.
+end InterfaceUndefinedTypeParameter
+IsDerivedAndNoValue:
+Erreur : L'attribut %1 est une dépendance dynamique sans valeur.
+end IsDerivedAndNoValue
+JavapInvocation:
+Erreur lors de l'éxécution de javap : %1
+end JavapInvocation
+JavapVersionDepend:
+Le format "javap" dépendant de la version.
+end JavapVersionDepend
+ManifestNotGeneratedForThisElement:
+Erreur : Il n'y a pas de produit de génération pour la %2 "%1".
+end ManifestNotGeneratedForThisElement
+MissingClass:
+La classe "%2" est utilisée par la classe "%1" mais n'a pas été trouvée.
+end MissingClass
+NewReverseImpossible:
+Nouveau reverse impossible : la classe "%1" n'est pas primitive ...
+end NewReverseImpossible
+NoJavaProduct:
+Erreur : Il n'y a pas de produit de génération Java sur ce ModelElement.
+end NoJavaProduct
+NoJavaProductOn:
+Erreur : Il n'y a pas de produit de génération Java sur la %2 "%1".
+end NoJavaProductOn
+NoJavaSrcFile:
+Aucun fichier source Java n'a été trouvé pour la classe "%1".
+end NoJavaSrcFile
+NonFinalClassInheritance:
+Erreur : La classe %1 ne peut hériter de la classe %2 qui est une classe finale. 
+end NonFinalClassInheritance
+NotExternClass:
+Nouveau Reverse impossible : la classe "%1" n'est pas une classe externe.
+end NotExternClass
+ObjectNotFound:
+Erreur : L'objet "%1" n'a pas été trouvé.
+end ObjectNotFound
+OpeningFileImpossible:
+Erreur : Impossible d'ouvrir le fichier "%1".
+       Vérifiez que le fichier "%1" existe.
+       Vérifiez que votre disque dur n'est pas plein.
+       Vérifiez que vous avez les droits sur le répertopire temporaire et
+       que les varaibles d'environnement TEMP et TMP sont correctement définies.
+end OpeningFileImpossible
+ParameterBadInformed:
+Le paremètre "%1"  n'est pas correctement renseigné.
+end ParameterBadInformed
+ParserLimit:
+Limite du parser...  
+end ParserLimit
+ProjectNotFound:
+Erreur : ce type d'objet n'existe pas.
+end ProjectNotFound
+ROElementCannotCreateWP:
+Erreur : La %2 "%1" est en lecture-seule. Le produit de génération Java ne peut être créé.
+         La %2 "%1" n'a pas été générée.
+end ROElementCannotCreateWP
+ScriptIlvCorrupted:
+Erreur : la fenêtre n'a pas pu être créée, car
+le fichier "%1" est corrompu.
+end ScriptIlvCorrupted
+TempFile:
+Erreur : Impossible de créer le fichier temporaire.
+         Vérifiez que votre disque dur n'est pas plein.
+         Vérifiez que vous avez les droits sur le répertopire temporaire et
+         que les varaibles d'environnement TEMP et TMP sont correctement définies.
+end TempFile
+UnknownJDKVersion:
+Erreur : Version du JDK inconnue.
+       Vérifiez l'option "Version JDK" du groupe d'options "General" du module Java.
+end UnknownJDKVersion
+VolatileFinalAttribute:
+Erreur : L'attribut final %2 de la classe %1 ne peut être volatile.
+         Effacez la tagged value "JavaVolatile" 
+         ou décochez la case "Finale" en utilisant l'éditeur de propriétés Java de l'attribut "%2".
+end VolatileFinalAttribute
+WindowCouldNotbeCreated:
+Erreur interne : la fenêtre n'a pas pu être créée.
+end WindowCouldNotbeCreated
+WrongJDKRoot:
+Erreur : L'option pour le chemin du JDK n'a pas été correctement saisie.
+         Vérifiez l'option "JDK" du groupe d'options "Répertoires" du module Java.
+         Le répertoire spécifié doit être le répertoire contenant le répertoire "bin".
+end WrongJDKRoot
+classMustBeSelected:
+Une classe doit être sélectionnée. 
+end classMustBeSelected
+emptyField:
+Le champs "%1" est vide.
+Saisissez ce champs pour continuer. 
+end emptyField
+errorCopyingDTD:
+Erreur : Impossible de copier le fichier DTD dans le répertoire temporaire.
+end errorCopyingDTD
+errorParsingFile:
+Erreur lors du parsing du fichier %1 : %2
+end errorParsingFile
+errorTitle:
+Erreur
+end errorTitle
+generateInvariantAsComment:
+Générer les invariants en tant que JavaInvariant
+end generateInvariantAsComment
+illegalChar:
+Erreur : Le caractère "%1" ne peut pas être utilisé dans le nom de la %3 "%2".
+end illegalChar
+invalid_parameters_combinaison:
+Combinaison invalide des options de génération. 
+Par exemple, vous essayez de générer du code en utilisant le package de types Java 5 avec une configuration pour le JDK 1.4.
+end invalid_parameters_combinaison
+isExtern:
+Erreur : L'élément %1 n'a pas été généré conformement aux tagged values {JavaExtern} ou {nocode}, ou parce que cette classe est comprise dans une autre classe. 
+end isExtern
+jarFileNotFound:
+Le fichier jar '%1' n'a pas été trouvé.
+Utilisez la commande 'Exécuter une cible Ant' (cible archive) pour construire le jar. 
+end jarFileNotFound
+javaOpenJlfFileError:
+Erreur : Impossible d'ouvrir le fichier jlf %1
+end javaOpenJlfFileError
+noMainClass:
+La class principale n'a pas été renseignée.
+Utilisez la tagged value {JavaMainClass(<Nom qualifié de la classe>)} pour renseigner la classe principale du Jar.
+end noMainClass
+wrongDirectorySeparator:
+Erreur : Les chemins de génération et de validation doivent utiliser les caractères "%1" comme séparateur de répertoires.
+         Si l'un de ces chemins contient un paramètre de référence comme $(<reference>), vérifiez que le paramètre de référence utilise le caractère "%1" comme séparateur de répertoires.
+end wrongDirectorySeparator

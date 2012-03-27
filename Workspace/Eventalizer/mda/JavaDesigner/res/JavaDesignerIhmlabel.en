@@ -1,0 +1,836 @@
+Abstract:
+Abstract
+end Abstract
+AccessMode:
+Access mode
+end AccessMode
+AccessibleClasses:
+Accessible classes (CLASSPATH)
+end AccessibleClasses
+AccessorFilter:
+Filter Accessors on reverse
+end AccessorFilter
+AccessorsGeneration:
+Generating accessors
+end AccessorsGeneration
+AccessorsVisibility:
+Visibility for accessors
+end AccessorsVisibility
+AddJavaPublicTagWhenPublic:
+Add {}JavaPublic tagged value if the attribute is public
+end AddJavaPublicTagWhenPublic
+AntTargets:
+Ant target
+end AntTargets
+AppletOpt:
+Applet
+end AppletOpt
+AppletVisualizer:
+Applet visualizer
+end AppletVisualizer
+ApplicationPath:
+Path to the sources of the application to be reversed:
+end ApplicationPath
+ApplicationPathBoxTitle:
+Application path selection
+end ApplicationPathBoxTitle
+ApplicationPathLoadButtonLabel:
+Load
+end ApplicationPathLoadButtonLabel
+Blue:
+Blue
+end Blue
+BuildAntFile:
+Build Ant file
+end BuildAntFile
+Byte:
+Byte
+end Byte
+Checkclass:
+Check class
+end Checkclass
+Checkoperation:
+Check operation
+end Checkoperation
+ClassMakefile:
+Class makefile template
+end ClassMakefile
+ClassPathBoxTitle:
+Application classpath
+end ClassPathBoxTitle
+ClassStereotypedInterfaceAsInterface:
+Consider classes stereotyped <<interface>> as interfaces
+end ClassStereotypedInterfaceAsInterface
+Collection:
+Collection
+end Collection
+CollectionImplementation:
+Collection to use
+end CollectionImplementation
+CompOpt:
+Compilation
+end CompOpt
+Compatible:
+Code generation compatible with version 2.1
+end Compatible
+CompilationOptions:
+Compilation options
+end CompilationOptions
+CompilationPath:
+Compiled files root
+end CompilationPath
+CompiledFilesPath:
+Classpath for the Reverse
+end CompiledFilesPath
+CompleteReverse:
+Complete reverse
+end CompleteReverse
+CompleteStructuralReverse:
+Complete structural reverse
+end CompleteStructuralReverse
+ConsistencyControls:
+Treat warnings as errors
+end ConsistencyControls
+CreateDiagrams:
+Create diagrams
+end CreateDiagrams
+CreateRelationship:
+Create a Container Managed Relationship
+end CreateRelationship
+Default_Inheritance:
+Default inheritance
+end Default_Inheritance
+DescriptionAsJavadoc:
+"description" notes processed as "Javadoc"
+end DescriptionAsJavadoc
+DiagramCreationOnReverse:
+Automatically create diagrams on initial reverse
+end DiagramCreationOnReverse
+Diagrams:
+Diagrams
+end Diagrams
+DirectoryJar:
+Class directory
+end DirectoryJar
+DoReverse:
+Reverse if necessary
+end DoReverse
+DocIdGenerated:
+Generate markers for documentation zones
+end DocIdGenerated
+DocOpt:
+Documentation
+end DocOpt
+EclipseProject:
+Name of the Eclipse project
+end EclipseProject
+Entitybeaninheritance:
+Entity Bean inheritance
+end Entitybeaninheritance
+EnumMakefile:
+Enumeration makefile template
+end EnumMakefile
+EnumTemplate:
+Code template for Enumeration
+end EnumTemplate
+ExecuteAntTarget:
+Execute Ant target
+end ExecuteAntTarget
+ExtEditorCommandLine:
+Command for invoking external editor
+end ExtEditorCommandLine
+ExternalJar:
+External JAR
+end ExternalJar
+FilterAbstractAccessors:
+Convert abstract accessors into members
+end FilterAbstractAccessors
+Final:
+Final
+end Final
+FinalForIn:
+In parameters generated as "final"
+end FinalForIn
+GNUShell:
+Locate the GNU Shell
+end GNUShell
+GenCodeOpt:
+Code generation
+end GenCodeOpt
+GenDocPath:
+Generation directory
+end GenDocPath
+GenJavaBeanLikeAccessors:
+Generation of accessors in Java Bean format
+end GenJavaBeanLikeAccessors
+GeneralOpt:
+General
+end GeneralOpt
+GenerateAntFile:
+Generate ant file
+end GenerateAntFile
+GenerationMode:
+Generation Mode
+end GenerationMode
+GenerationPath:
+Code generation root
+end GenerationPath
+Green:
+Green
+end Green
+GroupExternalEdition:
+External edition
+end GroupExternalEdition
+HTMLCommandEditor:
+Command for editing the HTML files
+end HTMLCommandEditor
+HTMLFilesPath:
+Paths for the .html files
+end HTMLFilesPath
+Homeinheritance:
+Home inheritance
+end Homeinheritance
+IDE:
+Integrated Development Environment (IDE)
+end IDE
+IdGenerated:
+Generate identifiers
+end IdGenerated
+Import:
+Import
+end Import
+ImportOptimization:
+Optimize "import" statements
+end ImportOptimization
+InitValue:
+Initial value
+end InitValue
+InnerClass:
+Inner class
+end InnerClass
+Interface:
+Interface
+end Interface
+Invariant:
+Invariant
+end Invariant
+JDKPath:
+JDK
+end JDKPath
+JarFilePath:
+Jar file path
+end JarFilePath
+JavaAnnotation:
+Annotation
+end JavaAnnotation
+JavaAnnotationDefinition:
+Java Annotation definition
+end JavaAnnotationDefinition
+JavaBind:
+Template binding
+end JavaBind
+JavaCode:
+Java code
+end JavaCode
+JavaCompilationPath:
+Compilation path
+end JavaCompilationPath
+JavaCompiler:
+Compiler
+end JavaCompiler
+JavaDesigner:
+Java Designer
+end JavaDesigner
+JavaDesigner_Description:
+This module allows Java code generation from a
+Modelio UML2 model.
+It also provides compilation, standard Java format
+documentation generation and .class file reverse functions.
+Furthermore, it contains patterns which are
+very useful in Java application development.
+end JavaDesigner_Description
+JavaDocOptions:
+Generation options
+end JavaDocOptions
+JavaGenPath:
+Generation path
+end JavaGenPath
+JavaMainClass:
+Main class
+end JavaMainClass
+JavaNoPackage:
+Do not generate packages
+end JavaNoPackage
+JavaPatterns_Demo_Import:
+Import the Java patterns first steps project
+end JavaPatterns_Demo_Import
+JavaPatterns_EventListener:
+Event listener
+end JavaPatterns_EventListener
+JavaPatterns_EventSource:
+Event source
+end JavaPatterns_EventSource
+JavaPatterns_RMI:
+RMI
+end JavaPatterns_RMI
+JavaProfile:
+Generating code profile
+end JavaProfile
+JavaReturn:
+Java return
+end JavaReturn
+JavaRoot:
+Java root
+end JavaRoot
+JavaSuper:
+Java constructor transmission
+end JavaSuper
+JavaTemplate:
+Code template for class
+end JavaTemplate
+JavaTemplateParameters:
+Template parameters
+end JavaTemplateParameters
+Java_Applet_Edit:
+Edit the applet
+end Java_Applet_Edit
+Java_Applet_Launch:
+Launch the applet
+end Java_Applet_Launch
+Java_Applet_Visualize:
+Visualize the applet
+end Java_Applet_Visualize
+Java_Code_Edit:
+Edit
+end Java_Code_Edit
+Java_Code_Generate:
+Generate
+end Java_Code_Generate
+Java_Code_Update:
+Update
+end Java_Code_Update
+Java_Code_Visualize:
+Visualize
+end Java_Code_Visualize
+Java_Demo_Import:
+Import the first steps project...
+end Java_Demo_Import
+Java_Doc_Generate:
+Generate documentation
+end Java_Doc_Generate
+Java_Pattern_FinalizeMethods:
+Position 'final' on the methods
+end Java_Pattern_FinalizeMethods
+Java_Pattern_MethodsToImplement:
+Create the methods to be implemented
+end Java_Pattern_MethodsToImplement
+Java_Pattern_MethodsToRedefine:
+Create the methods to be redefined
+end Java_Pattern_MethodsToRedefine
+Java_Pattern_ToElementary:
+Transform into a primitive class
+end Java_Pattern_ToElementary
+Java_Pattern_ToNonElementary:
+Transform into a non-primitive class
+end Java_Pattern_ToNonElementary
+Java_Reverse_AgainClass:
+New Reverse from compiled files
+end Java_Reverse_AgainClass
+Java_Reverse_AgainPackage:
+New reverse from compiled files
+end Java_Reverse_AgainPackage
+Java_Reverse_AgainPackage_from_sources:
+New reverse from sources files
+end Java_Reverse_AgainPackage_from_sources
+Java_Reverse_Again_Class_Source:
+New Reverse from sources files
+end Java_Reverse_Again_Class_Source
+Java_Reverse_DoIt:
+Reverse
+end Java_Reverse_DoIt
+Java_Reverse_VisualizeCode:
+Visualize the code
+end Java_Reverse_VisualizeCode
+Java_Reverse_VisualizeDoc:
+Visualize documentation
+end Java_Reverse_VisualizeDoc
+Javadoc:
+Javadoc
+end Javadoc
+JavahGenerationPath:
+Native .h files generation path
+end JavahGenerationPath
+Label_Commands:
+Commands
+end Label_Commands
+Label_Create_method:
+Create method
+end Label_Create_method
+Label_Finder_method:
+Find method
+end Label_Finder_method
+Label_OnMessage_method:
+OnMessage method
+end Label_OnMessage_method
+Label_Remote_method:
+Remote method
+end Label_Remote_method
+Logfile:
+Log file
+end Logfile
+MainClass:
+Main class
+end MainClass
+Max:
+Max
+end Max
+MessageDrivenDestination:
+Message-driven destination
+end MessageDrivenDestination
+MessageDrivenOptions:
+Message-driven options
+end MessageDrivenOptions
+Min:
+Min
+end Min
+ModifierEncapsulation:
+Strong encapsulation for access methods (modifier)
+end ModifierEncapsulation
+Module_Java:
+Java developer
+end Module_Java
+Module_JavaPatterns:
+Java Patterns
+end Module_JavaPatterns
+Multiplicity:
+Multiplicity
+end Multiplicity
+MultiplicityMax:
+Multiplicity
+end MultiplicityMax
+Native:
+Native
+end Native
+OperationType:
+Operation type
+end OperationType
+PBCreateRelationship:
+Create relationship
+end PBCreateRelationship
+PackageMakefile:
+Package makefile template
+end PackageMakefile
+PackageSrcInRamc:
+Add Java source files in model component
+end PackageSrcInRamc
+PackageTemplate:
+Code template for package
+end PackageTemplate
+PersistenceOption:
+Persistence options
+end PersistenceOption
+PostCondition:
+Post-condition
+end PostCondition
+PreCondition:
+Pre-condition
+end PreCondition
+PrePostExceptionClass:
+Type of exception for pre/post-conditions
+end PrePostExceptionClass
+PrePostGeneration:
+Generating pre/post-conditions
+end PrePostGeneration
+Primarykeyinheritance:
+Primary Key inheritance
+end Primarykeyinheritance
+Ramc:
+Model components
+end Ramc
+ReadOnlyElementNotGenerated:
+Do not generate read-only elements
+end ReadOnlyElementNotGenerated
+Red:
+Red
+end Red
+Remoteinheritance:
+Remote inheritance
+end Remoteinheritance
+Remove:
+Remove
+end Remove
+RetrieveDefaultBehaviour:
+Default behavior for file retrieving
+end RetrieveDefaultBehaviour
+ReverseJavaCode:
+Reverse Java code
+end ReverseJavaCode
+ReverseJavaDoc:
+Reverse Java doc
+end ReverseJavaDoc
+ReverseJavaSources:
+Reverse Java application from sources
+end ReverseJavaSources
+ReverseLabel:
+Reverse Java binaries
+end ReverseLabel
+ReverseLevelLabel:
+Reverse level
+end ReverseLevelLabel
+ReverseProfile:
+Reverse profile
+end ReverseProfile
+ReverseonlyXML:
+Reverse only XML
+end ReverseonlyXML
+RunApplication:
+Run application
+end RunApplication
+Run_the_applet:
+Run the applet
+end Run_the_applet
+Run_the_application:
+Run the application
+end Run_the_application
+Sessionbeaninheritance:
+Session Bean inheritance
+end Sessionbeaninheritance
+SetAttributeforpersistence:
+Set Attribute for persistence
+end SetAttributeforpersistence
+Setoperationcreate:
+Set operation create
+end Setoperationcreate
+Setoperationfinder:
+Set operation finder
+end Setoperationfinder
+Setoperationremote:
+Set operation remote
+end Setoperationremote
+SimpleStructuralReverse:
+Simple structural reverse
+end SimpleStructuralReverse
+SourceFilesPath:
+Application sources path
+end SourceFilesPath
+SourcesFilesPath:
+Path to the sources files
+end SourcesFilesPath
+Static:
+Static
+end Static
+StrikeReturnKey:
+Strike return key to continue...
+end StrikeReturnKey
+Synchronize:
+Synchronize
+end Synchronize
+ThrowException:
+Throw exception
+end ThrowException
+Transient:
+Transient
+end Transient
+TreeSelectionBoxTitle:
+Files to reverse
+end TreeSelectionBoxTitle
+TypesTranslationPackage:
+Types translation package
+end TypesTranslationPackage
+UseEclipse:
+Use Modelio in eclipse
+end UseEclipse
+UseJavaNaming:
+Use Java naming rules
+end UseJavaNaming
+UseJavah:
+Generating .h files for natives methods
+end UseJavah
+VerboseMode:
+Verbose mode
+end VerboseMode
+VerboseModePattern:
+Verbose mode for pattern application
+end VerboseModePattern
+Visibility:
+Visibility
+end Visibility
+VisibilityModeVisibilityUndefined:
+Package
+end VisibilityModeVisibilityUndefined
+Wrapper:
+Wrapper
+end Wrapper
+_Generate:
+Generate
+end _Generate
+__Java_Doc_Generate__:
+Generate documentation
+end __Java_Doc_Generate__
+____Edit____:
+Edit
+end ____Edit____
+_____Update_____:
+Update
+end _____Update_____
+addConditionTagWhenRedefine:
+Add {}JavaParentConditions when redefining an operation
+end addConditionTagWhenRedefine
+addDirectory:
+Add directory
+end addDirectory
+addElementLabel:
+Add
+end addElementLabel
+addExternalJar:
+Add external JAR
+end addExternalJar
+archiveAntFile:
+Create a JAR file
+end archiveAntFile
+autoGenerate:
+Automatically generate
+end autoGenerate
+autoReverse:
+Automatic reverse (only for Eclipse)
+end autoReverse
+buildAntFile:
+Build Ant file
+end buildAntFile
+cancelLabel:
+Cancel
+end cancelLabel
+checkClass:
+Check class...
+end checkClass
+checkOperation:
+Check operation...
+end checkOperation
+classPathListLabel:
+Java Classpath
+end classPathListLabel
+compile:
+Compile
+end compile
+create:
+constructor
+end create
+createBuildXmlFile:
+Generate Ant file
+end createBuildXmlFile
+createJavaPackage:
+Create Java package
+end createJavaPackage
+createProduct:
+Generate java code
+end createProduct
+createSeeLink:
+Links for Javadoc generation...
+end createSeeLink
+dataMemberVisibility:
+Declaration visibility for attributes and associations
+end dataMemberVisibility
+dataTypeTemplate:
+Code template for DataType
+end dataTypeTemplate
+destroy:
+finalize
+end destroy
+double:
+double
+end double
+editCode:
+Edit java source
+end editCode
+errorType:
+Post condition and invariant behavior
+end errorType
+errorTypeForPreconditions:
+Pre condition behavior
+end errorTypeForPreconditions
+executeTarget:
+Execute Ant target
+end executeTarget
+float:
+float
+end float
+friendlyAccessorVisibility:
+Accessors for "Package" elements
+end friendlyAccessorVisibility
+friendlyDataMemberVisibility:
+Elements with "Package" visibility
+end friendlyDataMemberVisibility
+friendlyModifierVisibility:
+Modifier for "Package" elements
+end friendlyModifierVisibility
+fullNameGeneration:
+Generate full name for used classes
+end fullNameGeneration
+genBeforeJar:
+Generate Java before creating JAR
+end genBeforeJar
+generate:
+Generate
+end generate
+generate15Enumerations:
+Generate Java 5 enumerations
+end generate15Enumerations
+generateAccessorComments:
+Generate javadoc comments on accessors.
+end generateAccessorComments
+generateDoc:
+Generate javadoc for the package
+end generateDoc
+generateInvariantAsComment:
+Generate invariant as JavaInvariant
+end generateInvariantAsComment
+generateInvariantAsJavaDocInvariant:
+Invariants processed as JavaDocInvariant
+end generateInvariantAsJavaDocInvariant
+generateInvariants:
+Generate invariants
+end generateInvariants
+helpLabel:
+Help
+end helpLabel
+importFirstStepsProject:
+Import first steps project
+end importFirstStepsProject
+invariantsName:
+Invariants name
+end invariantsName
+javapPath:
+Path for javap
+end javapPath
+leftTreeTitle:
+Application sources:
+end leftTreeTitle
+long:
+long
+end long
+nextLabel:
+Next
+end nextLabel
+paramJavadoc:
+Generate Javadoc notes for parameters
+end paramJavadoc
+previousLabel:
+Previous
+end previousLabel
+privateAccessorVisibility:
+Accessors for "Private" elements
+end privateAccessorVisibility
+privateDataMemberVisibility:
+Elements with "Private" visibility
+end privateDataMemberVisibility
+privateModifierVisibility:
+Modifier for "Private" elements
+end privateModifierVisibility
+protectedAccessorVisibility:
+Accessors for "Protected" elements
+end protectedAccessorVisibility
+protectedDataMemberVisibility:
+Elements with "Protected" visibility
+end protectedDataMemberVisibility
+protectedModifierVisibility:
+Modifier for "Protected" elements
+end protectedModifierVisibility
+publicAccessorVisibility:
+Accessors for "Public" elements
+end publicAccessorVisibility
+publicDataMemberVisibility:
+Elements with "Public" visibility
+end publicDataMemberVisibility
+publicModifierVisibility:
+Modifier for "Public" elements
+end publicModifierVisibility
+publicTagAccessorVisibility:
+Accessors for "JavaPublic" elements
+end publicTagAccessorVisibility
+publicTagDataMemberVisibility:
+Elements with "Public" tagged value
+end publicTagDataMemberVisibility
+publicTagModifierVisibility:
+Modifier for "JavaPublic" elements
+end publicTagModifierVisibility
+removeElementLabel:
+Remove
+end removeElementLabel
+returnJavadoc:
+Generate Javadoc notes for return parameters
+end returnJavadoc
+reverseAllLabel:
+Reverse all files
+end reverseAllLabel
+reverseLabel:
+Reverse
+end reverseLabel
+rightTreeTitle:
+Files to be reversed:
+end rightTreeTitle
+runApplet:
+Run the applet
+end runApplet
+runApplication:
+Run application
+end runApplication
+runOpt:
+Run
+end runOpt
+runPackagingTool:
+Run packaging tool...
+end runPackagingTool
+runParameters:
+Application's parameters
+end runParameters
+seeJavadoc:
+Generate "See also" statements in Javadoc notes
+end seeJavadoc
+selectJ2EEPlateforme:
+Select J2EE platform...
+end selectJ2EEPlateforme
+setAttributeForPersistence:
+Set attribute for persistence
+end setAttributeForPersistence
+setAttributeForPrimaryKey:
+Set attribute as primary key
+end setAttributeForPrimaryKey
+setOperationCreate:
+Set operation create
+end setOperationCreate
+setOperationFinder:
+Set operation finder
+end setOperationFinder
+setOperationRemote:
+Set operation remote
+end setOperationRemote
+short:
+short
+end short
+thisClassIsHome:
+This class is a home interface
+end thisClassIsHome
+thisClassIsPK:
+This class is a primary key
+end thisClassIsPK
+thisClassIsRemote:
+This class is a remote interface
+end thisClassIsRemote
+throwsJavadoc:
+Generate Javadoc notes for "throws" statements
+end throwsJavadoc
+updateCode:
+Update model from source file
+end updateCode
+useJavaImportNotes:
+Use "JavaImport" notes to generate imports
+end useJavaImportNotes
+usedJDKVersion:
+JDK version
+end usedJDKVersion
+visuCode:
+Visualize
+end visuCode
+visualizeCode:
+Visualize java source
+end visualizeCode

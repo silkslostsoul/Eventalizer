@@ -1,0 +1,83 @@
+// Ilv Version: 5.0
+// File generated: Tue Dec 16 18:28:29 2008
+// Creator class: IlvGadgetManagerOutput
+FileName "report"
+PathName "C:\\workspace\\JavaDeveloper\\res\\en\\dlg\\report.ilv"
+Palettes 6
+"IlvStToolBar" 4 F "gray" "black" "normal" "%Tahoma-11-[Charset:0]" 0 solid solid 0 0 0 65535 1
+3 F "gray" "black" "bold" "%Tahoma-11-B[Charset:0]" 0 solid solid 0 0 0 65535 1
+"default" 1 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 0
+2 F "gray" "black" "default" "StockedDefaultGui" 0 solid solid 0 0 0 65535 1
+5 F "gray" "gray50" "italic" "%Tahoma-11-I[Charset:0]" 0 solid solid 0 0 0 65535 1
+0 F "antiquewhite3" 65025 65025 65025 "fixed" 0 solid solid 0 0 0 65535 0
+IlvObjects 12
+1 { 0 0 IlvFilledRectangle 0 0 574 48 } 0
+0
+1 { 1 1 IlvZoomableTransparentIcon 0 0 "../../bmp/header.png" F1 0 0 1 0 0 } 0
+0
+1 { 2 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvButton 493 502 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "^Close"  }   } 32 "CloseButton"
+6144 "Tree" "SaveButton"
+1 { 3 1 IlvReliefLine 0 49 728 49 1 } 0
+0
+1 { 4 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvButton 4 502 23 23 F13 2 { IlvMessageItem 262146 4 16 1 1 0 "../../bmp/help.png"  }   } 32 "HelpButton"
+6144 "SaveButton" "Description"
+1 { 5 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+3 IlvMessageLabel 109 -2 280 22 F268435468 0 { IlvMessageItem 262169 4 16 4 "Report"  }   } 0
+0
+1 { 6 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+4 IlvGadget 4 56 562 440 2 } 0
+0
+1 { 7 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+5 IlvText 133 15 363 32 F335544453 2 N N 1 1 1 1 0 2
+"Select a message to obtain further informations."
+""
+0 0 0 0 } 416 "Text_1"
+16384
+1 { 8 1 IlvZoomableTransparentIcon 0 0 "../../bmp/report.png" F1.00465 0 0 1 507 0 } 0
+0
+1 { 9 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvTreeGadget 10 62 550 306 F32 2 A A 0 0 0 0 20 1 1 1 1 1 0 V0 2
+{ IlvTreeGadgetItem 1 2 4 "root" 0
+ }  } 32 "Tree"
+10240 "Description"
+1 { 10 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvButton 414 502 73 23 F13 2 { IlvMessageItem 262145 4 16 4 "^Save as ..."  }   } 32 "SaveButton"
+6144 "CloseButton" "HelpButton"
+1 { 11 P 1
+[ IlvInteractorProperty __ilvInteractor "Gadget" ]
+2 IlvText 10 374 550 116 F129 2 A A 1 1 1 1 0 1
+""
+0 0 0 0 } 32 "Description"
+6144 "HelpButton" "Tree"
+Size 570 529
+GeometryHandlers
+1 100 0 570 0 570 0
+9 3 0 0 0  574 0 574 0  0 -4 -4 0
+ 3 493 0 493  0 0 73 2  0 0 4 0
+ 3 0 0 4  0 0 23 4  543 0 543 0
+ 3 0 0 0  728 0 728 3  0 -158 -158 0
+ 3 0 0 4  562 0 562 6  0 0 4 0
+ 3 507 0 507  0 0 48 8  0 0 15 0
+ 3 0 0 10  550 0 550 9  0 0 10 0
+ 3 414 0 414  0 0 73 10  0 0 83 0
+ 3 0 0 10  550 0 550 11  0 0 10 0
+2 50 0 371 0 371 0
+ 50 0 158 371 158 371
+7 3 0 0 0  0 0 48 0  481 0 481 1
+ 3 502 0 502  0 0 23 2  0 0 4 1
+ 3 502 0 502  0 0 23 4  0 0 4 1
+ 3 0 0 56  440 0 440 6  0 0 33 1
+ 3 0 0 0  0 0 48 8  481 0 481 1
+ 3 502 0 502  0 0 23 10  0 0 4 1
+ 3 0 0 62  306 0 306 9  0 0 3 0
+1 3 0 0 3  116 0 116 11  0 0 39 1
+EOF

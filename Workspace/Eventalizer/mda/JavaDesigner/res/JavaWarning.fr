@@ -1,0 +1,289 @@
+AbstractClassCreateMethod:
+Attention : la classe abstraite %1 ne peut avoir de méthode "create".
+         Effacez la méthode "create" ou changez l'élément "%1" de classe abstraite en classe en utilisant l'éditeur de propriétés Java.
+end AbstractClassCreateMethod
+AbstractClassDeleteMethod:
+Attention : la classe abstraite %1 ne peut avoir de méthode "delete".
+         Effacez la méthode "delete" ou changez l'élément "%1" de classe abstraite en classe en utilisant l'éditeur de propriétés Java.
+end AbstractClassDeleteMethod
+AbstractSynchronizedMethod:
+Attention : la méthode abstraite %2 de la classe %1 ne peut être "synchronized".
+         Décochez les cases "Synchronized" ou "Abstraite" en utilisant l'éditeur de propriétés Java de la méthode "%2".
+end AbstractSynchronizedMethod
+BadInnerClassAssociation:
+Attention : la classe %1 ne peut avoir de lien d'association vers la classe interne %2 car elles ne font pas parti de la même unité de compilation. 
+end BadInnerClassAssociation
+BadReferencedInnerClass:
+Attention : la classe interne %1 ne peut être référencée que par une seule classe.
+end BadReferencedInnerClass
+CannotUppdateReadOnlyElement:
+Attention : Le fichier "%1" a changé mais n'a pas pu être mis à jour. La classe correspondante est en mode lecture-seule. 
+	Un fichier de sauvegarde ("%2") a été créé avant la génération.
+end CannotUppdateReadOnlyElement
+CheckYourClassPath:
+Veuillez vérifier que l'option "%1" contient tous les chemins nécessaires pour trouver les classes à reverser.
+end CheckYourClassPath
+ClassImplementedNativeMethod:
+Attention : la méthode native %2 de la classe %1 ne peut avoir d'implémentation.
+         Effacez la note "JavaCode" ou la tagged value "JavaNative" de la méthode "%2" de la classe "%1".
+end ClassImplementedNativeMethod
+ClassInheritInterface:
+Attention : La classe %1 ne peut hériter de l'interface %2.
+         Effacez le lien d'héritage entre la classe "%1" et l'interface "%2".
+end ClassInheritInterface
+ClassMultipleInheritance:
+Attention : la classe "%1" ne peut spécialiser qu'une classe.
+         N'utilisez qu'un seul lien d'héritage depuis la classe "%1".
+         Recommandation : utilisez un lien d'implémentation d'interface.
+end ClassMultipleInheritance
+ClassNecessaryHierarchy:
+Attention : la classe %1 doit être référencée par un package façade hiérarchique. 
+end ClassNecessaryHierarchy
+ClassUndefinedTypeAttribute:
+Attention : le type de l'attribut %2 de la classe %1 doit être défini.
+         Utilisez la boite d'édition de l'attribut "%2" pour définir son type.
+end ClassUndefinedTypeAttribute
+ClassUndefinedTypeParameter:
+Attention : le type d'un des paramètres de la méthode %2 de la classe %1 n'est pas défini. 
+         Utilisez la boite d'édition du paramètre pour définir son type.
+end ClassUndefinedTypeParameter
+ClassUniqueHierarchy:
+Attention : la classe %1 ne peut être référencée par plusieurs packages façade hiérarchiques. 
+end ClassUniqueHierarchy
+CodeNotAvailable:
+Le code correspondant à la classe %1 ne peut être accédé. 
+end CodeNotAvailable
+CommandFailure:
+La commande %1 a échouée. 
+end CommandFailure
+ConstructorAbstractClass:
+Attention : l'interface %1 ne peut contenir de constructeurs ou de destructeurs.
+         Supprimez tout les constructeurs ou destructeurs de la classe abstraite "%1"  
+         ou changez l'élément "%1" de classe abstraite en classe en utilisant l'éditeur de propriétés Java.
+end ConstructorAbstractClass
+ConstructorInterface:
+Attention : l'interface %1 ne peut contenir de constructeurs ou de destructeurs.
+         Supprimez tout les constructeurs ou destructeurs de l'interface "%1".
+end ConstructorInterface
+DataTypeMultipleInheritance:
+Attention : le DataType "%1" ne peut spécialiser qu'un seul DataType.
+         N'utilisez qu'un seul lien d'héritage depuis le DataType "%1".
+end DataTypeMultipleInheritance
+DirectiveUnknown:
+La tagged value %1 n'existe pas sur la classe %2.
+end DirectiveUnknown
+DomainNecessaryHierarchy:
+Attention : le package façade %1 doit être référencé par un package façade hiérarchique. 
+end DomainNecessaryHierarchy
+DomainUniqueHierarchy:
+Warning : le package façade %1 ne peut être référencé par plusieurs package façade hiérarchiques. 
+end DomainUniqueHierarchy
+ExternClassInheritance:
+Attention : la classe %1 ne peut hériter de la classe %2 qui est une classe privée appartenant à un autre package. 
+end ExternClassInheritance
+FileNotFound:
+Fichier %1 non trouvé
+end FileNotFound
+FinalAbstractMethod:
+Attention : la méthode abstraite %2 de la classe %1 ne peut être non-derivable ("finale").
+         Décochez la case "Finale" en utilisant l'éditeur de propriétés Java de la méthode "%2" 
+end FinalAbstractMethod
+FinalRedefinedMethod:
+Attention : la méthode non-derivable %2 ne peut être redéfinie par la classe %1.
+         Décochez la case "Finale" en utilisant l'éditeur de propriétés Java de la méthode "%2"  ou effacez le lien de redéfinition.
+end FinalRedefinedMethod
+FinalizeMethod:
+Attention : la méthode "finalize()" de la classe %1 doit avoir une visibilité protected.
+         Passez la visibilité de la méthode "finalize()" à "Protected" en utilisant l'éditeur de propriétés Java.
+end FinalizeMethod
+FreeClassInheritance:
+Attention : la classe %1 ne peut hériter d'une classe définie sous le package racine.
+end FreeClassInheritance
+FreeInterfaceImplementation:
+Attention : la classe %1 ne peut implémenter une interface définie sous le package racine.
+end FreeInterfaceImplementation
+FreeInterfaceInheritance:
+Attention : l'interface %1 ne peut hériter d'une interface définie sous le package racine. 
+end FreeInterfaceInheritance
+HTMLDocNotAvailable:
+La documentation HTML correspondant à la classe %1 ne peut être accédée. 
+end HTMLDocNotAvailable
+HTMLDocNotSeeable:
+La documentation de cette classe ne peut être visualisée.
+end HTMLDocNotSeeable
+ImplementedAbstractMethod:
+Attention : la méthode abstraite "%2" de la classe "%1" ne peut avoir d'implémentation. 
+end ImplementedAbstractMethod
+ImplementedInterface:
+Attention : l'interface %1 ne peut implémenter une interface (elle peut la spécialiser). 
+end ImplementedInterface
+InitInterfaceAttribute:
+Attention : l'attribut %2 de l'interface %1 n'est pas initialisé.
+         Donnez une valeur initiale à l'attribut "%2" en utilisant l'éditeur de propriétés Java.
+end InitInterfaceAttribute
+InterfaceBodyMethod:
+Attention : la méthode %2 de l'interface %1 ne peut avoir d'implémentation.
+         Effacez la note "JavaCode" de la méthode "%2" de l'interface "%1".
+end InterfaceBodyMethod
+InterfaceCreateMethod:
+Attention : l'interface %1 ne peut avoir de méthode "create".
+         Effacez la méthode "create".
+end InterfaceCreateMethod
+InterfaceDeleteMethod:
+Attention : l'interface %1 ne peut avoir de méthode "delete".
+         Effacez la méthode "delete".
+end InterfaceDeleteMethod
+InterfaceFinalMethod:
+Attention : la méthode %2 de l'interface %1 ne peut être non-derivable ("finale").
+         Décochez la case "Finale" en utilisant l'éditeur de propriétés Java de la méthode "%2". 
+end InterfaceFinalMethod
+InterfaceImplementedNativeMethod:
+Attention : la méthode native %2 de l'interface %1 ne peut avoir d'implémentation.
+         Effacez la note "JavaCode" ou la tagged value "JavaNative" de la méthode "%2" de l'interface "%1".
+end InterfaceImplementedNativeMethod
+InterfaceInheritClass:
+Attention : l'interface %1 ne peut hériter de la classe %2.
+         Effacez le lien d'héritage entre l'interface "%1" et la classe "%2".
+end InterfaceInheritClass
+InterfaceNecessaryHierarchy:
+Attention : l'interface %1 doit être référencée par un package façade hiérarchique. 
+end InterfaceNecessaryHierarchy
+InterfaceNonFinalAttribute:
+Attention : l'attribut %2 de l'interface %1 doit être final (valeur non redéfinisable).
+         Cochez la case "Final" en utilisant l'éditeur de propriétés Java de l'attribut "%2".
+end InterfaceNonFinalAttribute
+InterfaceNonPublicAttribute:
+Attention : l'attribut %2 de l'interface %1 doit avoir une visibilité publique.
+         Passez la visilibité de l'attribut "%2" à "Public" en utilisant l'éditeur de propriétés Java.
+end InterfaceNonPublicAttribute
+InterfaceNonPublicMethod:
+Attention : la méthode %2 de l'interface %1 doit être publique.
+         Passez la visibilité de la méthode "%2" à "Public".
+end InterfaceNonPublicMethod
+InterfaceNonStaticAttribute:
+Attention : l'attribut %2 de l'interface %1 doit être statique.
+         Cochez la case "Statique" en utilisant l'éditeur de propriétés Java de l'attribut "%2".
+end InterfaceNonStaticAttribute
+InterfaceStaticMethod:
+Attention : la méthode %2 de l'interface %1 ne peut être statique.
+         Déchochez la case "Statique" en utilisant l'éditeur de propriétés Java de la méthode "%2".
+end InterfaceStaticMethod
+InterfaceSynchronizedMethod:
+Attention : la méthode %2 de l'interface %1 ne peut être "synchronized". 
+         Décochez la case "Synchronized" en utilisant l'éditeur de propriétés Java de la méthode "%2" 
+end InterfaceSynchronizedMethod
+InterfaceUndefinedTypeAttribute:
+Attention : le type de l'attribut %2 de l'interface %1 doit être défini.
+         Utilisez la boite d'édition de l'attribut "%2" pour définir son type.
+end InterfaceUndefinedTypeAttribute
+InterfaceUndefinedTypeParameter:
+Attention : le type d'un des paramètres de la méthode %2 de l'interface %1 n'est pas défini.
+         Utilisez la boite d'édition du paramètre pour définir son type.
+end InterfaceUndefinedTypeParameter
+InterfaceUniqueHierarchy:
+Attention : l'interface %1 ne peut être référencée par plusieurs packages façade hiérarchiques. 
+end InterfaceUniqueHierarchy
+InternalFriendlyClass:
+Attention : la classe %1 n'est pas la classe principale de l'unité de compilation, elle n'est pas publique.
+end InternalFriendlyClass
+JDKBinaries:
+Les binaires du JDK ne sont pas accessibles. 
+end JDKBinaries
+JarFileNotAbsolutePath:
+Attention : le chemin du fichier Jar "%1" n'est pas un chemin absolu.
+end JarFileNotAbsolutePath
+NoAssDeclarationSrc:
+Aucun code n'a été trouvé pour l'association "%1" de la classe "%2" dans le fichier source Java.
+end NoAssDeclarationSrc
+NoAttDeclarationSrc:
+Aucun code n'a été trouvé pour l'attribut "%1" de la classe "%2" dans le fichier source Java.
+end NoAttDeclarationSrc
+NoFoundJavaSrcFile:
+Attention : Aucun fichier source pour la classe "%1". Les noms des paramètres ne seront pas reversés correctement.
+end NoFoundJavaSrcFile
+NoOperationSrc:
+Aucun code n'a été trouvé pour l'opération "%1" de la classe "%2" dans le fichier source Java.
+end NoOperationSrc
+NonFinalClassInheritance:
+Attention : la classe %1 ne peut hériter de la classe %2 qui est une classe finale. 
+end NonFinalClassInheritance
+NotForElementary:
+Cette commande ne peut être appliquée a une classe primitive.
+end NotForElementary
+NotForInterfaces:
+Cette commande ne peut être appliquée à une interface.  
+end NotForInterfaces
+NotForNonElementary:
+Cette commande ne peut être appliquée à une classe non-primitive.
+end NotForNonElementary
+ObjectNotFound:
+Attention : l'élément "%1" n'a pas été trouvé dans le modèle.
+end ObjectNotFound
+PluginPathNotDefined:
+Attention : le chemin de génération du plugin n'est pas défini.
+end PluginPathNotDefined
+PrePostOnClass:
+Attention : La contrainte pre-post condition de la classe %1 n'est pas prise en compte pour la génération Java.
+         Placez les constraintes pre-post conditions sur les opérations.
+end PrePostOnClass
+RetrieveBeforeGenerate:
+Remonter le code avant la génération
+end RetrieveBeforeGenerate
+SchemaNecessaryHierarchy:
+Attention : le package %1 doit être référencé par un package façade hiérarchique. 
+end SchemaNecessaryHierarchy
+SchemaUniqueHierarchy:
+Attention : le package %1 ne peut être référencé par plusieurs packages façade hiérarchiques. 
+end SchemaUniqueHierarchy
+SpecificStereotype:
+Attention : le stereotype %1 est spécifique à %2, l'information est donc perdue.
+end SpecificStereotype
+SpecificTaggedValue:
+Attention : la tagged value %1 est spécifique à %2, l'information est donc perdue.
+end SpecificTaggedValue
+SpecificTextType:
+Attention : le type de texte %1 est spécifique à %2, l'information est donc perdue.
+end SpecificTextType
+TextTypeUnknown:
+Le type de texte %1 n'est pas défini.
+end TextTypeUnknown
+VolatileFinalAttribute:
+Attention : L'attribut final %2 de la classe %1 ne peut être volatile.
+         Effacez la tagged value "JavaVolatile" 
+         ou décochez la case "Finale" en utilisant l'éditeur de propriétés Java de l'attribut "%2".
+end VolatileFinalAttribute
+Warning:
+Attention
+end Warning
+WarningObjOverrideRoundTrip:
+%1:
+Cette classe a été modifiée en dehors de Modelio.
+Continuer pourrait écraser ces modifications.
+end WarningObjOverrideRoundTrip
+addUseDeprecated:
+Attention : La méthode addUse(NameSpace) est obsolète. Veuillez utiliser la méthode addElementImport(NameSpace) ou la méthode addPackageImport(Package).
+end addUseDeprecated
+importsInComments:
+Attention : Le mot clé "import" a été trouvé dans une zone de commentaire.
+         Il ne sera pas pris en compte dans la note "JavaImport".
+end importsInComments
+invalidDestructorVisibility:
+Attention : Le destructeur '%1' doit être protégé. La visibilité définie dans le modèle sera ignorée lors de la génération.
+end invalidDestructorVisibility
+invalidStaticDestructor:
+Attention : Le destructeur '%1' ne peut pas être statique. Le mot clé 'static' ne sera pas généré.
+end invalidStaticDestructor
+invalidVisibilityInterfaceMethod:
+Attention : La méthode '%1' se trouve dans une interface. Sa visibilité doit etre publique. Tout autre visibilité sera ignorée lors de la génération.
+end invalidVisibilityInterfaceMethod
+ramc_no_jar_warning:
+Attention : Impossible de trouver le fichier %1 pour l'inclure dans le composant de modèle Java. 
+end ramc_no_jar_warning
+warnMultipleDocumentationNotes:
+Attention : Plus d'une note documentation a été générée pour le %2 "%1".
+               Seul la dernière sera utilisée pour générée la documentation Java (Javadoc).
+end warnMultipleDocumentationNotes
+warningAttributeOperation:
+Attention : Il y a une ambiguité entre l'attribut et l'opération avec le lien "%1".
+	 Aucun changement ne sera reporté pour cette ligne.
+end warningAttributeOperation

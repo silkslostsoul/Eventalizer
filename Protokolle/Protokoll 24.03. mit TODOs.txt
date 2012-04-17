@@ -1,0 +1,60 @@
+Bisherige Ergebnisse (Entwicklungstools, etc.) / Artefakte geklärt, abgesegnet :-)
+inkl. Versionierung
+
+Projektplanung vervollständigt
+Termine definiert
+Aufgaben verteilt
+
+Anforderungen näher besprochen (Szenarien / Use Cases - Modellierung anfangen)
+
+
+Einsatzkontext -> welche Geschäftsprozess, textuell, einsatz im Büro, etc.
+
+Produktperspektive = Projektexpose
+
+
+Produktschnittstelle -> immer, wenn kein menschlicher Akteur in einem Use Case auftaucht
+
+
+
+Qualitätsanforderungen -> dagegen das System nachher testen, muss prüfbar sein
+wie prüf ich diese anforderung
+
+bei bestimmten Anforderungen, Tätigkeiten, Aktivitäten muss die reaktionszeit unter 1 sekunde sein
+
+
+Beispiel (unbedingt vermeiden):
+In der Implementierung fehlen modellierte Dinge, etc. 
+(was vorher systematisch modelliert wurde, Entwurfsmodell)
+
+
+Bis 15 Uhr
+Idee für weiteres Vorgehen, Vorhaben und Architektur
+
+
+
+Proof of concept machen (bzgl. Architektur)
+	-> Java Anwendungsserver
+	-> Hibernate Datenbank
+	-> Nutzung des Spring-Roo Frameworks
+
+Szenarien / Use Case modellieren -> Aufteilung der Aufgaben
+Glossar erstellen
+
+
+Nach den Szenarien/Use Cases -> Datenmodell erstellen, Klassenmodell, Schnittstellen definieren, 
+evtl. Aktivitäts- und Interaktionsdiagramme
+
+Yeah, voll krass, machen nen heavy mock-up!!!
+
+
+
+
+
+
+Explizit schreiben, was wir nach RUP machen
+
+(alle Dokumente nach RUP, die Projektmanagement-Sachen sind, ignorieren/ egal)
+-> kein Visionsdokument, wird von Projekt-Expose mit abgedeckt
+
+-> Risikoabschätzung -> klein halten

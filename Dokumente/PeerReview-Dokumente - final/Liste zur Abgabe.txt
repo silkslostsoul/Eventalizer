@@ -1,0 +1,13 @@
+LH --> ein Bild fehlt nocht
+
+Domänenklassendiagramm
+Use Case
+Szenarien
+Glossar
+Unterzweig
+Mock Ups
+Risikoanalyse
+Wirtschaftlichkeitsbetrachtung
+Architektur
+Exposé
+Protokolle?? - eher nein

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_de_eventalizer_domain_Teilnahme" modelAttribute="teilnahme" path="/teilnahmes" versionField="Version" z="CA8WgZH/LqQGJkAr44k8wxG4kmo=">
+        <field:select field="teilnemer" id="c_de_eventalizer_domain_Teilnahme_teilnemer" itemValue="id" items="${benutzers}" path="/benutzers" z="UeC2hy02FRRDicvfSCEriR5V8DI="/>
+        <field:select field="bewertungen" id="c_de_eventalizer_domain_Teilnahme_bewertungen" itemValue="id" items="${bewertungs}" multiple="true" path="/bewertungs" z="7P7ZHlMQhvQtHO/2WO+l4zY1uRo="/>
+        <field:checkbox field="reserviert" id="c_de_eventalizer_domain_Teilnahme_reserviert" z="YiDKo2hrHji3Tjvalqck/AfKIUs="/>
+        <field:datetime dateTimePattern="${teilnahme_anmeldedatum_date_format}" field="anmeldeDatum" id="c_de_eventalizer_domain_Teilnahme_anmeldeDatum" z="XqFuAAPfv7aJUe/0n6cnJuRJIrU="/>
+        <field:datetime dateTimePattern="${teilnahme_zusagedatum_date_format}" field="zusageDatum" id="c_de_eventalizer_domain_Teilnahme_zusageDatum" z="k1+lwT9skipiAumq2YQmx8uUrkY="/>
+    </form:update>
+</div>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_de_eventalizer_domain_Benutzer" modelAttribute="benutzer" path="/benutzers" render="${empty dependencies}" z="wtheCt9sjPAY4eIYE1aYRifnitM=">
+        <field:input field="vorname" id="c_de_eventalizer_domain_Benutzer_vorname" z="qoWnMQRLFA7nH6umxpbxPulF75w="/>
+        <field:input field="nachname" id="c_de_eventalizer_domain_Benutzer_nachname" z="iG9UKDG9H5MUVodcEe/J4t7H3KA="/>
+        <field:input field="accountName" id="c_de_eventalizer_domain_Benutzer_accountName" z="pscVWWI0nP4PK8u4FZWe+Vs0A4k="/>
+        <field:input field="email" id="c_de_eventalizer_domain_Benutzer_email" validationMessageCode="field_invalid_email" z="I3llbnfQJNWlr/pQ7ke7ES1l00c="/>
+        <field:datetime dateTimePattern="${benutzer_geburtsdatum_date_format}" field="geburtsdatum" id="c_de_eventalizer_domain_Benutzer_geburtsdatum" z="59UnkDTU4KdldQIghFsi+gYu2xY="/>
+        <field:select field="freundesliste" id="c_de_eventalizer_domain_Benutzer_freundesliste" itemValue="id" items="${benutzers}" multiple="true" path="/benutzers" z="xPoq29mrNnopMJpj1dvIIYtI9NA="/>
+        <field:select field="blockierliste" id="c_de_eventalizer_domain_Benutzer_blockierliste" itemValue="id" items="${benutzers}" multiple="true" path="/benutzers" z="WbCogAkPX7PRGU3IMMVIHuUd8lk="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_de_eventalizer_domain_Benutzer" render="${not empty dependencies}" z="REX6Ls4IUZC5rFpCW3E/1L43t2w="/>
+</div>

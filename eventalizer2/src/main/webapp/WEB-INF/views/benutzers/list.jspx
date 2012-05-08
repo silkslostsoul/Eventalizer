@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_de_eventalizer_domain_Benutzer" items="${benutzers}" z="EKyCRg7cfhE2Ac/ymnHyVNPY6S4=">
+        <table:table data="${benutzers}" id="l_de_eventalizer_domain_Benutzer" path="/benutzers" z="o0yPOQDk0lBHd26UOlR/Nd9sgXg=">
+            <table:column id="c_de_eventalizer_domain_Benutzer_vorname" property="vorname" z="dIDexyPhJSXbnhEX3611EGmY5Oc="/>
+            <table:column id="c_de_eventalizer_domain_Benutzer_nachname" property="nachname" z="cRpH7PzgvyVPK2VkbNNn8Zb11C8="/>
+            <table:column id="c_de_eventalizer_domain_Benutzer_accountName" property="accountName" z="rP9BZmY12Fo7a/9qboazI2ora2k="/>
+            <table:column id="c_de_eventalizer_domain_Benutzer_email" property="email" z="MaM/neNFWHfx+uM81SdiThJB0hg="/>
+            <table:column date="true" dateTimePattern="${benutzer_geburtsdatum_date_format}" id="c_de_eventalizer_domain_Benutzer_geburtsdatum" property="geburtsdatum" z="y5f25aaW2hoFedy2r5mXqn4QwMY="/>
+            <table:column id="c_de_eventalizer_domain_Benutzer_freundesliste" property="freundesliste" z="RLq9l9Sfb4rNEQTf9mdp20KeAVs="/>
+        </table:table>
+    </page:list>
+</div>

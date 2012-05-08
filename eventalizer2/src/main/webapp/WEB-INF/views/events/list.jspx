@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_de_eventalizer_domain_Event" items="${events}" z="sjRF2jq7T9bIfaxLlA5vsCc8vt0=">
+        <table:table data="${events}" id="l_de_eventalizer_domain_Event" path="/events" z="zku+lih5BF+SEFP5WcuGl8/oUwM=">
+            <table:column id="c_de_eventalizer_domain_Event_titel" property="titel" z="ZGHEvieDQwdd1egDJTz6Pdu6elI="/>
+            <table:column id="c_de_eventalizer_domain_Event_beschreibung" property="beschreibung" z="PLz/++uoCaWNP25uWZ6hP8ToHnE="/>
+            <table:column id="c_de_eventalizer_domain_Event_preis" property="preis" z="49lSa6hJkqEta3th+AmeIE0IgR4="/>
+            <table:column id="c_de_eventalizer_domain_Event_minTeilnehmer" property="minTeilnehmer" z="noDzkkbVrM1V3nk5qxAgVnoX6a0="/>
+            <table:column id="c_de_eventalizer_domain_Event_maxTeilnehmer" property="maxTeilnehmer" z="DOBgcFgq4a8Yg7NZKx0syXeESbU="/>
+            <table:column date="true" dateTimePattern="${event_datum_date_format}" id="c_de_eventalizer_domain_Event_datum" property="datum" z="v+zzmPbLJlrano1euz9X3Y/gYAU="/>
+        </table:table>
+    </page:list>
+</div>

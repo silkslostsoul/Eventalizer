@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_de_eventalizer_domain_Ort" object="${ort}" path="/orts" z="PbouWWm/C+y+kInDXBVVgUP2qSw=">
+        <field:display field="bezeichnung" id="s_de_eventalizer_domain_Ort_bezeichnung" object="${ort}" z="Lz/5dBCYOVDo9fqqiKFv2JoD9As="/>
+        <field:display field="strasse" id="s_de_eventalizer_domain_Ort_strasse" object="${ort}" z="r5C8eTB7XlaIml/4fB1f0AV9GbQ="/>
+        <field:display field="hausnummer" id="s_de_eventalizer_domain_Ort_hausnummer" object="${ort}" z="ACJXYIaLbDIJs7gv2RnTVfClL6M="/>
+        <field:display field="postleitzahl" id="s_de_eventalizer_domain_Ort_postleitzahl" object="${ort}" z="gIApVVIlRJmo4kbG6twVLg9ggmI="/>
+        <field:display field="ortsname" id="s_de_eventalizer_domain_Ort_ortsname" object="${ort}" z="uG+tWTl4s1n7rQwy0IeKFZzv3NE="/>
+        <field:display field="latitude" id="s_de_eventalizer_domain_Ort_latitude" object="${ort}" z="LBIuZDXQ1RxHDhf+lRQCN06NKw4="/>
+        <field:display field="longitude" id="s_de_eventalizer_domain_Ort_longitude" object="${ort}" z="7bJoMM9veNKW3WgUS/4gn6D9uE4="/>
+    </page:show>
+</div>

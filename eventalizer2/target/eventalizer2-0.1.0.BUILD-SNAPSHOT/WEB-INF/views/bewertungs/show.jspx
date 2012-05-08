@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_de_eventalizer_domain_Bewertung" object="${bewertung}" path="/bewertungs" z="7316MGpjC7QcsFSVoJcgVEP8Vso=">
+        <field:display field="bewerter" id="s_de_eventalizer_domain_Bewertung_bewerter" object="${bewertung}" z="WOOIOzM2aMOPrxFyJDYH416rAz0="/>
+        <field:display field="score" id="s_de_eventalizer_domain_Bewertung_score" object="${bewertung}" z="ruP9tgKqqXwrWinNaMe6Yw1/QBs="/>
+        <field:display field="kommentar" id="s_de_eventalizer_domain_Bewertung_kommentar" object="${bewertung}" z="gZ2S4YO6K+BAcH9NEw6Qt5l5sek="/>
+    </page:show>
+</div>

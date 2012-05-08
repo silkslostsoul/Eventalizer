@@ -1,0 +1,12 @@
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2012-05-08 22:52:16
+project --topLevelPackage de.eventalier --projectName eventalizer2 --java 6 --packaging JAR
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log closed at 2012-05-08 22:52:20
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2012-05-08 22:52:56
+jpa setup --database HYPERSONIC_IN_MEMORY --provider HIBERNATE 
+entity jpa --class de.eventalier.domain.event
+field string name
+web mvc setup 
+web mvc all --package ~.web
+security setup
+web mvc all --package de.eventalizer.web
+perform package

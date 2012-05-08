@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_de_eventalizer_domain_Ort" modelAttribute="ort" path="/orts" versionField="Version" z="LyNZDBccrfdziOKAXlwhhrLnuos=">
+        <field:input field="bezeichnung" id="c_de_eventalizer_domain_Ort_bezeichnung" z="mr/iGQu7vDvXjECscw9QDE/Cv58="/>
+        <field:input field="strasse" id="c_de_eventalizer_domain_Ort_strasse" z="HzHPqgejV7rqJm4UYNHhlmG1hMs="/>
+        <field:input field="hausnummer" id="c_de_eventalizer_domain_Ort_hausnummer" z="iVlnI1Cg/ECkavj4FS4kQMEMPnI="/>
+        <field:input field="postleitzahl" id="c_de_eventalizer_domain_Ort_postleitzahl" z="cYqtei0+/l39fEtf0n6ONJbNhMg="/>
+        <field:input field="ortsname" id="c_de_eventalizer_domain_Ort_ortsname" z="RodKECxJF7Ok6m8m5g5bXkYn+yg="/>
+        <field:input field="latitude" id="c_de_eventalizer_domain_Ort_latitude" validationMessageCode="field_invalid_integer" z="Bnz2q0+AOU/rQrImb/UwfYAruYw="/>
+        <field:input field="longitude" id="c_de_eventalizer_domain_Ort_longitude" validationMessageCode="field_invalid_integer" z="QCzlTCd0eIYgh5stVkoksuyAd0g="/>
+    </form:update>
+</div>

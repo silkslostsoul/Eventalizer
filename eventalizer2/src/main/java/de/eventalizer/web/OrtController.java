@@ -1,0 +1,12 @@
+package de.eventalizer.web;
+
+import de.eventalizer.domain.Ort;
+import org.springframework.roo.addon.web.mvc.controller.scaffold.RooWebScaffold;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@RequestMapping("/orts")
+@Controller
+@RooWebScaffold(path = "orts", formBackingObject = Ort.class)
+public class OrtController {
+}

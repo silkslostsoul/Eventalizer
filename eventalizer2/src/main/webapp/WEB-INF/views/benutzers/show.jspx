@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_de_eventalizer_domain_Benutzer" object="${benutzer}" path="/benutzers" z="GJ+WRcpjg2tX/yBBnefXuM5JegA=">
+        <field:display field="vorname" id="s_de_eventalizer_domain_Benutzer_vorname" object="${benutzer}" z="4oBB4XGO7m8qqIjSm3iatV4Y8TQ="/>
+        <field:display field="nachname" id="s_de_eventalizer_domain_Benutzer_nachname" object="${benutzer}" z="gCJvtAxxwDviuKlTQUxzuWbF5Y8="/>
+        <field:display field="accountName" id="s_de_eventalizer_domain_Benutzer_accountName" object="${benutzer}" z="4jS7GcqMlFXirb+m6m3oa3eKDWI="/>
+        <field:display field="email" id="s_de_eventalizer_domain_Benutzer_email" object="${benutzer}" z="FaToDUO2DRsfJ/NqQN0NZpw1NO0="/>
+        <field:display date="true" dateTimePattern="${benutzer_geburtsdatum_date_format}" field="geburtsdatum" id="s_de_eventalizer_domain_Benutzer_geburtsdatum" object="${benutzer}" z="Fw/o2GXxdwKoiyY+PQ30fLdGETE="/>
+        <field:display field="freundesliste" id="s_de_eventalizer_domain_Benutzer_freundesliste" object="${benutzer}" z="XeL/X8bYGcq3KGWxWByr7MklG18="/>
+        <field:display field="blockierliste" id="s_de_eventalizer_domain_Benutzer_blockierliste" object="${benutzer}" z="IbiYIiF+KuWFh2l8C4hoRWnCy3o="/>
+    </page:show>
+</div>

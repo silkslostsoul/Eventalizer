@@ -10,7 +10,7 @@
         <text>Benutzername%3A</text>
       </controlProperties>
     </control>
-    <control controlID="38" controlTypeID="com.balsamiq.mockups::TextInput" x="450" y="213" w="-1" h="-1" measuredW="79" measuredH="27" zOrder="2" locked="false" isInGroup="-1">
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::TextInput" x="450" y="213" w="119" h="-1" measuredW="79" measuredH="27" zOrder="2" locked="false" isInGroup="-1">
       <controlProperties>
         <text/>
       </controlProperties>
@@ -20,7 +20,7 @@
         <text>Passwort%3A</text>
       </controlProperties>
     </control>
-    <control controlID="40" controlTypeID="com.balsamiq.mockups::TextInput" x="450" y="249" w="-1" h="-1" measuredW="79" measuredH="27" zOrder="4" locked="false" isInGroup="-1">
+    <control controlID="40" controlTypeID="com.balsamiq.mockups::TextInput" x="450" y="249" w="119" h="-1" measuredW="79" measuredH="27" zOrder="4" locked="false" isInGroup="-1">
       <controlProperties>
         <text/>
       </controlProperties>
@@ -37,16 +37,21 @@
         <text>Twitter</text>
       </controlProperties>
     </control>
-    <control controlID="44" controlTypeID="com.balsamiq.mockups::TextInput" x="544" y="288" w="25" h="-1" measuredW="23" measuredH="27" zOrder="7" locked="false" isInGroup="-1">
+    <control controlID="43" controlTypeID="com.balsamiq.mockups::TextInput" x="544" y="288" w="25" h="-1" measuredW="23" measuredH="27" zOrder="7" locked="false" isInGroup="-1">
       <controlProperties>
         <color>13369344</color>
         <text>...</text>
       </controlProperties>
     </control>
-    <control controlID="45" controlTypeID="com.balsamiq.mockups::Label" x="389" y="169" w="161" h="32" measuredW="120" measuredH="33" zOrder="8" locked="false" isInGroup="-1">
+    <control controlID="44" controlTypeID="com.balsamiq.mockups::Label" x="389" y="169" w="161" h="32" measuredW="120" measuredH="33" zOrder="8" locked="false" isInGroup="-1">
       <controlProperties>
         <size>24</size>
         <text>Anmeldung</text>
+      </controlProperties>
+    </control>
+    <control controlID="45" controlTypeID="com.balsamiq.mockups::Button" x="426" y="330" w="-1" h="-1" measuredW="135" measuredH="27" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Passwort%20anfordern</text>
       </controlProperties>
     </control>
   </controls>

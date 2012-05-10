@@ -1,0 +1,31 @@
+<mockup version="1.0" skin="sketch" measuredW="905" measuredH="600" mockupW="800" mockupH="600">
+  <controls>
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="105" y="0" w="800" h="600" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Eventalizer%20-%20Nachrichten%FCbersicht</text>
+      </controlProperties>
+    </control>
+    <control controlID="44" controlTypeID="com.balsamiq.mockups::Label" x="413" y="164" w="222" h="32" measuredW="222" measuredH="33" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>24</size>
+        <text>Nachrichten%FCbersicht</text>
+      </controlProperties>
+    </control>
+    <control controlID="45" controlTypeID="com.balsamiq.mockups::Button" x="540" y="334" w="-1" h="-1" measuredW="169" measuredH="27" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Markierte%20Nachricht%20lesen</text>
+      </controlProperties>
+    </control>
+    <control controlID="48" controlTypeID="com.balsamiq.mockups::Button" x="340" y="334" w="-1" h="-1" measuredW="182" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Markierte%20Nachricht%20l%F6schen</text>
+      </controlProperties>
+    </control>
+    <control controlID="49" controlTypeID="com.balsamiq.mockups::VerticalScrollBar" x="724" y="204" w="-1" h="114" measuredW="16" measuredH="100" zOrder="4" locked="false" isInGroup="-1"/>
+    <control controlID="50" controlTypeID="com.balsamiq.mockups::DataGrid" x="340" y="204" w="-1" h="-1" measuredW="369" measuredH="115" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Absender%20%5Ev%2C%20Betreff%20%5Ev%2C%20Gelesen%0AFritz%2C%20Wichtig%21%2C%20%5Bx%5D%0AWalter%2C%20N%E4chstes%20Wochenende%20Kartfahren%3F%2C%20%5Bx%5D%0ASarah%2C%20Tanzkurs%2C%20%5Bx%5D%0A%7B25L%2C%2065%2C%200C%7D</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

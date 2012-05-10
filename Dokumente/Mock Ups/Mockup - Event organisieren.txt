@@ -11,7 +11,7 @@
         <text>Event%20organisieren</text>
       </controlProperties>
     </control>
-    <control controlID="48" controlTypeID="com.balsamiq.mockups::Button" x="618" y="442" w="-1" h="-1" measuredW="106" measuredH="27" zOrder="2" locked="false" isInGroup="-1">
+    <control controlID="48" controlTypeID="com.balsamiq.mockups::Button" x="236" y="442" w="-1" h="-1" measuredW="106" measuredH="27" zOrder="2" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Event%20anlegen</text>
       </controlProperties>
@@ -124,6 +124,26 @@
     <control controlID="74" controlTypeID="com.balsamiq.mockups::DateChooser" x="618" y="212" w="107" h="-1" measuredW="90" measuredH="25" zOrder="24" locked="false" isInGroup="-1">
       <controlProperties>
         <text>%20%20/%20%20/%20%20%20%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="75" controlTypeID="com.balsamiq.mockups::Button" x="560" y="442" w="-1" h="-1" measuredW="121" measuredH="27" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Event%20best%E4tigen</text>
+      </controlProperties>
+    </control>
+    <control controlID="78" controlTypeID="com.balsamiq.mockups::Label" x="521" y="445" w="32" h="21" measuredW="33" measuredH="21" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>bzw.</text>
+      </controlProperties>
+    </control>
+    <control controlID="79" controlTypeID="com.balsamiq.mockups::Button" x="396" y="442" w="-1" h="-1" measuredW="110" measuredH="27" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Event%20absagen</text>
+      </controlProperties>
+    </control>
+    <control controlID="80" controlTypeID="com.balsamiq.mockups::Label" x="358" y="445" w="38" h="21" measuredW="33" measuredH="21" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>bzw.</text>
       </controlProperties>
     </control>
   </controls>

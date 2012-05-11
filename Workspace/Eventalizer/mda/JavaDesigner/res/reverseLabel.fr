@@ -1,0 +1,99 @@
+GeneralizationEmpty:
+Un lien de généralisation n'est pas correctement défini.
+end GeneralizationEmpty
+ImpossibleCreation_RamcObject:
+Erreur : l’élément "%2" fait partie d’un composant de modèle. L’élément "%1" ne peut pas être créé.
+end ImpossibleCreation_RamcObject
+ImpossibleCreation_ReadOnlyObject:
+Erreur : l’élément "%2" est en lecture seule. L’élément "%1" ne peut pas être créé.
+Veuillez prendre en modification l’élément "%2" et relancez la commande.
+end ImpossibleCreation_ReadOnlyObject
+MovedAssociationEnd:
+Information : l'association "%1" est déplacée dans le classifier "%2".
+end MovedAssociationEnd
+MovedAttribute:
+Information : l'attribut "%1" est déplacé dans le classifier "%2".
+end MovedAttribute
+MovedClass:
+Information : la classe "%1" est déplacée dans "%2".
+end MovedClass
+MovedEnumeration:
+Information : l'énuméré "%1" est déplacée dans "%2".
+end MovedEnumeration
+MovedInterface:
+Information : l'interface "%1" est déplacée dans "%2".
+end MovedInterface
+MovedOperation:
+Information : l'opération "%1" est déplacée dans le classifier "%2".
+end MovedOperation
+ReadOnlyElementChange:
+Une %2 "%1" ne peut être créée sur la %4 "%3".
+Vérifiez que le %4 "%3" n'est pas en lecture seule.
+end ReadOnlyElementChange
+ReadOnlyPropertyChange:
+La propriété "%1" de la %3 "%2" ne peut être modifiée.
+Vérifiez que le %3 "%2" n'est pas en lecture seule..
+end ReadOnlyPropertyChange
+RenamedAssociationEnd:
+Information : l'association "%1" est renommée en "%2".
+end RenamedAssociationEnd
+RenamedAttribute:
+Information : l'attribut "%1" est renommé en "%2".
+end RenamedAttribute
+RenamedClass:
+Information : la classe "%1" est renommée en "%2".
+end RenamedClass
+RenamedEnumeration:
+Information : l'énuméré "%1" est renommé "%2".
+end RenamedEnumeration
+RenamedInterface:
+Information : l'interface "%1" est renommée en "%2".
+end RenamedInterface
+RenamedOperation:
+Information : l'opération "%1" est renommée en "%2".
+end RenamedOperation
+UnknownStereotype:
+Stereotype %1 inconnu sur la metaclass %2
+end UnknownStereotype
+centDone:
+Terminé à 100% à : %1
+end centDone
+done:
+Terminé.
+end done
+executionDone:
+Exécution terminée, status=%1.
+end executionDone
+executionError:
+Erreur d'exécution : %1.
+end executionError
+getClassFromFullNameNotAClasslass:
+En cherchant une classe nommée %1, %2 a été trouvé.
+end getClassFromFullNameNotAClasslass
+invalidReportList:
+Fichier XML invalide au niveau des tags report-list.
+end invalidReportList
+invalidTagModel:
+Fichier XML invalide au niveau des tags du modèle.
+end invalidTagModel
+invalidTagReversedData:
+Fichier XML invalide au niveau des tags reversed-data.
+end invalidTagReversedData
+launchCommandLine:
+Lancement : %1
+end launchCommandLine
+reportreverseboxtitle:
+Rapport du reverse
+end reportreverseboxtitle
+startCodeAnalysis:
+Début de l'analyse de code à : %1...
+end startCodeAnalysis
+startModelConstruction:
+Début de la construction du modèle à : %1...
+end startModelConstruction
+startNormalization:
+Début de la normalisation du modèle à : %1...
+end startNormalization
+xmlError:
+Erreur dans le fichier XML, la tag %2 a été trouvée sous %1.
+end xmlError

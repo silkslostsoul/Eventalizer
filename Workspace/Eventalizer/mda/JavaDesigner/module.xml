@@ -1,0 +1,417 @@
+<module uid="003800a8-0000-022e-0000-000000000000" name="JavaDesigner" class="com.modeliosoft.modelio.javadesigner.impl.JavaDesignerMdac" version = "2.0.14.8006" binaryversion = "2.1.00.8008" licenseRequired = "false">
+  <classpath>
+      <entry path = "lib/JavaDesigner.jar"/>
+      <entry path = "lib/antlr.jar"/>
+      <entry path = "lib/log4j-1.2.8.jar"/>
+      <entry path = "lib/ReverseCore.jar"/>
+  </classpath>
+  <profile uid="25801104-0000-1069-0000-000000000000" name="JavaExtensions" >
+      <anonymous-stereotype uid="258010dc-0000-006d-0000-000000000000"  metaclass="AssociationEnd" >
+              <notetype uid="00380080-0000-0994-0000-000000000000" name="JavaInitValue" label="Initial value" is-hidden="false" />
+              <notetype uid="eb8c06dc-0000-0fac-0000-000000000000" name="JavaInitValueComment" label="Comment on the initial value" is-hidden="false" />
+              <taggedvalues uid="eb8c1900-000f-68b5-0000-000000000000" name="JavaArrayDimension" label="Array Dimension" parameter-card="1" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="000c0b48-0000-38f9-0000-000000000000" name="JavaBind" label="Bind" parameter-card="*" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="003800a8-0000-0180-0000-000000000000" name="JavaFinal" label="Final" parameter-card="0" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="01241558-0000-18e5-0000-000000000000" name="JavaFullName" label="Generate full name" parameter-card="0" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="000c11e0-0000-5a73-0000-000000000000" name="JavaImplementationType" label="Collection implementation type" parameter-card="1" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="003800a8-0000-0183-0000-000000000000" name="JavaTransient" label="Transient" parameter-card="0" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="003800a8-0000-0187-0000-000000000000" name="JavaTypeExpr" label="Manual type expression" parameter-card="1" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="003800a8-0000-0182-0000-000000000000" name="JavaVolatile" label="Volatile" parameter-card="0" is-hidden="false" is-signed="false" />
+      </anonymous-stereotype>
+      <anonymous-stereotype uid="258010dc-0000-00b7-0000-000000000000"  metaclass="Attribute" >
+              <notetype uid="eb8c06dc-0000-0f67-0000-000000000000" name="JavaInitValueComment" label="Comment after initial value" is-hidden="false" />
+              <taggedvalues uid="eb8c1900-000f-68b7-0000-000000000000" name="JavaArrayDimension" label="Array Dimension" parameter-card="1" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="000c11e0-0000-5cc8-0000-000000000000" name="JavaBind" label="Bind" parameter-card="*" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="003800a8-0000-0161-0000-000000000000" name="JavaFinal" label="Final" parameter-card="0" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="01241558-0000-18e3-0000-000000000000" name="JavaFullName" label="Generate full name" parameter-card="0" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="000c11e0-0000-5747-0000-000000000000" name="JavaImplementationType" label="Collection implementation type" parameter-card="1" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="003800a8-0000-0164-0000-000000000000" name="JavaTransient" label="Transient" parameter-card="0" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="003800a8-0000-0165-0000-000000000000" name="JavaTypeExpr" label="Manual type expression" parameter-card="1" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="003800a8-0000-0163-0000-000000000000" name="JavaVolatile" label="Volatile" parameter-card="0" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="007c081c-0000-2726-0000-000000000000" name="JavaWrapper" label="Use wrapped type" parameter-card="0" is-hidden="false" is-signed="false" />
+      </anonymous-stereotype>
+      <anonymous-stereotype uid="258010dc-0000-01e7-0000-000000000000"  metaclass="Dependency" >
+              <notetype uid="01240268-0000-00de-0000-000000000000" name="SeeJavadoc" label="See Javadoc" is-hidden="false" />
+      </anonymous-stereotype>
+      <anonymous-stereotype uid="258010dc-0000-05f1-0000-000000000000"  metaclass="ElementImport" >
+              <notetype uid="01240268-0000-004f-0000-000000000000" name="Javadoc" label="Javadoc" is-hidden="false" />
+              <taggedvalues uid="eb8c1900-0001-02c2-0000-000000000000" name="JavaFullName" label="Generate full name" parameter-card="0" is-hidden="false" is-signed="false" />
+      </anonymous-stereotype>
+      <anonymous-stereotype uid="00d007fc-0003-d4af-0000-000000000000"  metaclass="EnumerationLiteral" >
+              <notetype uid="01ec24cc-0000-0159-0000-000000000000" name="JavaAnnotation" label="Annotations" is-hidden="false" />
+              <notetype uid="00d00c6c-0000-bbb9-0000-000000000000" name="JavaCode" label="Code" is-hidden="false" />
+              <notetype uid="00d007fc-0003-d694-0000-000000000000" name="Javadoc" label="Javadoc" is-hidden="false" />
+              <taggedvalues uid="010c4ccc-0001-9137-0000-000000000000" name="JavaArguments" label="Arguments" parameter-card="*" is-hidden="false" is-signed="false" />
+      </anonymous-stereotype>
+      <anonymous-stereotype uid="258010dc-0000-020f-0000-000000000000"  metaclass="Feature" >
+              <notetype uid="000c0b48-0000-3aa1-0000-000000000000" name="JavaAnnotation" label="Annotations" is-hidden="false" />
+              <notetype uid="003800a8-0000-015f-0000-000000000000" name="Javadoc" label="Javadoc" is-hidden="false" />
+              <taggedvalues uid="003800a8-0000-019d-0000-000000000000" name="JavaName" label="Name redefinition" parameter-card="1" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="00d007fc-0003-bf52-0000-000000000000" name="JavaNoInitValue" label="No initial value" parameter-card="0" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="00380080-0000-14c4-0000-000000000000" name="JavaNoInvariant" label="Ignore invariants" parameter-card="0" is-hidden="false" is-signed="false" />
+      </anonymous-stereotype>
+      <anonymous-stereotype uid="258010dc-0000-0264-0000-000000000000"  metaclass="Generalization" >
+              <taggedvalues uid="00d007fc-0001-baee-0000-000000000000" name="JavaBind" label="Bind" parameter-card="*" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="01241558-0000-18b7-0000-000000000000" name="JavaFullName" label="Generate full name" parameter-card="0" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="000c1728-0005-7258-0000-000000000000" name="JavaNoCode" label="Do not generate" parameter-card="0" is-hidden="false" is-signed="false" />
+      </anonymous-stereotype>
+      <anonymous-stereotype uid="258010dc-0000-05bf-0000-000000000000"  metaclass="InterfaceRealization" >
+              <taggedvalues uid="00d007fc-0001-baf3-0000-000000000000" name="JavaBind" label="Bind" parameter-card="*" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="01241558-0000-18ba-0000-000000000000" name="JavaFullName" label="Generate full name" parameter-card="0" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="000c1728-0005-725a-0000-000000000000" name="JavaNoCode" label="Do not generate" parameter-card="0" is-hidden="false" is-signed="false" />
+      </anonymous-stereotype>
+      <anonymous-stereotype uid="00d01054-0001-1627-0000-000000000000"  metaclass="ModelElement" >
+              <taggedvalues uid="01ec1b44-0000-14c4-0000-000000000000" name="JavaLastGenerated" label="Last generated" parameter-card="1" is-hidden="true" is-signed="false" />
+              <taggedvalues uid="00d011d0-0000-041f-0000-000000000000" name="JavaNoCode" label="Do not generate" parameter-card="0" is-hidden="true" is-signed="false" />
+      </anonymous-stereotype>
+      <anonymous-stereotype uid="258010dc-0000-04d6-0000-000000000000"  metaclass="Operation" >
+              <notetype uid="003800a8-0000-018f-0000-000000000000" name="JavaSuper" label="Super" is-hidden="false" />
+              <notetype uid="003800a8-0000-018e-0000-000000000000" name="JavaCode" label="Code" is-hidden="false" />
+              <notetype uid="003800a8-0000-0190-0000-000000000000" name="JavaReturned" label="Return code" is-hidden="false" />
+              <taggedvalues uid="003800a8-0000-017d-0000-000000000000" name="JavaNative" label="Native" parameter-card="0" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="0080045c-0000-90fd-0000-000000000000" name="JavaStrict" label="Strict" parameter-card="0" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="003800a8-0000-017b-0000-000000000000" name="JavaSynchronized" label="Synchronized" parameter-card="0" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="000c0b48-0000-39d8-0000-000000000000" name="JavaTemplateParameters" label="Template parameters" parameter-card="*" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="003800a8-0000-017c-0000-000000000000" name="JavaThrownException" label="Thrown exceptions" parameter-card="*" is-hidden="false" is-signed="false" />
+      </anonymous-stereotype>
+      <anonymous-stereotype uid="258010dc-0000-0575-0000-000000000000"  metaclass="Parameter" >
+              <notetype uid="000c0b48-0000-3ab0-0000-000000000000" name="JavaAnnotation" label="Annotations" is-hidden="false" />
+              <notetype uid="01240268-0000-0044-0000-000000000000" name="Javadoc" label="Javadoc" is-hidden="false" />
+              <taggedvalues uid="eb8c1900-000f-68b9-0000-000000000000" name="JavaArrayDimension" label="Array Dimension" parameter-card="1" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="000c0b48-0000-3970-0000-000000000000" name="JavaBind" label="Bind" parameter-card="*" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="eb8c1900-000a-b31d-0000-000000000000" name="JavaFinal" label="Final" parameter-card="0" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="01241558-0000-18e7-0000-000000000000" name="JavaFullName" label="Generate full name" parameter-card="0" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="00380080-0000-01a4-0000-000000000000" name="JavaTypeExpr" label="Manual type expression" parameter-card="1" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="000c0b48-0000-3abe-0000-000000000000" name="JavaVarArgs" label="Is a VarArg" parameter-card="0" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="007c081c-0000-272a-0000-000000000000" name="JavaWrapper" label="Use wrapped type" parameter-card="0" is-hidden="false" is-signed="false" />
+      </anonymous-stereotype>
+      <anonymous-stereotype uid="ccc1df05-0464-11e0-b652-002564c97630"  metaclass="RaisedException" >
+              <notetype uid="d4d66828-0464-11e0-b652-002564c97630" name="Javadoc" label="Javadoc" is-hidden="false" />
+      </anonymous-stereotype>
+      <anonymous-stereotype uid="010c4ccc-0001-ca9a-0000-000000000000"  metaclass="TemplateParameter" >
+              <taggedvalues uid="010c4ccc-0001-cdcc-0000-000000000000" name="JavaExtends" label="Extends" parameter-card="1" is-hidden="false" is-signed="false" />
+      </anonymous-stereotype>
+      <stereotype uid="00c80378-0000-01c6-0000-000000000000" name="JarFile" label="Jar File" metaclass="Artifact" is-hidden="false">
+          <icons>
+              <small path="JavaDesigner/res/bmp/jarfile.png" />
+              <explorer path="JavaDesigner/res/bmp/jarfile.png" />
+              <diagram path="JavaDesigner/res/bmp/jarfile48.png" />
+          </icons>
+              <notetype uid="00c80378-0000-7792-0000-000000000000" name="AntTarget" label="Ant Target" is-hidden="false" />
+              <taggedvalues uid="00d0068c-0000-03a8-0000-000000000000" name="AntFilePath" label="Ant file path" parameter-card="1" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="00d00c6c-0000-0b90-0000-000000000000" name="JavaMainClass" label="Main class" parameter-card="1" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="01ec2cc0-0000-0108-0000-000000000000" name="JavaSourcesPath" label="Generation path" parameter-card="1" is-hidden="false" is-signed="false" />
+      </stereotype>
+      <stereotype uid="000c0b48-0000-3a00-0000-000000000000" name="JavaAnnotation" label="Annotation" metaclass="Class" is-hidden="false">
+          <icons>
+              <small path="" />
+              <explorer path="" />
+              <diagram path="" />
+          </icons>
+              <taggedvalues uid="000c0b48-0000-3a59-0000-000000000000" name="JavaDocumentedAnnotation" label="Documented Annotation" parameter-card="0" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="000c0b48-0000-3a5b-0000-000000000000" name="JavaInheritedAnnotation" label="Inherited Annotation" parameter-card="0" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="000c0b48-0000-3a5d-0000-000000000000" name="JavaRetentionAnnotation" label="Retention Annotation" parameter-card="1" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="000c0b48-0000-3a5f-0000-000000000000" name="JavaTargetAnnotation" label="Target Annotation" parameter-card="*" is-hidden="false" is-signed="false" />
+      </stereotype>
+      <stereotype uid="a9eb2fd3-17fe-11e0-a45a-002564c97630" name="JavaAssociationEndProperty" label="JavaProperty" metaclass="AssociationEnd" is-hidden="false">
+          <icons>
+              <small path="JavaDesigner/res/bmp/associationend_property.png" />
+              <explorer path="JavaDesigner/res/bmp/associationend_property.png" />
+              <diagram path="JavaDesigner/res/bmp/associationend_property.png" />
+          </icons>
+              <taggedvalues uid="47c9d3eb-18ba-11e0-ae4e-002564c97630" name="JavaGetterVisibility" label="Getter visibility" parameter-card="1" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="47c9d3ea-18ba-11e0-ae4e-002564c97630" name="JavaSetterVisibility" label="Setter visibility" parameter-card="1" is-hidden="false" is-signed="false" />
+      </stereotype>
+      <stereotype uid="a9808723-17fe-11e0-a45a-002564c97630" name="JavaAttributeProperty" label="JavaProperty" metaclass="Attribute" is-hidden="false">
+          <icons>
+              <small path="JavaDesigner/res/bmp/attribute_property.png" />
+              <explorer path="JavaDesigner/res/bmp/attribute_property.png" />
+              <diagram path="JavaDesigner/res/bmp/attribute_property.png" />
+          </icons>
+              <taggedvalues uid="3ff7dd1d-18ba-11e0-ae4e-002564c97630" name="JavaGetterVisibility" label="Getter visibility" parameter-card="1" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="4161b1ac-18ba-11e0-ae4e-002564c97630" name="JavaSetterVisibility" label="Setter visibility" parameter-card="1" is-hidden="false" is-signed="false" />
+      </stereotype>
+      <stereotype uid="01ec1b44-0000-2111-0000-000000000000" name="JavaComponent" label="Java Component" metaclass="Component" is-hidden="false">
+          <icons>
+              <small path="JavaDesigner/res/bmp/java.png" />
+              <explorer path="JavaDesigner/res/bmp/component.png" />
+              <diagram path="" />
+          </icons>
+              <taggedvalues uid="01ec1b44-0000-2119-0000-000000000000" name="GenerationPath" label="Generation path" parameter-card="1" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="ae7ba76c-3e95-11e0-8fc3-002564c97630" name="CopyrightFile" label="Top file" parameter-card="1" is-hidden="false" is-signed="false" />
+      </stereotype>
+      <stereotype uid="01ec23a8-0000-0258-0000-000000000000" name="JavaClass" label="Java Class" metaclass="Class" is-hidden="false">
+          <icons>
+              <small path="JavaDesigner/res/bmp/java.png" />
+              <explorer path="JavaDesigner/res/bmp/class.png" />
+              <diagram path="" />
+          </icons>
+              <notetype uid="01840500-0000-a2a0-0000-000000000000" name="JavaTop" label="Top" is-hidden="false" />
+              <notetype uid="003800a8-0000-015d-0000-000000000000" name="Javadoc" label="Javadoc" is-hidden="false" />
+              <notetype uid="000c0b48-0000-3a6f-0000-000000000000" name="JavaAnnotation" label="Annotations" is-hidden="false" />
+              <notetype uid="003800a8-0000-015a-0000-000000000000" name="JavaHeader" label="Header" is-hidden="false" />
+              <notetype uid="003800a8-0000-015b-0000-000000000000" name="JavaMembers" label="Members" is-hidden="false" />
+              <notetype uid="003800a8-0000-015c-0000-000000000000" name="JavaBottom" label="Bottom" is-hidden="false" />
+              <taggedvalues uid="003800a8-0000-0158-0000-000000000000" name="JavaName" label="Name redefinition" parameter-card="1" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="003800a8-0000-0154-0000-000000000000" name="JavaExtends" label="Extends" parameter-card="1" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="003800a8-0000-0157-0000-000000000000" name="JavaExtern" label="Extern" parameter-card="0" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="003800a8-0000-0156-0000-000000000000" name="JavaImplements" label="Implements" parameter-card="*" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="003800a8-0000-0155-0000-000000000000" name="JavaImport" label="Imports" parameter-card="*" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="007c081c-0000-1af9-0000-000000000000" name="JavaStatic" label="Static" parameter-card="0" is-hidden="false" is-signed="false" />
+      </stereotype>
+      <stereotype uid="01ec23a8-0000-025d-0000-000000000000" name="JavaDataType" label="Java DataType" metaclass="DataType" is-hidden="false">
+          <icons>
+              <small path="JavaDesigner/res/bmp/java.png" />
+              <explorer path="JavaDesigner/res/bmp/datatype.png" />
+              <diagram path="" />
+          </icons>
+              <notetype uid="01240464-0000-0073-0000-000000000000" name="JavaHeader" label="Header" is-hidden="false" />
+              <notetype uid="01240464-0000-0075-0000-000000000000" name="Javadoc" label="Javadoc" is-hidden="false" />
+              <notetype uid="01240464-0000-00f4-0000-000000000000" name="JavaMembers" label="Members" is-hidden="false" />
+              <taggedvalues uid="007c037c-0000-000c-0000-000000000000" name="JavaName" label="Name redefinition" parameter-card="1" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="01240464-0000-006b-0000-000000000000" name="JavaExtends" label="Extends" parameter-card="1" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="01240464-0000-006d-0000-000000000000" name="JavaExtern" label="Extern" parameter-card="0" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="01240464-0000-0067-0000-000000000000" name="JavaImport" label="Imports" parameter-card="*" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="01240464-0000-006f-0000-000000000000" name="JavaStatic" label="Static" parameter-card="0" is-hidden="false" is-signed="false" />
+      </stereotype>
+      <stereotype uid="007c081c-0000-0251-0000-000000000000" name="JavaDocInvariant" label="Javadoc Invariant" metaclass="Constraint" is-hidden="false">
+          <icons>
+              <small path="" />
+              <explorer path="" />
+              <diagram path="" />
+          </icons>
+      </stereotype>
+      <stereotype uid="01ec23a8-0000-0262-0000-000000000000" name="JavaEnumeration" label="Java Enumeration" metaclass="Enumeration" is-hidden="false">
+          <icons>
+              <small path="JavaDesigner/res/bmp/java.png" />
+              <explorer path="JavaDesigner/res/bmp/enumeration.png" />
+              <diagram path="" />
+          </icons>
+              <notetype uid="01ec24cc-0000-0154-0000-000000000000" name="JavaAnnotation" label="Annotations" is-hidden="false" />
+              <notetype uid="00d007fc-0001-e06d-0000-000000000000" name="JavaCode" label="Code" is-hidden="false" />
+              <notetype uid="000c11e0-0000-5bb9-0000-000000000000" name="Javadoc" label="Javadoc" is-hidden="false" />
+              <notetype uid="288a17df-dc2b-11df-bd5c-002564c97630" name="JavaTop" label="Top" is-hidden="false" />
+              <notetype uid="288a17e0-dc2b-11df-bd5c-002564c97630" name="JavaBottom" label="Bottom" is-hidden="false" />
+              <taggedvalues uid="00d007fc-0001-e072-0000-000000000000" name="JavaImplements" label="Implements" parameter-card="*" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="01ec24fc-0000-0203-0000-000000000000" name="JavaImport" label="Imports" parameter-card="*" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="01ec24cc-0000-03dc-0000-000000000000" name="JavaStatic" label="Static" parameter-card="0" is-hidden="false" is-signed="false" />
+      </stereotype>
+      <stereotype uid="eb8c18e0-0002-d167-0000-000000000000" name="JavaFileGroup" label="File group" metaclass="ElementImport" is-hidden="false">
+          <icons>
+              <small path="" />
+              <explorer path="" />
+              <diagram path="" />
+          </icons>
+      </stereotype>
+      <stereotype uid="01ec25e8-0000-00f0-0000-000000000000" name="JavaGetter" label="Getter" metaclass="Operation" is-hidden="false">
+          <icons>
+              <small path="" />
+              <explorer path="" />
+              <diagram path="" />
+          </icons>
+      </stereotype>
+      <stereotype uid="01ec23a8-0000-012b-0000-000000000000" name="JavaGetter" label="Getter" metaclass="Dependency" is-hidden="false">
+          <icons>
+              <small path="" />
+              <explorer path="" />
+              <diagram path="" />
+          </icons>
+      </stereotype>
+      <stereotype uid="01ec23a8-0000-0267-0000-000000000000" name="JavaInterface" label="Java Interface" metaclass="Interface" is-hidden="false">
+          <icons>
+              <small path="JavaDesigner/res/bmp/java.png" />
+              <explorer path="JavaDesigner/res/bmp/interface.png" />
+              <diagram path="" />
+          </icons>
+              <notetype uid="258012b4-0000-03dd-0000-000000000000" name="JavaTop" label="Top" is-hidden="false" />
+              <notetype uid="258012b4-0000-03ec-0000-000000000000" name="JavaHeader" label="Header" is-hidden="false" />
+              <notetype uid="258012b4-0000-03d3-0000-000000000000" name="Javadoc" label="Javadoc" is-hidden="false" />
+              <notetype uid="258012b4-0000-03e2-0000-000000000000" name="JavaAnnotation" label="Annotations" is-hidden="false" />
+              <notetype uid="258012b4-0000-03d8-0000-000000000000" name="JavaMembers" label="Members" is-hidden="false" />
+              <notetype uid="258012b4-0000-03c9-0000-000000000000" name="JavaBottom" label="Bottom" is-hidden="false" />
+              <taggedvalues uid="258012b4-0000-040a-0000-000000000000" name="JavaName" label="Name redefinition" parameter-card="1" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="258012b4-0000-0428-0000-000000000000" name="JavaExtends" label="Extends" parameter-card="*" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="258012b4-0000-0423-0000-000000000000" name="JavaExtern" label="Extern" parameter-card="0" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="258012b4-0000-03f6-0000-000000000000" name="JavaImport" label="Imports" parameter-card="*" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="258012b4-0000-0419-0000-000000000000" name="JavaStatic" label="Static" parameter-card="0" is-hidden="false" is-signed="false" />
+      </stereotype>
+      <stereotype uid="007c037c-0000-0003-0000-000000000000" name="JavaInvariant" label="Invariants" metaclass="Constraint" is-hidden="false">
+          <icons>
+              <small path="" />
+              <explorer path="" />
+              <diagram path="" />
+          </icons>
+      </stereotype>
+      <stereotype uid="01ec23a8-0000-0126-0000-000000000000" name="JavaPackage" label="Java Package" metaclass="Package" is-hidden="false">
+          <icons>
+              <small path="JavaDesigner/res/bmp/java.png" />
+              <explorer path="JavaDesigner/res/bmp/package.png" />
+              <diagram path="" />
+          </icons>
+              <notetype uid="000c0b48-0000-3ab3-0000-000000000000" name="JavaAnnotation" label="Annotations" is-hidden="false" />
+              <taggedvalues uid="003800a8-0000-0198-0000-000000000000" name="JavaName" label="Name redefinition" parameter-card="1" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="003800a8-0000-0197-0000-000000000000" name="JavaExtern" label="Extern" parameter-card="0" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="003800a8-0000-0196-0000-000000000000" name="JavaImport" label="Imports" parameter-card="*" is-hidden="false" is-signed="false" />
+              <taggedvalues uid="007c081c-0000-2770-0000-000000000000" name="JavaNoPackage" label="Ignore in namespacing" parameter-card="0" is-hidden="false" is-signed="false" />
+      </stereotype>
+      <stereotype uid="007c037c-0000-0007-0000-000000000000" name="JavaPostCondition" label="Post Conditions" metaclass="Constraint" is-hidden="false">
+          <icons>
+              <small path="" />
+              <explorer path="" />
+              <diagram path="" />
+          </icons>
+      </stereotype>
+      <stereotype uid="007c037c-0000-0005-0000-000000000000" name="JavaPreCondition" label="Pre Conditions" metaclass="Constraint" is-hidden="false">
+          <icons>
+              <small path="" />
+              <explorer path="" />
+              <diagram path="" />
+          </icons>
+      </stereotype>
+      <stereotype uid="00c80378-0001-ac88-0000-000000000000" name="JavaResource" label="" metaclass="Artifact" is-hidden="false">
+          <icons>
+              <small path="JavaDesigner/res/bmp/file.png" />
+              <explorer path="JavaDesigner/res/bmp/file.png" />
+              <diagram path="JavaDesigner/res/bmp/file.png" />
+          </icons>
+      </stereotype>
+      <stereotype uid="01ec25e8-0000-00f5-0000-000000000000" name="JavaSetter" label="Setter" metaclass="Operation" is-hidden="false">
+          <icons>
+              <small path="" />
+              <explorer path="" />
+              <diagram path="" />
+          </icons>
+      </stereotype>
+      <stereotype uid="01ec23a8-0000-0130-0000-000000000000" name="JavaSetter" label="Setter" metaclass="Dependency" is-hidden="false">
+          <icons>
+              <small path="" />
+              <explorer path="" />
+              <diagram path="" />
+          </icons>
+      </stereotype>
+      <stereotype uid="000c0b48-0000-37da-0000-000000000000" name="JavaStatic" label="" metaclass="ElementImport" is-hidden="false">
+          <icons>
+              <small path="" />
+              <explorer path="" />
+              <diagram path="" />
+          </icons>
+      </stereotype>
+      <stereotype uid="01240268-0000-00e0-0000-000000000000" name="SeeJavadoc" label="" metaclass="Dependency" is-hidden="false">
+          <icons>
+              <small path="" />
+              <explorer path="" />
+              <diagram path="" />
+          </icons>
+      </stereotype>
+  </profile>
+  <profile uid="01ec24fc-0000-0208-0000-000000000000" name="JavaCompatibility" >
+      <anonymous-stereotype uid="01ec24fc-0000-0009-0000-000000000000"  metaclass="AssociationEnd" >
+              <taggedvalues uid="003800a8-0000-018a-0000-000000000000" name="JavaFilterAccessor" label="" parameter-card="*" is-hidden="true" is-signed="false" />
+              <taggedvalues uid="003800a8-0000-0189-0000-000000000000" name="JavaGenerateAccessor" label="" parameter-card="*" is-hidden="true" is-signed="false" />
+              <taggedvalues uid="003800a8-0000-018b-0000-000000000000" name="JavaNoAccessor" label="" parameter-card="0" is-hidden="true" is-signed="false" />
+              <taggedvalues uid="007c081c-0000-272c-0000-000000000000" name="JavaPublic" label="" parameter-card="0" is-hidden="true" is-signed="false" />
+      </anonymous-stereotype>
+      <anonymous-stereotype uid="01ec24fc-0000-000a-0000-000000000000"  metaclass="Attribute" >
+              <taggedvalues uid="003800a8-0000-016b-0000-000000000000" name="JavaByte" label="" parameter-card="0" is-hidden="true" is-signed="false" />
+              <taggedvalues uid="003800a8-0000-0168-0000-000000000000" name="JavaFilterAccessor" label="" parameter-card="*" is-hidden="true" is-signed="false" />
+              <taggedvalues uid="003800a8-0000-0167-0000-000000000000" name="JavaGenerateAccessor" label="" parameter-card="*" is-hidden="true" is-signed="false" />
+              <taggedvalues uid="003800a8-0000-0169-0000-000000000000" name="JavaLong" label="" parameter-card="0" is-hidden="true" is-signed="false" />
+              <taggedvalues uid="003800a8-0000-016c-0000-000000000000" name="JavaNoAccessor" label="" parameter-card="0" is-hidden="true" is-signed="false" />
+              <taggedvalues uid="007c081c-0000-2728-0000-000000000000" name="JavaPublic" label="" parameter-card="0" is-hidden="true" is-signed="false" />
+              <taggedvalues uid="003800a8-0000-016a-0000-000000000000" name="JavaShort" label="" parameter-card="0" is-hidden="true" is-signed="false" />
+              <taggedvalues uid="eb8c18e0-0002-b45a-0000-000000000000" name="JavaEclipseNLS" label="Eclipse NLS" parameter-card="1" is-hidden="true" is-signed="false" />
+      </anonymous-stereotype>
+      <anonymous-stereotype uid="01ec24fc-0000-000b-0000-000000000000"  metaclass="Class" >
+              <notetype uid="00380080-0000-060b-0000-000000000000" name="JavaCode" label="Code" is-hidden="true" />
+              <notetype uid="0124035c-0000-0170-0000-000000000000" name="JavaImport" label="" is-hidden="true" />
+              <taggedvalues uid="00380098-0000-0545-0000-000000000000" name="JavaBean" label="" parameter-card="0" is-hidden="true" is-signed="false" />
+              <taggedvalues uid="00380098-0000-0567-0000-000000000000" name="JavaBeanResource" label="" parameter-card="1" is-hidden="true" is-signed="false" />
+              <taggedvalues uid="00380080-0000-09c5-0000-000000000000" name="JavaNoAccessor" label="" parameter-card="0" is-hidden="true" is-signed="false" />
+              <taggedvalues uid="0124035c-0000-0163-0000-000000000000" name="JavaNoImport" label="" parameter-card="0" is-hidden="true" is-signed="false" />
+              <taggedvalues uid="00380080-0000-1527-0000-000000000000" name="JavaNonPublic" label="" parameter-card="0" is-hidden="true" is-signed="false" />
+              <taggedvalues uid="eb8c1900-0019-f738-0000-000000000000" name="JavaFileName" label="File name" parameter-card="1" is-hidden="true" is-signed="false" />
+      </anonymous-stereotype>
+      <anonymous-stereotype uid="01ec24fc-0000-000c-0000-000000000000"  metaclass="DataType" >
+              <notetype uid="01240464-0000-0071-0000-000000000000" name="JavaImport" label="" is-hidden="true" />
+              <taggedvalues uid="01240464-0000-0069-0000-000000000000" name="JavaNoImport" label="" parameter-card="0" is-hidden="true" is-signed="false" />
+      </anonymous-stereotype>
+      <anonymous-stereotype uid="01ec24fc-0000-000d-0000-000000000000"  metaclass="Enumeration" >
+              <notetype uid="0124035c-0000-0183-0000-000000000000" name="JavaImport" label="" is-hidden="true" />
+              <taggedvalues uid="0124035c-0000-0166-0000-000000000000" name="JavaNoImport" label="" parameter-card="0" is-hidden="true" is-signed="false" />
+      </anonymous-stereotype>
+      <anonymous-stereotype uid="01ec24fc-0000-000f-0000-000000000000"  metaclass="Interface" >
+              <notetype uid="258012b4-0000-03e7-0000-000000000000" name="JavaImport" label="" is-hidden="true" />
+              <notetype uid="258012b4-0000-03ce-0000-000000000000" name="JavaCode" label="Code" is-hidden="true" />
+              <taggedvalues uid="258012b4-0000-0405-0000-000000000000" name="JavaBeanResource" label="" parameter-card="1" is-hidden="true" is-signed="false" />
+              <taggedvalues uid="258012b4-0000-0437-0000-000000000000" name="JavaDocumentedAnnotation" label="Documented Annotation" parameter-card="0" is-hidden="true" is-signed="false" />
+              <taggedvalues uid="258012b4-0000-0414-0000-000000000000" name="JavaInheritedAnnotation" label="Inherited Annotation" parameter-card="0" is-hidden="true" is-signed="false" />
+              <taggedvalues uid="258012b4-0000-0400-0000-000000000000" name="JavaNoAccessor" label="" parameter-card="0" is-hidden="true" is-signed="false" />
+              <taggedvalues uid="258012b4-0000-041e-0000-000000000000" name="JavaNoImport" label="" parameter-card="0" is-hidden="true" is-signed="false" />
+              <taggedvalues uid="258012b4-0000-03fb-0000-000000000000" name="JavaNonPublic" label="" parameter-card="0" is-hidden="true" is-signed="false" />
+              <taggedvalues uid="258012b4-0000-0432-0000-000000000000" name="JavaRetentionAnnotation" label="Retention Annotation" parameter-card="1" is-hidden="true" is-signed="false" />
+              <taggedvalues uid="258012b4-0000-042d-0000-000000000000" name="JavaTargetAnnotation" label="Target Annotation" parameter-card="*" is-hidden="true" is-signed="false" />
+              <taggedvalues uid="258012b4-0000-040f-0000-000000000000" name="JavaImplements" label="Implements" parameter-card="*" is-hidden="true" is-signed="false" />
+              <taggedvalues uid="258012b4-0000-03f1-0000-000000000000" name="JavaBean" label="" parameter-card="0" is-hidden="true" is-signed="false" />
+              <taggedvalues uid="258012b4-0000-043c-0000-000000000000" name="JavaFileName" label="File Name" parameter-card="1" is-hidden="true" is-signed="false" />
+      </anonymous-stereotype>
+      <anonymous-stereotype uid="01ec24fc-0000-0010-0000-000000000000"  metaclass="Package" >
+              <taggedvalues uid="00380098-0000-0568-0000-000000000000" name="JavaBeanResource" label="" parameter-card="1" is-hidden="true" is-signed="false" />
+              <taggedvalues uid="007c081c-0000-26ad-0000-000000000000" name="JavaRoot" label="" parameter-card="0" is-hidden="true" is-signed="false" />
+      </anonymous-stereotype>
+      <anonymous-stereotype uid="01ec24fc-0000-0011-0000-000000000000"  metaclass="Parameter" >
+              <taggedvalues uid="003800a8-0000-0192-0000-000000000000" name="JavaByte" label="" parameter-card="0" is-hidden="true" is-signed="false" />
+              <taggedvalues uid="003800a8-0000-0194-0000-000000000000" name="JavaLong" label="" parameter-card="0" is-hidden="true" is-signed="false" />
+              <taggedvalues uid="003800a8-0000-0193-0000-000000000000" name="JavaShort" label="" parameter-card="0" is-hidden="true" is-signed="false" />
+      </anonymous-stereotype>
+  </profile>
+  <parameter uid="01ec25e8-0000-0700-0000-000000000000"  name="GenerationMode" />
+  <parameter uid="01ec25e8-0000-0704-0000-000000000000"  name="AutoGenerate" />
+  <parameter uid="01ec25e8-0000-0706-0000-000000000000"  name="RetrieveDefaultBehaviour" />
+  <parameter uid="01ec25e8-0000-070b-0000-000000000000"  name="DiagramCreationOnReverse" />
+  <parameter uid="6a276a28-0bea-11df-b8eb-0019b95c085c"  name="Encoding" />
+  <parameter uid="01ec25e8-0000-070d-0000-000000000000"  name="JDKPath" />
+  <parameter uid="01ec25e8-0000-070f-0000-000000000000"  name="AccessibleClasses" />
+  <parameter uid="01ec25e8-0000-0711-0000-000000000000"  name="GenerationPath" />
+  <parameter uid="01ec25e8-0000-0713-0000-000000000000"  name="JavahGenerationPath" />
+  <parameter uid="01ec25e8-0000-0715-0000-000000000000"  name="CompilationPath" />
+  <parameter uid="01ec25e8-0000-0717-0000-000000000000"  name="JarFilePath" />
+  <parameter uid="01ec25e8-0000-0719-0000-000000000000"  name="GenDocPath" />
+  <parameter uid="01ec25e8-0000-071b-0000-000000000000"  name="SourceFilesPath" />
+  <parameter uid="01ec25e8-0000-071d-0000-000000000000"  name="CustomizationFile" />
+  <parameter uid="6687a8d5-3e95-11e0-8fc3-002564c97630"  name="CopyrightFile" />
+  <parameter uid="01ec25e8-0000-071f-0000-000000000000"  name="ErrorOnFirstWarning" />
+  <parameter uid="01ec25e8-0000-0721-0000-000000000000"  name="ReadOnlyElementNotGenerated" />
+  <parameter uid="2c5d9a32-8425-11df-a692-002564c97630"  name="LockGeneratedFiles" />
+  <parameter uid="01ec25e8-0000-0723-0000-000000000000"  name="FullNameGeneration" />
+  <parameter uid="ac898f03-b516-11df-b5f1-002564c97630"  name="GenerateFinalParameters" />
+  <parameter uid="01ec2730-0000-04bd-0000-000000000000"  name="InterfaceImplementation" />
+  <parameter uid="01ec25e8-0000-0725-0000-000000000000"  name="AccessorsGeneration" />
+  <parameter uid="01ec25e8-0000-072a-0000-000000000000"  name="PublicAccessorVisibility" />
+  <parameter uid="01ec25e8-0000-0730-0000-000000000000"  name="PublicModifierVisibility" />
+  <parameter uid="01ec25e8-0000-0736-0000-000000000000"  name="ProtectedAccessorVisibility" />
+  <parameter uid="01ec25e8-0000-073c-0000-000000000000"  name="ProtectedModifierVisibility" />
+  <parameter uid="01ec25e8-0000-0742-0000-000000000000"  name="FriendlyAccessorVisibility" />
+  <parameter uid="01ec25e8-0000-0748-0000-000000000000"  name="FriendlyModifierVisibility" />
+  <parameter uid="01ec25e8-0000-074e-0000-000000000000"  name="PrivateAccessorVisibility" />
+  <parameter uid="01ec25e8-0000-0754-0000-000000000000"  name="PrivateModifierVisibility" />
+  <parameter uid="01ec25e8-0000-075a-0000-000000000000"  name="GeneratePrePostConditions" />
+  <parameter uid="01ec25e8-0000-0761-0000-000000000000"  name="GenerateInvariants" />
+  <parameter uid="01ec25e8-0000-0766-0000-000000000000"  name="InvariantsName" />
+  <parameter uid="01ec25e8-0000-076a-0000-000000000000"  name="UseExternalEdition" />
+  <parameter uid="01ec25e8-0000-076c-0000-000000000000"  name="ExternalEditorCommandLine" />
+  <parameter uid="01ec25e8-0000-076e-0000-000000000000"  name="EclipseProject" />
+  <parameter uid="01ec25e8-0000-0770-0000-000000000000"  name="AutoReverse" />
+  <parameter uid="01ec25e8-0000-0772-0000-000000000000"  name="CompilationOptions" />
+  <parameter uid="01ec25e8-0000-0774-0000-000000000000"  name="UseJavah" />
+  <parameter uid="01ec25e8-0000-0776-0000-000000000000"  name="RunParameters" />
+  <parameter uid="01ec25e8-0000-0778-0000-000000000000"  name="GenerateJavadoc" />
+  <parameter uid="01ec25e8-0000-077a-0000-000000000000"  name="DescriptionAsJavadoc" />
+  <parameter uid="01ec25e8-0000-077c-0000-000000000000"  name="JavaDocOptions" />
+  <parameter uid="01ec2a7c-0000-01e0-0000-000000000000"  name="AutomaticallyOpenJavadoc" />
+  <parameter uid="01ec25e8-0000-077e-0000-000000000000"  name="PackageSrcInRamc" />
+  <parameter uid="01ec25e8-0000-0780-0000-000000000000"  name="PackageJarInRamc" />
+  <parameter uid="5ffba198-56f9-11e1-a8d2-002564c97630"  name="GenerateDefaultReturn" />
+  <dependencies>
+      <optional name = "Subversion" version="1.12.06.7008"/>
+  </dependencies>
+</module>

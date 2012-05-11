@@ -1,0 +1,23 @@
+GitHub: Installationsanleitung
+
+    Auf https://github.com/ einen Account erstellen
+    Installieren: http://code.google.com/p/tortoisegit/downloads/detail?name=TortoiseGit-1.7.7.0-64bit.msi&can=2&q=
+    Installieren: http://code.google.com/p/msysgit/downloads/detail?name=Git-1.7.9-preview20120201.exe&can=3&q=official+Git
+    Folgendes auswählen: http://dbanck.de/static/images/091008_1_full.png
+    Es wird die Anwendung puttygen mitinstalliert.
+    Dort einen ssh-Key erstellen.
+    Den Public-Key auf github.com im Account hinterlegen.
+    Den private-Key auf der Festplatte sichern.
+    Matthias euren Account Namen in GitHub sagen, damit er euch für Änderungensberechtigungen im MasterStream freischalten kann
+    Wenn euer Account hinzugefügt wurde, ein beliebiges Verzeichnis erstellen, das als Repository verwendet werden soll.
+    -> rechtsklick -> gitClone wählen
+    -> folgende URL eintragen:
+
+    Code: Alles auswählen
+        git@github.com:silkslostsoul/Eventalizer.git
+
+
+    -> euren PrivateKey angeben den ihr auf der Festplatte irgendwo abgelegt hat
+    -> ok drücken
+    Wenn ihr nun Änderungen vornimmt - einfach einen Rechtsklick machen und den Punkt Git Commit wählen. Anschließend die Änderung pushen damit sie in den Master Stream in GitHub übernommen wird. Mittels eines Pulls könnt ihr Änderungen vom Master-Stream zu eurem lokalen Stream ziehen
+    in TortoiseGit Settings unter GIT euren richtigen Namen eintragen, damit der Version Tree leichter lesbar ist. 

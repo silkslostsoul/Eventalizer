@@ -1,0 +1,399 @@
+AbstractClassCreateMethod:
+Error: The "%1" abstract class cannot own a "create" method.
+       Delete the "create" method or change the "%1" element from abstract class to class using the Java properties editor.
+end AbstractClassCreateMethod
+AbstractClassDeleteMethod:
+Error: The "%1" abstract class cannot own a "delete" method.
+       Delete the "delete" method 
+       or change the "%1" element from abstract class to class using the Java properties editor.
+end AbstractClassDeleteMethod
+AbstractSynchronizedMethod:
+Error: The "%2" abstract method of the "%1" class cannot be synchronized.
+       Uncheck the "Synchronize" or the "Abstract" check box using the Java properties editor of the "%2" method.
+end AbstractSynchronizedMethod
+AlreadyExistingProduct:
+Error: "%1" already owns a Java work product for the "%2" module.
+       Modify or delete the existing Java work product.
+end AlreadyExistingProduct
+AppletViewerNotFound:
+The file "%1" file has not been found.
+Check that the file exist or that the full path for the applet viewer has been provided in the Applet option set.
+end AppletViewerNotFound
+ArrayBlockingQueueMultiplicity:
+The arrayBlockingQueue %1 must be generated only on association with a fixed size. Cardinality '*' is not allowed and lead to a non-compilable java code.
+end ArrayBlockingQueueMultiplicity
+BadInheritanceInnerClass:
+Error: The "%1" class cannot specialize the internal "%2" class because it is not in the same compilation unit.
+       Delete the specialization link.
+end BadInheritanceInnerClass
+BadInnerClassAssociation:
+Error: The "%1" class cannot have an association link with the internal "%2" class because it is not in the same compilation unit.
+       Delete the association.
+end BadInnerClassAssociation
+BadInternalization:
+The internalization has not been carried out correctly.
+end BadInternalization
+BadJavaSourceFile:
+The Java source file for the class "%1" is not correct.
+end BadJavaSourceFile
+BadPathParam:
+Warning: a path of the "%1" parameter does not exist: "%2" ignored.
+end BadPathParam
+BadTypeParameter:
+Error: The "%1" value as a parameter of a "type" tagged value is not allowed for the object "%3" of type "%2".
+       Check that the multiplicity of the %2 is compatible with the collection %1.
+end BadTypeParameter
+CannotUpdateModel:
+%1: the model update cannot be carried out.
+end CannotUpdateModel
+CantUpdateReadonlyObject:
+You cannot update a readonly model element.
+end CantUpdateReadonlyObject
+ClassFileNotFound:
+The .class file corresponding to the "%1" class was not found.
+end ClassFileNotFound
+ClassForNameFileError:
+Error in the XML file for class "%1"
+end ClassForNameFileError
+ClassImplementedNativeMethod:
+Error: The native "%2" method of the "%1" class cannot be implemented.
+       Delete the "JavaCode" note or the "JavaNative" tagged value from the "%2" method of the "%1" class.
+end ClassImplementedNativeMethod
+ClassInheritInterface:
+Error: The "%1" class cannot specialize the "%2" interface.
+       Delete the specialization link between the "%1" class and the "%2" interface.
+end ClassInheritInterface
+ClassMultipleInheritance:
+Error: The "%1" class can only specialize one class.
+       Set only one specialization link from the "%1" class.
+       Recommendation: use interface implementation.
+end ClassMultipleInheritance
+ClassNotApplet:
+Error: The "%1" class does not specialize Applet.
+       Use Specialize button in the item view of the "%1" class to specialize "Applet" class.
+end ClassNotApplet
+ClassNotFound:
+The "%1" class has not been found.
+        Check that the .class files of the "%1" class exist. 
+        Check that the "Path for the .class files" parameter 
+               contains the path needed to find the "%1" class.
+end ClassNotFound
+ClassPathFileCreation:
+The classpath file could not be created.
+end ClassPathFileCreation
+ClassReverseFileCreation:
+The classReverseFile file could not be created.
+end ClassReverseFileCreation
+ClassUndefinedTypeAttribute:
+Error: The type of the "%2" attribute of the "%1" class must be defined.
+       Use the editor dialog box of the "%2" attribute to define his type.
+end ClassUndefinedTypeAttribute
+ClassUndefinedTypeParameter:
+Error: The type of one of the parameters of the "%2" method of the "%1" class is not defined.
+       Use the editor dialog box of the parameter to define his type.
+end ClassUndefinedTypeParameter
+CommandForClass:
+This command can only be launched on a class work product.
+end CommandForClass
+ConstructorAbstractClass:
+Error: The "%1" abstract cannot contain a constructor or a destructor.
+       Delete any constructor or destructor from the "%1" abstract class 
+       or change the "%1" element from abstract class to class using the Java properties editor.
+end ConstructorAbstractClass
+ConstructorInterface:
+Error: The "%1" interface cannot contain a constructor or a destructor.
+       Delete any constructor or destructor from the "%1" interface
+       or change the "%1" element from interface to class using the Java properties editor.
+end ConstructorInterface
+DataTypeMultipleInheritance:
+Error: The "%1" DataType can only specialize one datatype.
+       Set only one specialization link on the "%1" datatype.
+end DataTypeMultipleInheritance
+DefaultTranslateClassNotFound:
+Error: The "%1" package does not exist in the "DefaultTranslations" package of the types package or it does not reference any classes.
+end DefaultTranslateClassNotFound
+DocTemplateNotFound:
+Error: Document template not found.
+       Check that the generation templates in the "Code generation" set of the Java module options are correct.
+end DocTemplateNotFound
+ElementIsExtern:
+The element %1 was not generated in accordance with the {JavaExtern}, the {nocode} tagged value, or because this class is in the file of another class. 
+end ElementIsExtern
+ErrorBaseType:
+Error : can't find Java base type : %1.
+end ErrorBaseType
+ExtendTypeNotAllowed:
+Error: The "%1" DataType can not specialize the "%2" DataType because it is used to generate base Java types wich are not specializable.
+       "%1" DataType may specialize any DataType you have created.
+end ExtendTypeNotAllowed
+ExternClassInheritance:
+Error: The "%1" class cannot specialize the "%2" class, which is a private (friendly) class belonging to another package.
+end ExternClassInheritance
+FileCannotBeSaved:
+Error: the "%1" file cannot be saved.
+end FileCannotBeSaved
+FileDoesNoExist:
+Error: the "%1" file does not exist.
+end FileDoesNoExist
+FileModeChange:
+Error while changing the file mode.
+end FileModeChange
+FileNotFound:
+File not found
+end FileNotFound
+FileNotGenerated:
+Error: The "%1" file has not been generated.
+end FileNotGenerated
+FileUpdateError:
+The file "%1" has errors.
+
+end FileUpdateError
+FinalAbstractMethod:
+Error: The "%2" method of the "%1" class cannot be non-derivable ("final").
+       Uncheck the "Final" check box using the Java properties editor of the "%2" method
+end FinalAbstractMethod
+FinalRedefinedMethod:
+Error: The non-derivable "%2" method cannot be redefined by the "%1" class.
+       Uncheck the "Final" check box using the Java properties editor of the "%2" method or delete the redifinition link.
+end FinalRedefinedMethod
+FinalizeMethod:
+Error: The "finalize()" method of the "%1" class must have protected visibility.
+       Set the visibility of the "finalize()" method to "Protected" using the Java properties editor.
+end FinalizeMethod
+GenCodeProfileMissed:
+Error: The parameter for the code generation profile has not been correctly set.
+       Check the "Generating code profile" parameter in the "Code generation" set of the Java module.
+       The default value for this parameter is "default#external#Code#JavaCommon#GenJava"
+end GenCodeProfileMissed
+GenerationAndCompilationNeeded:
+Error: The code must first be generated and compiled.
+       Use the "Generate" command on the Java generation work product or the "Generate" button in the Java properties editor to generate the code.
+       Use the "Compile" command on the Java generation work product or the "Compile" button in the Java properties editor to generate the code.
+end GenerationAndCompilationNeeded
+GenerationNeeded:
+Error: The code must first be generated.
+       Use the "Java generation" work product or the "Generate" button of the Java properties editor to generate the code.
+end GenerationNeeded
+Generation_error_external_DirNotCreated:
+Directory %1 can't be created.
+end Generation_error_external_DirNotCreated
+HTMLFileNotCreated:
+HTML file not created
+end HTMLFileNotCreated
+HasNoFile:
+Error: No file has been generated for this work product.
+       Use the "Java generation" work product or the "Generate" button of the Java properties editor to generate the code.
+end HasNoFile
+IlvDoesNotExist:
+Error: the window could not be created, because
+the "%1" file does not exist.
+end IlvDoesNotExist
+ImplementedAbstractMethod:
+Error: The "%2" abstract method of the "%1" class cannot have an implementation.
+end ImplementedAbstractMethod
+ImplementedInterface:
+Error: The "%1" interface cannot implement an interface (it can specialize it).
+end ImplementedInterface
+ImportParameter:
+Error: The generation parameter for the import has not been defined.
+end ImportParameter
+ImpossibleCommandExecution:
+Error: Impossible to launch the command "%1".
+       Check that the command is correct. If not verify the Java module parameters.
+end ImpossibleCommandExecution
+ImpossibleToSaveFile:
+Error: the "%1" file was not correctly saved.
+end ImpossibleToSaveFile
+ImpossibleWindowsEdition:
+Unknown Windows Edition
+end ImpossibleWindowsEdition
+InitInterfaceAttribute:
+Error: The "%2" attribute of the "%1" interface has not been initialized.
+       Set the initial value of the "%2" attribute using the Java properties editor.
+end InitInterfaceAttribute
+InterfaceBodyMethod:
+Error: The "%2" method of the "%1" interface cannot have an implementation.
+       Delete the "JavaCode" note from the "%2" method of the "%1" interface.
+end InterfaceBodyMethod
+InterfaceCreateMethod:
+Error: The "%1" interface cannot own a "create" method.
+       Delete the "create" method or change the "%1" element from interface to class using the Java properties editor.
+end InterfaceCreateMethod
+InterfaceDeleteMethod:
+Error: The "%1" interface cannot own a "delete" method.
+       Delete the "delete" method or change the "%1" element from interface to class using the Java properties editor.
+end InterfaceDeleteMethod
+InterfaceFinalMethod:
+Error: The "%2" method of the "%1" interface cannot be non-derivable ("final").
+       Uncheck the "Final" check box using the Java properties editor of the "%2" method
+       or change the "%1" element from interface to class using the Java properties editor.
+end InterfaceFinalMethod
+InterfaceImplementedNativeMethod:
+Error: The native "%2" method of the "%1" interface cannot have an implementation.
+       Delete the "JavaCode" note or the "JavaNative" tagged value from the "%2" method of the "%1" interface.
+end InterfaceImplementedNativeMethod
+InterfaceInheritClass:
+Error: The "%1" interface cannot specialize the "%2" class.
+       Delete the specialization link between the "%1" interface and the "%2" class.
+end InterfaceInheritClass
+InterfaceNonFinalAttribute:
+Error: The "%2" attribute of the "%1" interface must be final (non re-definable value).
+       Check the "Final" check box using the Java properties editor of the "%2" attribute.
+end InterfaceNonFinalAttribute
+InterfaceNonPublicAttribute:
+Error: The "%2" attribute of the "%1" interface must have public visibility.
+       Set the visibility of the "%2" attribute to "Public" using the Java properties editor.
+end InterfaceNonPublicAttribute
+InterfaceNonPublicMethod:
+Error: The "%2" method of the "%1" interface must be public.
+       Set the visibility of the "%2" method to "Public"
+       or change the "%1" element from interface to class using the Java properties editor.
+end InterfaceNonPublicMethod
+InterfaceNonStaticAttribute:
+Error: The "%2" attribute of the "%1" interface must be static (class member).
+       Check the "Static" check box using the Java properties editor of the "%2" attribute.
+end InterfaceNonStaticAttribute
+InterfaceStaticMethod:
+Error: The "%2" method of the "%1" interface cannot be static.
+       Uncheck the "Static" check box using the Java properties editor of the "%2" method 
+       or change the "%1" element from interface to class using the Java properties editor.
+end InterfaceStaticMethod
+InterfaceSynchronizedMethod:
+Error: The "%2" method of the "%1" interface cannot be synchronized.
+       Uncheck the "Synchronize" check box using the Java properties editor of the "%2" method
+end InterfaceSynchronizedMethod
+InterfaceUndefinedTypeAttribute:
+Error: The type of the "%2" attribute of the "%1" interface must be defined.
+       Use the editor dialog box of the "%2" attribute to define his type.
+end InterfaceUndefinedTypeAttribute
+InterfaceUndefinedTypeParameter:
+Error: The type of one of the parameters of the "%2" method of the "%1" interface is not defined.
+       Use the editor dialog box of the parameter to define his type.
+end InterfaceUndefinedTypeParameter
+IsDerivedAndNoValue:
+Error: The attribute %1 is a dynamic dependency without value.
+end IsDerivedAndNoValue
+JavapInvocation:
+Error while executing javap: %1
+end JavapInvocation
+JavapVersionDepend:
+The "javap" format is version-dependent.
+end JavapVersionDepend
+ManifestNotGeneratedForThisElement:
+Error: There's no work product for the "%1" %2.
+end ManifestNotGeneratedForThisElement
+MissingClass:
+The "%2" class is used by the "%1" class but it has not been found.
+end MissingClass
+NewReverseImpossible:
+New reverse impossible: the "%1" class is not primitive ...
+end NewReverseImpossible
+NoJavaProduct:
+Error: There is no Java product on this ModelElement.
+end NoJavaProduct
+NoJavaProductOn:
+Error: There is no Java work product on the "%1" %2.
+end NoJavaProductOn
+NoJavaSrcFile:
+No Java source file found for the class "%1"
+end NoJavaSrcFile
+NonFinalClassInheritance:
+Error: The "%1" class cannot specialize the "%2" class, which is a final class.
+end NonFinalClassInheritance
+NotExternClass:
+New Reverse impossible: the "%1" class is not an external class.
+end NotExternClass
+ObjectNotFound:
+Error: The Object "%1" has not been found.
+end ObjectNotFound
+OpeningFileImpossible:
+Error: Impossible to open the "%1" file.*
+       Verify that the "%1" file exists.
+       Check that your hard drive is not full.
+       Verify that the rights are correctly set on the temporary directory and
+       and if you are under Windows verify that the environment variables TEMP and TMP are correctly set.
+end OpeningFileImpossible
+ParameterBadInformed:
+The "%1" parameter is not correctly informed.
+end ParameterBadInformed
+ParserLimit:
+Parser limit...  
+end ParserLimit
+ProjectNotFound:
+Error: this type project does not exist.
+end ProjectNotFound
+ROElementCannotCreateWP:
+Error: The "%1" %2 is in read-only mode. The Java generation work product cannot be created.
+          The "%1" %2 has not been generated.
+end ROElementCannotCreateWP
+ScriptIlvCorrupted:
+Error: the window could not be created, because
+the "%1" file is corrupted.
+end ScriptIlvCorrupted
+TempFile:
+Error: Impossible to create a temporary file.
+       Check that your hard drive is not full.
+       Verify that the rights are correctly set on the temporary directory and
+       and if you are under Windows verify that the environment variables TEMP and TMP are correctly set.
+end TempFile
+UnknownJDKVersion:
+Error: JDK version is unknown.
+       Check the "JDK version" parameter in the "General" set of the Java module.
+end UnknownJDKVersion
+VolatileFinalAttribute:
+Error: The final "%2" attribute of the "%1" class cannot be volatile.
+       Delete the "JavaVolatile" tagged value 
+       or uncheck the "Final" check box using the Java properties editor of the "%2" attribute.
+end VolatileFinalAttribute
+WindowCouldNotbeCreated:
+Internal error: the window could not be created.
+end WindowCouldNotbeCreated
+WrongJDKRoot:
+Error: The option for the JDK path has not been correctly set.
+       Check the "JDK" option in the "Directories" set of the Java module.
+       The specified directory must be the directory which contains the "bin" directory.
+end WrongJDKRoot
+classMustBeSelected:
+A class must be selected. 
+end classMustBeSelected
+emptyField:
+The "%1" field is empty.
+Define the field to continue. 
+end emptyField
+errorCopyingDTD:
+Error : cannot copy DTD file to temporary directory.
+end errorCopyingDTD
+errorParsingFile:
+Error while parsing file %1 : %2
+end errorParsingFile
+errorTitle:
+Error
+end errorTitle
+generateInvariantAsComment:
+Generate invariant as JavaInvariant
+end generateInvariantAsComment
+illegalChar:
+Error: The "%1" char cannot be used in the name of the "%2" %3
+end illegalChar
+invalid_parameters_combinaison:
+Invalid combinaison of generation parameters. 
+For example, you try to generate your code using a Java 5 types package with a configuration for 1.4 JDK.
+end invalid_parameters_combinaison
+isExtern:
+Error: This element was not generated in accordance with the {JavaExtern}, the {nocode} tagged value, or because this class is in the file of another class. 
+end isExtern
+jarFileNotFound:
+The '%1' Jar file has not been found.
+Use the 'Execute Ant target' command (archive target) to build the Jar. 
+end jarFileNotFound
+javaOpenJlfFileError:
+Error: cannot open jlf file %1
+end javaOpenJlfFileError
+noMainClass:
+No main class has been specified.
+Use the {JavaMainClass(<Full qualified name of the class>)} tagged value to specify the main class of the Jar.
+end noMainClass
+wrongDirectorySeparator:
+Error: Both generation and compilation paths must use "%1" characters as directory separators.
+       If one of these paths contains a parameter reference such as $(<reference>), make sure that the referenced parameter uses "%1" charaters as directory separators.
+end wrongDirectorySeparator

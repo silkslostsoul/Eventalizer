@@ -1,0 +1,99 @@
+GeneralizationEmpty:
+An inheritance link is not properly defined.
+end GeneralizationEmpty
+ImpossibleCreation_RamcObject:
+Error: The "%2" element is part of a RAM component. The "%1" element cannot be created.
+end ImpossibleCreation_RamcObject
+ImpossibleCreation_ReadOnlyObject:
+Error: The "%2" element is in read-only mode. The "%1" element cannot be created.
+Please check-out the "%2" element and relaunch the command.
+end ImpossibleCreation_ReadOnlyObject
+MovedAssociationEnd:
+Information: the "%1" association end is moved to "%2" classifier.
+end MovedAssociationEnd
+MovedAttribute:
+Information: the "%1" attribute is moved to "%2" classifier.
+end MovedAttribute
+MovedClass:
+Information: the "%1" class is moved to "%2".
+end MovedClass
+MovedEnumeration:
+Information: the "%1" enumeration is moved to "%2".
+end MovedEnumeration
+MovedInterface:
+Information: the "%1" interface is moved to "%2".
+end MovedInterface
+MovedOperation:
+Information: the "%1" operation is moved to "%2" classifier.
+end MovedOperation
+ReadOnlyElementChange:
+A "%1" %2 cannot be created on the "%3" %4.
+Check that the "%3" %4 is not in read only mode.
+end ReadOnlyElementChange
+ReadOnlyPropertyChange:
+The "%1" property of the "%2" %3 cannot be modified.
+Check that the "%2" %3 is not in read only mode.
+end ReadOnlyPropertyChange
+RenamedAssociationEnd:
+Information: the "%1" association end is renamed "%2".
+end RenamedAssociationEnd
+RenamedAttribute:
+Information: the "%1" attribute is renamed "%2".
+end RenamedAttribute
+RenamedClass:
+Information: the "%1" class is renamed "%2".
+end RenamedClass
+RenamedEnumeration:
+Information: the "%1" enumeration is renamed "%2".
+end RenamedEnumeration
+RenamedInterface:
+Information: the "%1" interface is renamed "%2".
+end RenamedInterface
+RenamedOperation:
+Information: the "%1" operation is renamed "%2".
+end RenamedOperation
+UnknownStereotype:
+Unknown stereotype %1 on metaclass %2
+end UnknownStereotype
+centDone:
+100% done at: %1
+end centDone
+done:
+Done.
+end done
+executionDone:
+Execution done, status=%1.
+end executionDone
+executionError:
+Execution error : %1.
+end executionError
+getClassFromFullNameNotAClasslass:
+Searching for a class named %1 and found a %2.
+end getClassFromFullNameNotAClasslass
+invalidReportList:
+Invalid XML File on tag report-list.
+end invalidReportList
+invalidTagModel:
+Invalid XML File on tag model.
+end invalidTagModel
+invalidTagReversedData:
+Invalid XML File on tag reversed-data.
+end invalidTagReversedData
+launchCommandLine:
+Launching : %1
+end launchCommandLine
+reportreverseboxtitle:
+Report of the reverse
+end reportreverseboxtitle
+startCodeAnalysis:
+Starting code analysis at: %1...
+end startCodeAnalysis
+startModelConstruction:
+Starting model construction at: %1...
+end startModelConstruction
+startNormalization:
+Starting model normalization at: %1...
+end startNormalization
+xmlError:
+Error in xml file, tag %2 found under %1.
+end xmlError

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
-    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
-    <jsp:output omit-xml-declaration="yes"/>
-    <page:show id="ps_de_eventalizer_domain_Organisation" object="${organisation}" path="/organisations" z="mNGx8xiuZ71FbvYKmOvF02VcE1Y=">
-        <field:display field="organisatoren" id="s_de_eventalizer_domain_Organisation_organisatoren" object="${organisation}" z="L3ySjzbQsfSU63sVy/kVCkmHA3U="/>
-        <field:display field="bewertungen" id="s_de_eventalizer_domain_Organisation_bewertungen" object="${organisation}" z="uIohU4B5mH0DfuSDhDpN/v6SkxU="/>
-    </page:show>
-</div>

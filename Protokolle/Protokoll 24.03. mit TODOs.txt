@@ -45,11 +45,6 @@ Glossar erstellen
 Nach den Szenarien/Use Cases -> Datenmodell erstellen, Klassenmodell, Schnittstellen definieren, 
 evtl. Aktivitäts- und Interaktionsdiagramme
 
-Yeah, voll krass, machen nen heavy mock-up!!!
-
-
-
-
 
 
 Explizit schreiben, was wir nach RUP machen
